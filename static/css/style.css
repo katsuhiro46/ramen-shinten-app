@@ -1,0 +1,260 @@
+/* ========================================
+   北関東ラーメン新店速報 - Ultra Slim CSS
+   背景: 漆黒 / 文字: 白 / リンク: 黄色
+   Pixel 6a 最適化 (412px)
+   ======================================== */
+
+:root {
+    --bg: #000000;
+    --surface: #111111;
+    --surface-hover: #1a1a1a;
+    --border: #222222;
+    --text: #ffffff;
+    --text-sub: #888888;
+    --link: #FFD700;
+    --link-hover: #FFF176;
+    --accent-red: #E60012;
+    --accent-blue: #0066CC;
+    --accent-green: #228B22;
+    --accent-yellow: #FFD700;
+    --radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* ========== Header ========== */
+header {
+    text-align: center;
+    padding: 24px 0 20px;
+}
+
+header h1 {
+    font-size: 1.6rem;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+}
+
+.subtitle {
+    color: var(--text-sub);
+    font-size: 0.8rem;
+    margin-top: 4px;
+    letter-spacing: 0.1em;
+}
+
+/* ========== Loading ========== */
+.loading-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-sub);
+}
+
+.loading-state.hidden {
+    display: none;
+}
+
+.spinner {
+    width: 28px;
+    height: 28px;
+    border: 3px solid #222;
+    border-top: 3px solid var(--accent-red);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 12px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.error-msg {
+    color: #ff4444;
+    font-size: 0.9rem;
+}
+
+/* ========== Accordion ========== */
+#accordion-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.accordion {
+    border-radius: var(--radius);
+    overflow: hidden;
+    background: var(--surface);
+}
+
+.accordion-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 16px;
+    background: var(--surface);
+    border: none;
+    border-left: 4px solid transparent;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.2s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.accordion-btn:active {
+    background: var(--surface-hover);
+}
+
+.pref-label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pref-emoji {
+    font-size: 1.1rem;
+}
+
+.pref-name {
+    font-size: 1.1rem;
+}
+
+.shop-count {
+    font-size: 0.75rem;
+    color: var(--text-sub);
+    font-weight: 400;
+}
+
+.arrow {
+    font-size: 0.7rem;
+    color: var(--text-sub);
+    transition: transform 0.25s ease;
+}
+
+/* Panel (closed by default) */
+.accordion-panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.35s ease;
+}
+
+.accordion.open .accordion-panel {
+    max-height: 2000px;
+}
+
+.accordion.open .arrow {
+    transform: rotate(180deg);
+}
+
+/* ========== Shop List ========== */
+.shop-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shop-item {
+    padding: 12px 16px;
+    border-top: 1px solid var(--border);
+}
+
+.shop-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.shop-link {
+    flex: 1;
+    color: var(--link);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    transition: color 0.15s;
+}
+
+.shop-link:hover,
+.shop-link:active {
+    color: var(--link-hover);
+}
+
+.navi-btn {
+    flex-shrink: 0;
+    width: 36px;
+    height: 36px;
+    border: 1px solid #333;
+    border-radius: 8px;
+    background: #1a1a1a;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.navi-btn:active {
+    background: #333;
+}
+
+.shop-meta {
+    margin-top: 4px;
+    padding-left: 0;
+    font-size: 0.72rem;
+    color: var(--text-sub);
+    letter-spacing: 0.02em;
+}
+
+.no-data {
+    padding: 20px 16px;
+    color: var(--text-sub);
+    font-size: 0.85rem;
+    text-align: center;
+}
+
+/* ========== Footer ========== */
+footer {
+    margin-top: auto;
+    padding: 24px 0 12px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.7rem;
+    color: #444;
+}
+
+footer a {
+    color: #555;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--link);
+}
