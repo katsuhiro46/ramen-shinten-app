@@ -163,7 +163,7 @@ header h1 {
 }
 
 .accordion.open .accordion-panel {
-    max-height: 4000px;
+    max-height: 2000px;
 }
 
 .accordion.open .arrow {

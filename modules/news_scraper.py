@@ -17,7 +17,7 @@ URLS = [
     ('https://ramendb.supleks.jp/search?state=ibaraki&order=open-date', '茨城'),
 ]
 
-SHOPS_PER_PREFECTURE = 30
+SHOPS_PER_PREFECTURE = 20
 
 # 削除対象キーワード（完全一致で削除）
 GARBAGE_KEYWORDS = [
