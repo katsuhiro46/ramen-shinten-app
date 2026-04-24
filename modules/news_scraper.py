@@ -88,16 +88,23 @@ def scrape_one_prefecture(url: str, pref_name: str, session) -> List[Dict]:
         return []
 
 def get_new_reviews() -> Tuple[List[Dict], str]:
-    """メインエントリーポイント"""
+    """メインエントリーポイント（403回避・偽装強化版）"""
     session = requests.Session()
+    # ここを最新の Windows Chrome っぽく「ビタビタ」に偽装します
     session.headers.update({
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
+        'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
+        'Referer': 'https://ramendb.supleks.jp/',
+        'DNT': '1'
     })
+    
     all_shops = []
     logs = []
     for url, pref_name in URLS:
         shops = scrape_one_prefecture(url, pref_name, session)
         all_shops.extend(shops)
         logs.append(f"{pref_name}: {len(shops)}件")
-        time.sleep(1)
+        time.sleep(2) # 相手を刺激しないよう、少しゆっくり（2秒）休む
+    
     return all_shops, " | ".join(logs)
