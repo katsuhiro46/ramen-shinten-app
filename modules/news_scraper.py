@@ -1,5 +1,11 @@
 """ラーメンデータベースのニューオープン検索結果を取得する。"""
-import requests
+try:
+    from curl_cffi import requests as http_requests
+    USE_BROWSER_TLS = True
+except Exception:
+    import requests as http_requests
+    USE_BROWSER_TLS = False
+
 from bs4 import BeautifulSoup
 import re
 from typing import Any, Dict, List, Tuple
@@ -81,7 +87,7 @@ def extract_open_date(soup: BeautifulSoup) -> str:
 
     return ""
 
-def fetch_open_date(url: str, session: requests.Session) -> str:
+def fetch_open_date(url: str, session: Any) -> str:
     try:
         response = session.get(url, timeout=15)
         response.raise_for_status()
@@ -91,7 +97,7 @@ def fetch_open_date(url: str, session: requests.Session) -> str:
         print(f"Detail Error {url}: {e}")
         return ""
 
-def parse_search_result(html: str, pref_name: str, session: requests.Session) -> Tuple[List[Dict], Dict]:
+def parse_search_result(html: str, pref_name: str, session: Any) -> Tuple[List[Dict], Dict]:
     soup = BeautifulSoup(html, "html.parser")
     items = soup.select("ul#searched > li")
     shops = []
@@ -138,7 +144,7 @@ def parse_search_result(html: str, pref_name: str, session: requests.Session) ->
     }
     return shops, debug_info
 
-def scrape_one_prefecture(prefecture: Dict[str, str], session: requests.Session) -> Tuple[List[Dict], Dict]:
+def scrape_one_prefecture(prefecture: Dict[str, str], session: Any) -> Tuple[List[Dict], Dict]:
     """1県分をスクレイピングする。"""
     pref_name = prefecture["name"]
     urls = [prefecture["url"], prefecture["fallback_url"]]
@@ -179,7 +185,10 @@ def get_new_reviews(include_debug: bool = False) -> Tuple[List[Dict], str, Dict]
         debug["cache_hit"] = True
         return _cache["shops"], _cache["log"], debug if include_debug else {}
 
-    session = requests.Session()
+    if USE_BROWSER_TLS:
+        session = http_requests.Session(impersonate="chrome124")
+    else:
+        session = http_requests.Session()
     session.headers.update({
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
@@ -212,6 +221,7 @@ def get_new_reviews(include_debug: bool = False) -> Tuple[List[Dict], str, Dict]
         "log": log,
         "debug": {
             "cache_hit": False,
+            "browser_tls": USE_BROWSER_TLS,
             "prefectures": debug_by_pref,
             "total_shops": len(all_shops),
         },
