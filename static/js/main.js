@@ -18,8 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch('/api/news');
             const data = await response.json();
 
+            if (!response.ok || data.status === 'error') {
+                throw new Error(data.message || 'API request failed');
+            }
+
             if (!data.shops || data.shops.length === 0) {
-                loading.innerHTML = '<p class="error-msg">新店情報がありません</p>';
+                loading.innerHTML = '<p class="error-msg">データ取得に失敗しました</p>';
                 return;
             }
 
@@ -44,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         } catch (err) {
             console.error('Fetch error:', err);
-            loading.innerHTML = '<p class="error-msg">データの取得に失敗しました</p>';
+            loading.innerHTML = '<p class="error-msg">データ取得に失敗しました</p>';
         }
     }
 
@@ -92,7 +96,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const li = document.createElement('li');
         li.className = 'shop-item';
 
-        const meta = [shop.city, shop.open_date].filter(Boolean).join(' ｜ ');
+        const meta = [
+            shop.city,
+            shop.open_date,
+            shop.point ? `${shop.point}ポイント` : '',
+            Number.isInteger(shop.review_count) ? `${shop.review_count}レビュー` : '',
+        ].filter(Boolean).join(' ｜ ');
 
         li.innerHTML = `
             <div class="shop-row">
