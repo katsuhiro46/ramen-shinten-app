@@ -14,21 +14,25 @@ PREFECTURES = [
         "name": "群馬",
         "state": "gunma",
         "url": "https://gunma-ramendb.supleks.jp/search?q=&state=gunma&city=&order=open-date&station-id=&radius=0.5&type=&page=1&ns=0",
+        "fallback_url": "https://ramendb.supleks.jp/search?q=&state=gunma&city=&order=open-date&station-id=&radius=0.5&type=&page=1&ns=0",
     },
     {
         "name": "栃木",
         "state": "tochigi",
         "url": "https://tochigi-ramendb.supleks.jp/search?q=&state=tochigi&city=&order=open-date&station-id=&radius=0.5&type=&page=1&ns=0",
+        "fallback_url": "https://ramendb.supleks.jp/search?q=&state=tochigi&city=&order=open-date&station-id=&radius=0.5&type=&page=1&ns=0",
     },
     {
         "name": "茨城",
         "state": "ibaraki",
         "url": "https://ibaraki-ramendb.supleks.jp/search?q=&state=ibaraki&city=&order=open-date&station-id=&radius=0.5&type=&page=1&ns=0",
+        "fallback_url": "https://ramendb.supleks.jp/search?q=&state=ibaraki&city=&order=open-date&station-id=&radius=0.5&type=&page=1&ns=0",
     },
     {
         "name": "埼玉",
         "state": "saitama",
         "url": "https://saitama-ramendb.supleks.jp/search?q=&state=saitama&city=&order=open-date&station-id=&radius=0.5&type=&page=1&ns=0",
+        "fallback_url": "https://ramendb.supleks.jp/search?q=&state=saitama&city=&order=open-date&station-id=&radius=0.5&type=&page=1&ns=0",
     },
 ]
 
@@ -137,23 +141,35 @@ def parse_search_result(html: str, pref_name: str, session: requests.Session) ->
 def scrape_one_prefecture(prefecture: Dict[str, str], session: requests.Session) -> Tuple[List[Dict], Dict]:
     """1県分をスクレイピングする。"""
     pref_name = prefecture["name"]
-    url = prefecture["url"]
-    try:
-        response = session.get(url, timeout=15)
-        response.raise_for_status()
-        shops, debug_info = parse_search_result(response.text, pref_name, session)
-        debug_info.update({
-            "url": url,
-            "status_code": response.status_code,
-            "html_length": len(response.text),
-        })
-        return shops, debug_info
-    except Exception as e:
-        print(f"Error {pref_name}: {e}")
-        return [], {
-            "url": url,
-            "error": str(e),
-        }
+    urls = [prefecture["url"], prefecture["fallback_url"]]
+    attempts = []
+
+    for url in urls:
+        try:
+            response = session.get(url, timeout=15)
+            attempts.append({
+                "url": url,
+                "status_code": response.status_code,
+                "html_length": len(response.text),
+            })
+            response.raise_for_status()
+            shops, debug_info = parse_search_result(response.text, pref_name, session)
+            debug_info.update({
+                "url": url,
+                "attempts": attempts,
+                "status_code": response.status_code,
+                "html_length": len(response.text),
+            })
+            return shops, debug_info
+        except Exception as e:
+            print(f"Error {pref_name} {url}: {e}")
+            attempts[-1]["error"] = str(e) if attempts else str(e)
+
+    return [], {
+        "url": urls[-1],
+        "attempts": attempts,
+        "error": attempts[-1].get("error", "Unknown scraping error") if attempts else "Unknown scraping error",
+    }
 
 def get_new_reviews(include_debug: bool = False) -> Tuple[List[Dict], str, Dict]:
     """メインエントリーポイント。"""
@@ -168,6 +184,13 @@ def get_new_reviews(include_debug: bool = False) -> Tuple[List[Dict], str, Dict]
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
         'Accept-Language': 'ja,en-US;q=0.9,en;q=0.8',
+        'Accept-Encoding': 'gzip, deflate, br',
+        'Connection': 'keep-alive',
+        'Sec-Fetch-Dest': 'document',
+        'Sec-Fetch-Mode': 'navigate',
+        'Sec-Fetch-Site': 'none',
+        'Sec-Fetch-User': '?1',
+        'Upgrade-Insecure-Requests': '1',
         'Referer': 'https://ramendb.supleks.jp/',
         'DNT': '1',
     })
