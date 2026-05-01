@@ -1,0 +1,367 @@
+{
+  "status": "success",
+  "source": "snapshot",
+  "log": "群馬: 10件 | 栃木: 10件 | 茨城: 10件 | 埼玉: 10件",
+  "shops": [
+    {
+      "name": "RAMENSTAND 太田店",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/172858.html",
+      "city": "太田市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "らーめん たん二郎 高崎駅西口店",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/172898.html",
+      "city": "高崎市",
+      "open_date": "2026年5月11日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "とりよしらーめん",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/172874.html",
+      "city": "前橋市",
+      "open_date": "2026年4月3日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "麺処 咲",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/172763.html",
+      "city": "伊勢崎市",
+      "open_date": "2026年4月1日",
+      "point": "82.80",
+      "review_count": 1
+    },
+    {
+      "name": "パンダ麻辣湯",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/172473.html",
+      "city": "高崎市",
+      "open_date": "2026年3月26日",
+      "point": "82.31",
+      "review_count": 1
+    },
+    {
+      "name": "全国ラーメンフェスタ春の陣 2026 in前橋吉岡",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/172423.html",
+      "city": "北相馬郡",
+      "open_date": "2026年3月23日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "中華そば マルタカ",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/172513.html",
+      "city": "富岡市",
+      "open_date": "2026年3月17日",
+      "point": "82.29",
+      "review_count": 1
+    },
+    {
+      "name": "らーめん はやぶさ",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/171708.html",
+      "city": "高崎市",
+      "open_date": "2026年3月16日",
+      "point": "91.59",
+      "review_count": 3
+    },
+    {
+      "name": "ITTERASSHAI",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/172210.html",
+      "city": "高崎市",
+      "open_date": "2026年3月15日",
+      "point": "82.78",
+      "review_count": 1
+    },
+    {
+      "name": "ラーメンはなみ",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/171883.html",
+      "city": "太田市",
+      "open_date": "2026年3月5日",
+      "point": "86.23",
+      "review_count": 7
+    },
+    {
+      "name": "井岡屋 東武駅前店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/172965.html",
+      "city": "宇都宮市",
+      "open_date": "2026年4月24日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "Ramen Knot",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/172846.html",
+      "city": "宇都宮市",
+      "open_date": "2026年4月17日",
+      "point": "85.04",
+      "review_count": 3
+    },
+    {
+      "name": "ニューラーメンショップ 西那須野店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/172451.html",
+      "city": "那須塩原市",
+      "open_date": "2026年4月6日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "日高屋 鹿沼栄町店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/172539.html",
+      "city": "鹿沼市",
+      "open_date": "2026年3月31日",
+      "point": "82.63",
+      "review_count": 1
+    },
+    {
+      "name": "中華蕎麦 禅",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/172543.html",
+      "city": "那須烏山市",
+      "open_date": "2026年3月29日",
+      "point": "83.24",
+      "review_count": 2
+    },
+    {
+      "name": "大つけ麺博Presents 最強ラーメン祭 in 小山2026",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/171767.html",
+      "city": "小山市",
+      "open_date": "2026年3月27日",
+      "point": "87.08",
+      "review_count": 22
+    },
+    {
+      "name": "麺屋 ようすけplus",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/172896.html",
+      "city": "佐野市",
+      "open_date": "2026年3月17日",
+      "point": "82.92",
+      "review_count": 1
+    },
+    {
+      "name": "みそらーめん麺屋満天",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/172304.html",
+      "city": "宇都宮市",
+      "open_date": "2026年3月17日",
+      "point": "82.53",
+      "review_count": 1
+    },
+    {
+      "name": "町田商店 小山店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/172129.html",
+      "city": "小山市",
+      "open_date": "2026年3月13日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "横浜らーめん田村家 小山店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/171858.html",
+      "city": "小山市",
+      "open_date": "2026年3月5日",
+      "point": "84.21",
+      "review_count": 3
+    },
+    {
+      "name": "ラーメン日本一やまがた 七代目",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/159375.html",
+      "city": "日立市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "ラーメンショップ 魔女の味 小美玉店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/171426.html",
+      "city": "小美玉市",
+      "open_date": "2026年4月28日",
+      "point": "82.43",
+      "review_count": 1
+    },
+    {
+      "name": "麺屋 金花土 日立多賀店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/172707.html",
+      "city": "日立市",
+      "open_date": "2026年4月22日",
+      "point": "83.76",
+      "review_count": 2
+    },
+    {
+      "name": "二代目 高菜 鉾田店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/172875.html",
+      "city": "鉾田市",
+      "open_date": "2026年4月19日",
+      "point": "85.38",
+      "review_count": 4
+    },
+    {
+      "name": "らぁ麺 一潤",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/170133.html",
+      "city": "つくば市",
+      "open_date": "2026年4月9日",
+      "point": "89.92",
+      "review_count": 8
+    },
+    {
+      "name": "白河手打中華そば 法隆",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/170770.html",
+      "city": "水戸市",
+      "open_date": "2026年4月7日",
+      "point": "92.77",
+      "review_count": 7
+    },
+    {
+      "name": "中華そば たまちゃん",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/172584.html",
+      "city": "つくば市",
+      "open_date": "2026年4月2日",
+      "point": "87.07",
+      "review_count": 6
+    },
+    {
+      "name": "ラーメン食堂 あつ森",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/172577.html",
+      "city": "水戸市",
+      "open_date": "2026年4月1日",
+      "point": "85.75",
+      "review_count": 5
+    },
+    {
+      "name": "ラーメン長瀬屋 結城本店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/171849.html",
+      "city": "結城市",
+      "open_date": "2026年3月22日",
+      "point": "87.26",
+      "review_count": 7
+    },
+    {
+      "name": "どうとんぼり 神座 イーアスつくば店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/172380.html",
+      "city": "つくば市",
+      "open_date": "2026年3月20日",
+      "point": "85.14",
+      "review_count": 4
+    },
+    {
+      "name": "リンガーハット 志木店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/172761.html",
+      "city": "志木市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "背脂ネギラーメン とんび",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/172728.html",
+      "city": "川口市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "NOBU kitchenぬーどる",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/172356.html",
+      "city": "朝霞市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "恵比寿餃子 大豊記 本川越店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/171941.html",
+      "city": "川越市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "ラーメン日の輪",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/168978.html",
+      "city": "さいたま市北区",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "覆麺 神田",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/172992.html",
+      "city": "東松山市",
+      "open_date": "2026年5月30日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "麺屋 誉",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/172281.html",
+      "city": "川越市",
+      "open_date": "2026年5月7日",
+      "point": "0.00",
+      "review_count": 2
+    },
+    {
+      "name": "ラーメン&ホルモン・勇成You-Say",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173091.html",
+      "city": "川越市",
+      "open_date": "2026年5月6日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "深谷らーめん 藤や",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/172528.html",
+      "city": "深谷市",
+      "open_date": "2026年5月4日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "ラーメンショップ 〇波 東川口店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/172694.html",
+      "city": "川口市",
+      "open_date": "2026年5月2日",
+      "point": "0.00",
+      "review_count": 0
+    }
+  ]
+}

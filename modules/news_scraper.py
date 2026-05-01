@@ -7,12 +7,15 @@ except Exception:
     USE_BROWSER_TLS = False
 
 from bs4 import BeautifulSoup
+import json
 import re
+from pathlib import Path
 from typing import Any, Dict, List, Tuple
 import time
 from urllib.parse import urljoin
 
 BASE_URL = "https://ramendb.supleks.jp"
+SNAPSHOT_PATH = Path(__file__).resolve().parents[1] / "data" / "news_snapshot.json"
 
 # 表示順: 群馬 → 栃木 → 茨城 → 埼玉
 PREFECTURES = [
@@ -215,6 +218,25 @@ def get_new_reviews(include_debug: bool = False) -> Tuple[List[Dict], str, Dict]
         time.sleep(REQUEST_INTERVAL_SECONDS)
     
     log = " | ".join(logs)
+    if not all_shops:
+        fallback_shops, fallback_log = load_snapshot()
+        if fallback_shops:
+            debug = {
+                "browser_tls": USE_BROWSER_TLS,
+                "cache_hit": False,
+                "fallback": "snapshot",
+                "live_log": log,
+                "prefectures": debug_by_pref,
+                "total_shops": len(fallback_shops),
+            }
+            _cache.update({
+                "created_at": now,
+                "shops": fallback_shops,
+                "log": fallback_log,
+                "debug": debug,
+            })
+            return fallback_shops, fallback_log, debug if include_debug else {}
+
     _cache.update({
         "created_at": now,
         "shops": all_shops,
@@ -227,3 +249,12 @@ def get_new_reviews(include_debug: bool = False) -> Tuple[List[Dict], str, Dict]
         },
     })
     return all_shops, log, _cache["debug"] if include_debug else {}
+
+def load_snapshot() -> Tuple[List[Dict], str]:
+    try:
+        payload = json.loads(SNAPSHOT_PATH.read_text(encoding="utf-8"))
+        shops = payload.get("shops", [])
+        return shops, f"{payload.get('log', '')} | fallback: snapshot"
+    except Exception as e:
+        print(f"Snapshot Error: {e}")
+        return [], ""
