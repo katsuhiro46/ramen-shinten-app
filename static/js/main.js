@@ -1,6 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('accordion-container');
     const loading = document.getElementById('loading');
+    const pushPanel = document.getElementById('push-panel');
+    const pushToggle = document.getElementById('push-toggle');
+    const pushStatus = document.getElementById('push-status');
 
     // 県別カラー設定
     const PREF_CONFIG = {
@@ -123,4 +126,106 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 起動
     fetchAndRender();
+    initPushNotifications();
+
+    async function initPushNotifications() {
+        if (!pushPanel || !pushToggle || !pushStatus) {
+            return;
+        }
+
+        if (!('serviceWorker' in navigator) || !('PushManager' in window) || !('Notification' in window)) {
+            return;
+        }
+
+        try {
+            const configResponse = await fetch('/api/push/config');
+            const config = await configResponse.json();
+            if (!config.enabled || !config.publicKey) {
+                return;
+            }
+
+            pushPanel.classList.remove('hidden');
+            const registration = await navigator.serviceWorker.register('/service-worker.js');
+            const subscription = await registration.pushManager.getSubscription();
+            updatePushButton(subscription);
+
+            pushToggle.addEventListener('click', async () => {
+                pushToggle.disabled = true;
+                try {
+                    const currentSubscription = await registration.pushManager.getSubscription();
+                    if (currentSubscription) {
+                        await unsubscribePush(currentSubscription);
+                        updatePushButton(null);
+                        return;
+                    }
+
+                    const permission = await Notification.requestPermission();
+                    if (permission !== 'granted') {
+                        pushStatus.textContent = '通知が許可されませんでした';
+                        updatePushButton(null);
+                        return;
+                    }
+
+                    const newSubscription = await registration.pushManager.subscribe({
+                        userVisibleOnly: true,
+                        applicationServerKey: urlBase64ToUint8Array(config.publicKey),
+                    });
+                    await subscribePush(newSubscription);
+                    updatePushButton(newSubscription);
+                } catch (err) {
+                    console.error('Push error:', err);
+                    pushStatus.textContent = '通知設定に失敗しました';
+                } finally {
+                    pushToggle.disabled = false;
+                }
+            });
+        } catch (err) {
+            console.error('Push init error:', err);
+        }
+    }
+
+    function updatePushButton(subscription) {
+        if (subscription) {
+            pushToggle.textContent = '新店通知を停止する';
+            pushStatus.textContent = '新しいお店が追加されたら通知します';
+        } else {
+            pushToggle.textContent = '新店通知を受け取る';
+            pushStatus.textContent = 'スマホ通知で新店追加をお知らせします';
+        }
+        pushToggle.disabled = false;
+    }
+
+    async function subscribePush(subscription) {
+        const response = await fetch('/api/push/subscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(subscription),
+        });
+
+        if (!response.ok) {
+            throw new Error('Subscribe failed');
+        }
+    }
+
+    async function unsubscribePush(subscription) {
+        await fetch('/api/push/unsubscribe', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(subscription),
+        });
+        await subscription.unsubscribe();
+    }
+
+    function urlBase64ToUint8Array(base64String) {
+        const padding = '='.repeat((4 - base64String.length % 4) % 4);
+        const base64 = (base64String + padding).replace(/-/g, '+').replace(/_/g, '/');
+        const rawData = window.atob(base64);
+        const outputArray = new Uint8Array(rawData.length);
+
+        for (let i = 0; i < rawData.length; i++) {
+            outputArray[i] = rawData.charCodeAt(i);
+        }
+
+        return outputArray;
+    }
 });

@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="新店速報">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="theme-color" content="#000000">
     <title>北関東ラーメン新店速報</title>
+    <link rel="manifest" href="/manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
@@ -17,6 +20,10 @@
         <header>
             <h1>🍜 新店速報</h1>
             <p class="subtitle">群馬・栃木・茨城・埼玉</p>
+            <div id="push-panel" class="push-panel hidden">
+                <button id="push-toggle" class="push-btn" type="button">新店通知を受け取る</button>
+                <p id="push-status" class="push-status"></p>
+            </div>
         </header>
 
         <main id="main">

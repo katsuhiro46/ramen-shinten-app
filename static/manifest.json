@@ -1,0 +1,18 @@
+{
+  "name": "北関東ラーメン新店速報",
+  "short_name": "新店速報",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "description": "群馬・栃木・茨城・埼玉のラーメン新店速報",
+  "icons": [
+    {
+      "src": "/static/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

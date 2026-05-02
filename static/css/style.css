@@ -64,6 +64,46 @@ header h1 {
     letter-spacing: 0.1em;
 }
 
+.hidden {
+    display: none !important;
+}
+
+.push-panel {
+    margin: 16px auto 0;
+    max-width: 320px;
+}
+
+.push-btn {
+    width: 100%;
+    min-height: 42px;
+    border: 1px solid #3a3420;
+    border-radius: 8px;
+    background: #191611;
+    color: var(--link);
+    font-family: inherit;
+    font-size: 0.88rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.push-btn:disabled {
+    cursor: default;
+    color: #777;
+    background: #141414;
+}
+
+.push-btn:active:not(:disabled) {
+    background: #242018;
+}
+
+.push-status {
+    min-height: 1.2em;
+    margin-top: 6px;
+    color: var(--text-sub);
+    font-size: 0.7rem;
+    line-height: 1.5;
+}
+
 /* ========== Loading ========== */
 .loading-state {
     text-align: center;

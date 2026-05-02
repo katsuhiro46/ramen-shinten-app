@@ -22,6 +22,13 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Update snapshot
+        env:
+          APP_BASE_URL: ${{ secrets.APP_BASE_URL }}
+          UPSTASH_REDIS_REST_URL: ${{ secrets.UPSTASH_REDIS_REST_URL }}
+          UPSTASH_REDIS_REST_TOKEN: ${{ secrets.UPSTASH_REDIS_REST_TOKEN }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
         run: python scripts/update_snapshot.py
 
       - name: Commit snapshot

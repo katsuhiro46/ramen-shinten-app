@@ -180,7 +180,7 @@ def scrape_one_prefecture(prefecture: Dict[str, str], session: Any) -> Tuple[Lis
         "error": attempts[-1].get("error", "Unknown scraping error") if attempts else "Unknown scraping error",
     }
 
-def get_new_reviews(include_debug: bool = False) -> Tuple[List[Dict], str, Dict]:
+def get_new_reviews(include_debug: bool = False, allow_snapshot: bool = True) -> Tuple[List[Dict], str, Dict]:
     """メインエントリーポイント。"""
     now = time.time()
     if _cache["shops"] and now - _cache["created_at"] < CACHE_TTL_SECONDS:
@@ -218,7 +218,7 @@ def get_new_reviews(include_debug: bool = False) -> Tuple[List[Dict], str, Dict]
         time.sleep(REQUEST_INTERVAL_SECONDS)
     
     log = " | ".join(logs)
-    if not all_shops:
+    if allow_snapshot and not all_shops:
         fallback_shops, fallback_log = load_snapshot()
         if fallback_shops:
             debug = {
