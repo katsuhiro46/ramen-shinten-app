@@ -91,6 +91,23 @@ def round_temperature(value):
     return int(round(float(value)))
 
 
+def max_precipitation_for_hours(hourly, target_date, start_hour, end_hour):
+    times = hourly.get("time", [])
+    probabilities = hourly.get("precipitation_probability", [])
+    values = []
+
+    for time_text, probability in zip(times, probabilities):
+        if probability is None:
+            continue
+        parsed = datetime.fromisoformat(time_text)
+        if parsed.date() == target_date and start_hour <= parsed.hour <= end_hour:
+            values.append(float(probability))
+
+    if not values:
+        return 0
+    return int(round(max(values)))
+
+
 def fetch_weather(location_name, target_date):
     location = LOCATIONS[location_name]
     params = {
@@ -103,6 +120,7 @@ def fetch_weather(location_name, target_date):
             "precipitation_probability_max",
             "wind_speed_10m_max",
         ]),
+        "hourly": "precipitation_probability",
         "timezone": "Asia/Tokyo",
         "wind_speed_unit": "ms",
         "start_date": target_date.isoformat(),
@@ -110,9 +128,19 @@ def fetch_weather(location_name, target_date):
     }
     response = requests.get(OPEN_METEO_URL, params=params, timeout=20)
     response.raise_for_status()
-    daily = response.json()["daily"]
+    weather_data = response.json()
+    daily = weather_data["daily"]
+    hourly = weather_data.get("hourly", {})
     code = int(daily["weather_code"][0])
     icon, label = weather_label(code)
+    morning_precipitation = max_precipitation_for_hours(hourly, target_date, 0, 11)
+    afternoon_precipitation = max_precipitation_for_hours(hourly, target_date, 12, 23)
+    precipitation = max(
+        int(round(float(daily["precipitation_probability_max"][0]))),
+        morning_precipitation,
+        afternoon_precipitation,
+    )
+
     return {
         "name": location_name,
         "full_name": location["full_name"],
@@ -121,7 +149,9 @@ def fetch_weather(location_name, target_date):
         "weather_label": label,
         "max_temp": round_temperature(daily["temperature_2m_max"][0]),
         "min_temp": round_temperature(daily["temperature_2m_min"][0]),
-        "precipitation": int(round(float(daily["precipitation_probability_max"][0]))),
+        "precipitation": precipitation,
+        "precipitation_morning": morning_precipitation,
+        "precipitation_afternoon": afternoon_precipitation,
         "wind": float(daily.get("wind_speed_10m_max", [0])[0] or 0),
     }
 
@@ -150,7 +180,7 @@ def build_payload(target_date, weekday, route, forecasts, url="/weather"):
         lines.append(
             f"{item['name']}：{item['weather_icon']}{item['weather_label']} "
             f"{item['max_temp']}/{item['min_temp']}℃ "
-            f"降水{item['precipitation']}%"
+            f"降水 午前{item['precipitation_morning']}/午後{item['precipitation_afternoon']}%"
         )
 
     attention = build_attention(forecasts)

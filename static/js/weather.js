@@ -43,7 +43,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="weather-values">
                     <strong>${item.weather_icon}${item.weather_label}</strong>
                     <span>${item.max_temp}/${item.min_temp}℃</span>
-                    <span>降水${item.precipitation}%</span>
+                    <span>降水 午前${item.precipitation_morning}%</span>
+                    <span>降水 午後${item.precipitation_afternoon}%</span>
                     <span>風${Math.round(item.wind)}m/s</span>
                 </div>
             `;
