@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="配送天気">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#000000">
+    <title>明日の配送天気</title>
+    <link rel="manifest" href="/manifest.json">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a class="back-link" href="/">新店速報へ</a>
+            <h1>配送天気</h1>
+            <p id="weather-subtitle" class="subtitle">明日のルート</p>
+        </header>
+
+        <main id="main">
+            <div id="weather-loading" class="loading-state">
+                <div class="spinner"></div>
+                <p>天気を取得中...</p>
+            </div>
+            <section id="weather-card" class="weather-card hidden">
+                <div class="weather-head">
+                    <div>
+                        <p id="weather-date" class="weather-date"></p>
+                        <h2 id="weather-title" class="weather-title"></h2>
+                    </div>
+                </div>
+                <div id="weather-list" class="weather-list"></div>
+                <p id="weather-attention" class="weather-attention hidden"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>天気: Open-Meteo</p>
+        </footer>
+    </div>
+    <script src="/static/js/weather.js"></script>
+</body>
+
+</html>

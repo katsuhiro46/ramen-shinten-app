@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request, send_from_directory
-from modules import news_scraper, push_notifications
+from modules import news_scraper, push_notifications, route_weather
 
 app = Flask(__name__)
 
@@ -7,6 +7,11 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
+
+
+@app.route('/weather')
+def weather_page():
+    return render_template('weather.html')
 
 
 @app.route('/manifest.json')
@@ -39,6 +44,24 @@ def get_news():
             "message": "データ取得に失敗しました",
             "error": str(e),
             "shops": [],
+        }), 500
+
+
+@app.route('/api/weather')
+def get_weather():
+    try:
+        base_date = route_weather.parse_base_date(request.args.get('date'))
+        weather = route_weather.get_tomorrow_route_weather(base_date)
+        return jsonify({
+            "status": "success",
+            "weather": weather,
+        })
+    except Exception as e:
+        print(f"Weather Error: {e}")
+        return jsonify({
+            "status": "error",
+            "message": "天気取得に失敗しました",
+            "error": str(e),
         }), 500
 
 
