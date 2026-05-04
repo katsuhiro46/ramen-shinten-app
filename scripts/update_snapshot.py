@@ -49,9 +49,18 @@ def main():
     previous_shops = load_previous_shops(snapshot_path)
     previous_keys = {shop_key(shop) for shop in previous_shops}
 
-    shops, log, _debug = news_scraper.get_new_reviews(include_debug=True, allow_snapshot=False)
+    shops, log, debug = news_scraper.get_new_reviews(include_debug=True, allow_snapshot=False)
     if not shops:
-        raise SystemExit(f"No shops scraped: {log}")
+        fallback_shops, fallback_log = news_scraper.load_snapshot()
+        if fallback_shops:
+            print(f"No shops scraped: {log}")
+            print(f"Existing snapshot kept: {fallback_log}")
+            return
+        raise SystemExit(f"No shops scraped and no snapshot available: {log}")
+
+    if debug.get("fallback") == "snapshot":
+        print(f"Live scraping unavailable; existing snapshot kept: {log}")
+        return
 
     added_shops = [shop for shop in shops if shop_key(shop) not in previous_keys]
 
