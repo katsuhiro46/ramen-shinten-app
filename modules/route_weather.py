@@ -1,5 +1,6 @@
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
+import time
 
 import requests
 
@@ -126,8 +127,19 @@ def fetch_weather(location_name, target_date):
         "start_date": target_date.isoformat(),
         "end_date": target_date.isoformat(),
     }
-    response = requests.get(OPEN_METEO_URL, params=params, timeout=20)
-    response.raise_for_status()
+    last_error = None
+    for attempt in range(3):
+        try:
+            response = requests.get(OPEN_METEO_URL, params=params, timeout=25)
+            response.raise_for_status()
+            break
+        except requests.RequestException as error:
+            last_error = error
+            if attempt < 2:
+                time.sleep(2 * (attempt + 1))
+    else:
+        raise last_error
+
     weather_data = response.json()
     daily = weather_data["daily"]
     hourly = weather_data.get("hourly", {})
@@ -192,6 +204,7 @@ def build_payload(target_date, weekday, route, forecasts, url="/weather"):
         "body": "\n".join(lines),
         "url": url,
         "date": target_date.isoformat(),
+        "tag": f"route-weather-{target_date.isoformat()}",
     }
 
 

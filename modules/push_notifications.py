@@ -138,6 +138,11 @@ def send_notification(subscription: Dict[str, Any], payload: Dict[str, Any]) -> 
             data=json.dumps(payload, ensure_ascii=False),
             vapid_private_key=vapid_private_key(),
             vapid_claims={"sub": vapid_subject()},
+            headers={
+                "TTL": "86400",
+                "Urgency": "high",
+                "Topic": payload.get("tag", "ramen-shinten")[:32],
+            },
             timeout=15,
         )
         return True, "sent"

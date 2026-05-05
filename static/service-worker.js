@@ -25,6 +25,11 @@ self.addEventListener('push', (event) => {
         body: payload.body,
         icon: '/static/icons/icon.svg',
         badge: '/static/icons/icon.svg',
+        tag: payload.tag || `ramen-shinten-${Date.now()}`,
+        renotify: true,
+        requireInteraction: true,
+        timestamp: Date.now(),
+        vibrate: [200, 100, 200],
         data: {
             url: payload.url || '/',
         },
