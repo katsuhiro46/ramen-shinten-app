@@ -1,0 +1,138 @@
+# ramen-shinten-app 運用メモ
+
+## アプリ概要
+
+`ramen-shinten-app` は、ラーメンデータベースのニューオープン情報と、配送ルートの翌日天気を確認・通知するWebアプリです。
+
+- GitHub: `katsuhiro46/ramen-shinten-app`
+- 本番URL: `https://ramen-shinten-app.vercel.app/`
+- ローカル作業フォルダ: `/Users/katsuhiro/ramen-shinten-app`
+- デスクトップの `ramen-shinten-app` は、このフォルダへのショートカットです。
+
+## 通知の種類
+
+### ラーメン新店通知
+
+- 通知タイトル: `ラ`
+- 通知本文: `ラーメン新店が追加されました` または `ラーメン新店がN件追加されました`
+- 新店がある時だけ通知します。
+- 通知を押すとラーメン新店速報ページを開きます。
+
+### 配送天気通知
+
+- 通知タイトル: `天`
+- 通知本文: 翌日の配送ルート天気
+- 毎日通知します。
+- 通知を押すと配送天気ページを開きます。
+
+## 現在の自動実行
+
+### ラーメン更新
+
+Macで実行します。
+
+- Mac自動起床: 毎日 3:33
+- ラーメン更新: 毎日 3:35
+- 実行設定: `~/Library/LaunchAgents/com.katsuhiro.ramen-shinten-update.plist`
+- 実行スクリプト: `/Users/katsuhiro/ramen-shinten-app/scripts/local_ramen_update.sh`
+- ログ:
+  - `~/Library/Logs/ramen-shinten-app/local_update.out.log`
+  - `~/Library/Logs/ramen-shinten-app/local_update.err.log`
+
+ラーメンDBは GitHub Actions / Vercel からだと 403 で拒否されるため、Macから取得します。
+
+### 天気通知
+
+Macで実行します。
+
+- 天気通知: 毎日 11:58
+- 実行設定: `~/Library/LaunchAgents/com.katsuhiro.ramen-weather-notify.plist`
+- 実行スクリプト: `/Users/katsuhiro/ramen-shinten-app/scripts/local_weather_notify.sh`
+- ログ:
+  - `~/Library/Logs/ramen-shinten-app/weather_notify.out.log`
+  - `~/Library/Logs/ramen-shinten-app/weather_notify.err.log`
+
+GitHub Actions の天気定期実行は遅延が大きかったため停止済みです。Vercel Cronはバックアップとして残っています。
+
+## 秘密設定
+
+秘密キーはGitHubに入れません。
+
+Mac内の設定ファイル:
+
+```text
+~/.config/ramen-shinten-app/env
+```
+
+Bitwardenには `ramen-shinten-app secrets` として以下を保存しています。
+
+```text
+APP_BASE_URL
+UPSTASH_REDIS_REST_URL
+UPSTASH_REDIS_REST_TOKEN
+VAPID_PUBLIC_KEY
+VAPID_PRIVATE_KEY
+VAPID_SUBJECT
+```
+
+特に秘密扱い:
+
+```text
+UPSTASH_REDIS_REST_TOKEN
+VAPID_PRIVATE_KEY
+```
+
+## 重要な注意点
+
+- Macは電源OFFにしない。スリープ運用ならOK。
+- 自動実行中はスクリプト内の `caffeinate` で一時的にスリープを防ぎます。
+- 自動実行フォルダは `/Users/katsuhiro/ramen-shinten-app` を使います。
+- `Documents/Codex/...` 配下でLaunchAgentを動かすと `Operation not permitted` になることがありました。
+- スマホ通知が不安定な時は、ホーム画面のアプリを開いて通知登録を停止→再開すると直る場合があります。
+
+## よく使う確認コマンド
+
+Mac自動起床の確認:
+
+```bash
+pmset -g sched
+```
+
+ラーメン更新設定の確認:
+
+```bash
+launchctl print gui/$(id -u)/com.katsuhiro.ramen-shinten-update
+```
+
+天気通知設定の確認:
+
+```bash
+launchctl print gui/$(id -u)/com.katsuhiro.ramen-weather-notify
+```
+
+ラーメン更新ログ:
+
+```bash
+tail -n 120 ~/Library/Logs/ramen-shinten-app/local_update.out.log
+tail -n 120 ~/Library/Logs/ramen-shinten-app/local_update.err.log
+```
+
+天気通知ログ:
+
+```bash
+tail -n 120 ~/Library/Logs/ramen-shinten-app/weather_notify.out.log
+tail -n 120 ~/Library/Logs/ramen-shinten-app/weather_notify.err.log
+```
+
+## 復旧手順の概要
+
+新しいMacに移す時は以下の順番です。
+
+1. GitHubから `katsuhiro46/ramen-shinten-app` を取得する。
+2. `/Users/katsuhiro/ramen-shinten-app` に配置する。
+3. Bitwardenの `ramen-shinten-app secrets` から6個の環境変数を取り出す。
+4. `~/.config/ramen-shinten-app/env` を作って貼る。
+5. `scripts/local_ramen_update.sh` を一度実行して確認する。
+6. `scripts/local_weather_notify.sh` をドライランまたはテスト送信で確認する。
+7. LaunchAgentを登録し直す。
+8. `pmset` でMac自動起床を設定する。
