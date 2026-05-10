@@ -185,8 +185,8 @@ def build_attention(forecasts):
 
 
 def build_payload(target_date, weekday, route, forecasts, url="/weather"):
-    title = f"【天】明日の配送天気：{WEEKDAY_LABELS[weekday]}／{'・'.join(route)}"
-    lines = ["【天】配送天気"]
+    title = "天"
+    lines = [f"明日の配送天気：{WEEKDAY_LABELS[weekday]}／{'・'.join(route)}"]
 
     for item in forecasts:
         lines.append(
