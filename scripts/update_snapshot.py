@@ -32,15 +32,17 @@ def build_notification_payload(added_shops):
     if len(added_shops) == 1:
         shop = added_shops[0]
         title = "【ラ】ラーメン新店が追加されました"
-        body = f"{shop.get('area', '')}: {shop.get('name', '')}"
+        body = f"【ラ】{shop.get('area', '')}: {shop.get('name', '')}"
     else:
         title = f"【ラ】ラーメン新店が{len(added_shops)}件追加されました"
-        body = "、".join(f"{area}{len(shops)}件" for area, shops in by_area.items())
+        body = "【ラ】" + "、".join(f"{area}{len(shops)}件" for area, shops in by_area.items())
 
     return {
         "title": title,
         "body": body,
         "url": push_notifications.app_base_url(),
+        "icon": "/static/icons/ramen.svg",
+        "badge": "/static/icons/ramen.svg",
     }
 
 

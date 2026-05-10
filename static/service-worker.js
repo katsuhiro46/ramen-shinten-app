@@ -23,8 +23,8 @@ self.addEventListener('push', (event) => {
 
     const options = {
         body: payload.body,
-        icon: '/static/icons/icon.svg',
-        badge: '/static/icons/icon.svg',
+        icon: payload.icon || '/static/icons/icon.svg',
+        badge: payload.badge || payload.icon || '/static/icons/icon.svg',
         tag: payload.tag || `ramen-shinten-${Date.now()}`,
         renotify: true,
         requireInteraction: true,
