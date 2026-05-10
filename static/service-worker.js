@@ -8,7 +8,7 @@ self.addEventListener('activate', (event) => {
 
 self.addEventListener('push', (event) => {
     let payload = {
-        title: 'ラーメン新店速報',
+        title: '【ラ】ラーメン新店速報',
         body: '新しいお店が追加されました',
         url: '/',
     };
