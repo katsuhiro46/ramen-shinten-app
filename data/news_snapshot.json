@@ -99,7 +99,7 @@
       "url": "https://ramendb.supleks.jp/s/172210.html",
       "city": "高崎市",
       "open_date": "2026年3月15日",
-      "point": "82.78",
+      "point": "82.79",
       "review_count": 1
     },
     {
@@ -211,6 +211,15 @@
       "review_count": 0
     },
     {
+      "name": "肉のオオモリ製作所 鶴田店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/173286.html",
+      "city": "宇都宮市",
+      "open_date": "2026年4月11日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "ニューラーメンショップ 西那須野店",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/172451.html",
@@ -252,7 +261,7 @@
       "url": "https://ramendb.supleks.jp/s/172896.html",
       "city": "佐野市",
       "open_date": "2026年3月17日",
-      "point": "82.92",
+      "point": "82.93",
       "review_count": 1
     },
     {
@@ -353,15 +362,6 @@
       "open_date": "2025年12月25日",
       "point": "82.33",
       "review_count": 1
-    },
-    {
-      "name": "麺屋 二周目",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/169463.html",
-      "city": "佐野市",
-      "open_date": "2025年12月21日",
-      "point": "87.36",
-      "review_count": 7
     },
     {
       "name": "中華蕎麦 三藤 つくば店",
@@ -679,6 +679,15 @@
       "review_count": 1
     },
     {
+      "name": "らぁ麺や 晴",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/172983.html",
+      "city": "さいたま市西区",
+      "open_date": "2026年4月25日",
+      "point": "82.67",
+      "review_count": 1
+    },
+    {
       "name": "金田家 九州・沖縄物産展/丸広川越",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/172732.html",
@@ -712,15 +721,6 @@
       "city": "所沢市",
       "open_date": "2026年4月10日",
       "point": "84.38",
-      "review_count": 3
-    },
-    {
-      "name": "長崎亭",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172474.html",
-      "city": "志木市",
-      "open_date": "2026年4月4日",
-      "point": "88.01",
       "review_count": 3
     }
   ]
