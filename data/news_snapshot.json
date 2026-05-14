@@ -342,7 +342,7 @@
       "url": "https://ramendb.supleks.jp/s/170498.html",
       "city": "真岡市",
       "open_date": "2026年1月17日",
-      "point": "83.68",
+      "point": "83.69",
       "review_count": 3
     },
     {
@@ -441,7 +441,7 @@
       "url": "https://ramendb.supleks.jp/s/172584.html",
       "city": "つくば市",
       "open_date": "2026年4月2日",
-      "point": "87.07",
+      "point": "87.08",
       "review_count": 6
     },
     {
@@ -459,7 +459,7 @@
       "url": "https://ramendb.supleks.jp/s/171849.html",
       "city": "結城市",
       "open_date": "2026年3月22日",
-      "point": "87.26",
+      "point": "87.27",
       "review_count": 7
     },
     {
@@ -504,7 +504,7 @@
       "url": "https://ramendb.supleks.jp/s/169624.html",
       "city": "つくば市",
       "open_date": "2026年3月13日",
-      "point": "85.39",
+      "point": "85.40",
       "review_count": 14
     },
     {
@@ -598,6 +598,15 @@
       "review_count": 0
     },
     {
+      "name": "めんや 壱龍",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173296.html",
+      "city": "戸田市",
+      "open_date": "2026年5月8日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "NOBU kitchenぬーどる",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/172356.html",
@@ -666,7 +675,7 @@
       "url": "https://ramendb.supleks.jp/s/172814.html",
       "city": "八潮市",
       "open_date": "2026年4月28日",
-      "point": "89.32",
+      "point": "89.33",
       "review_count": 8
     },
     {
@@ -713,15 +722,6 @@
       "open_date": "2026年4月11日",
       "point": "0.00",
       "review_count": 0
-    },
-    {
-      "name": "麺屋 敬 所沢店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172721.html",
-      "city": "所沢市",
-      "open_date": "2026年4月10日",
-      "point": "84.38",
-      "review_count": 3
     }
   ]
 }
