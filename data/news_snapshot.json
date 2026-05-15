@@ -288,7 +288,7 @@
       "url": "https://ramendb.supleks.jp/s/171858.html",
       "city": "小山市",
       "open_date": "2026年3月5日",
-      "point": "84.21",
+      "point": "84.22",
       "review_count": 3
     },
     {
@@ -589,6 +589,15 @@
       "review_count": 0
     },
     {
+      "name": "麺処 赤兎馬 初夏の北海道物産展/丸広川越",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173320.html",
+      "city": "川越市",
+      "open_date": "2026年5月28日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "全国ラーメンフェスタ 春の陣2026 IN久喜菖蒲",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/173275.html",
@@ -598,13 +607,22 @@
       "review_count": 0
     },
     {
+      "name": "本気味噌ラーメン 肉玉ジョー 初夏の北海道物産展/丸広川越",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173321.html",
+      "city": "川越市",
+      "open_date": "2026年5月20日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "めんや 壱龍",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/173296.html",
       "city": "戸田市",
       "open_date": "2026年5月8日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.57",
+      "review_count": 1
     },
     {
       "name": "NOBU kitchenぬーどる",
@@ -702,26 +720,8 @@
       "url": "https://ramendb.supleks.jp/s/172732.html",
       "city": "川越市",
       "open_date": "2026年4月15日",
-      "point": "83.36",
+      "point": "83.37",
       "review_count": 2
-    },
-    {
-      "name": "麺屋あさひ",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172803.html",
-      "city": "本庄市",
-      "open_date": "2026年4月15日",
-      "point": "85.37",
-      "review_count": 4
-    },
-    {
-      "name": "七宝麻辣湯 Equia川越店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/171796.html",
-      "city": "川越市",
-      "open_date": "2026年4月11日",
-      "point": "0.00",
-      "review_count": 0
     }
   ]
 }
