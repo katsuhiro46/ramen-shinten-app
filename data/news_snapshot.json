@@ -27,8 +27,17 @@
       "url": "https://ramendb.supleks.jp/s/173206.html",
       "city": "高崎市",
       "open_date": "2026年5月1日",
-      "point": "82.81",
+      "point": "82.82",
       "review_count": 1
+    },
+    {
+      "name": "孔府麻辣烫",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/173363.html",
+      "city": "高崎市",
+      "open_date": "2026年4月3日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "孔府麻辣烫",
@@ -63,7 +72,7 @@
       "url": "https://ramendb.supleks.jp/s/172473.html",
       "city": "高崎市",
       "open_date": "2026年3月26日",
-      "point": "82.31",
+      "point": "82.32",
       "review_count": 1
     },
     {
@@ -135,7 +144,7 @@
       "url": "https://ramendb.supleks.jp/s/171768.html",
       "city": "太田市",
       "open_date": "2026年2月27日",
-      "point": "86.80",
+      "point": "86.81",
       "review_count": 8
     },
     {
@@ -173,15 +182,6 @@
       "open_date": "2026年2月13日",
       "point": "83.36",
       "review_count": 3
-    },
-    {
-      "name": "博多豚骨ラーメン ブタになります。",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/171392.html",
-      "city": "伊勢崎市",
-      "open_date": "2026年2月12日",
-      "point": "82.37",
-      "review_count": 1
     },
     {
       "name": "井岡屋 東武駅前店",
@@ -423,7 +423,7 @@
       "url": "https://ramendb.supleks.jp/s/170133.html",
       "city": "つくば市",
       "open_date": "2026年4月9日",
-      "point": "89.92",
+      "point": "89.93",
       "review_count": 8
     },
     {
