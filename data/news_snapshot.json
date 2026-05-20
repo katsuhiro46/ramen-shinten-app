@@ -184,6 +184,15 @@
       "review_count": 3
     },
     {
+      "name": "麦わら製麺所",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/173395.html",
+      "city": "宇都宮市",
+      "open_date": "2026年5月1日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "井岡屋 東武駅前店",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/172965.html",
@@ -234,7 +243,7 @@
       "url": "https://ramendb.supleks.jp/s/172539.html",
       "city": "鹿沼市",
       "open_date": "2026年3月31日",
-      "point": "82.63",
+      "point": "82.64",
       "review_count": 1
     },
     {
@@ -297,7 +306,7 @@
       "url": "https://ramendb.supleks.jp/s/171415.html",
       "city": "佐野市",
       "open_date": "2026年2月21日",
-      "point": "82.62",
+      "point": "82.63",
       "review_count": 1
     },
     {
@@ -353,15 +362,6 @@
       "open_date": "2026年1月4日",
       "point": "83.44",
       "review_count": 2
-    },
-    {
-      "name": "小山 麻辣燙",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/170147.html",
-      "city": "小山市",
-      "open_date": "2025年12月25日",
-      "point": "82.33",
-      "review_count": 1
     },
     {
       "name": "中華蕎麦 三藤 つくば店",
@@ -657,7 +657,7 @@
       "url": "https://ramendb.supleks.jp/s/172528.html",
       "city": "深谷市",
       "open_date": "2026年5月4日",
-      "point": "83.33",
+      "point": "83.34",
       "review_count": 1
     },
     {
