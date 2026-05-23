@@ -382,6 +382,24 @@
       "review_count": 0
     },
     {
+      "name": "しょうどう らーめん",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173432.html",
+      "city": "つくば市",
+      "open_date": "2026年5月24日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "極上煮干らぁめん 大漁丸",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173422.html",
+      "city": "坂東市",
+      "open_date": "2026年5月20日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "土浦屋台風ラーメン幸楽",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/173149.html",
@@ -524,24 +542,6 @@
       "open_date": "2026年3月6日",
       "point": "85.73",
       "review_count": 7
-    },
-    {
-      "name": "麺屋 つばき亭 古河店",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/171848.html",
-      "city": "古河市",
-      "open_date": "2026年3月6日",
-      "point": "89.97",
-      "review_count": 10
-    },
-    {
-      "name": "屋台ラーメン 三華月",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/171770.html",
-      "city": "水戸市",
-      "open_date": "2026年3月5日",
-      "point": "82.43",
-      "review_count": 1
     },
     {
       "name": "リンガーハット 志木店",
