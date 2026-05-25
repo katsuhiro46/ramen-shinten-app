@@ -184,6 +184,15 @@
       "review_count": 3
     },
     {
+      "name": "麺屋 澤",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/173463.html",
+      "city": "小山市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "麦わら製麺所",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/173395.html",
@@ -315,7 +324,7 @@
       "url": "https://ramendb.supleks.jp/s/171142.html",
       "city": "小山市",
       "open_date": "2026年2月3日",
-      "point": "82.36",
+      "point": "82.37",
       "review_count": 1
     },
     {
@@ -355,24 +364,6 @@
       "review_count": 3
     },
     {
-      "name": "むーちゃんラーメン 鹿沼店",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/169575.html",
-      "city": "鹿沼市",
-      "open_date": "2026年1月4日",
-      "point": "83.45",
-      "review_count": 2
-    },
-    {
-      "name": "中華蕎麦 三藤 つくば店",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/173221.html",
-      "city": "つくば市",
-      "open_date": "オープン日未定",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
       "name": "ラーメン日本一やまがた 七代目",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/159375.html",
@@ -382,13 +373,22 @@
       "review_count": 0
     },
     {
+      "name": "中華蕎麦 三藤 つくば店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173221.html",
+      "city": "つくば市",
+      "open_date": "2026年5月25日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "しょうどう らーめん",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/173432.html",
       "city": "つくば市",
       "open_date": "2026年5月24日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.68",
+      "review_count": 1
     },
     {
       "name": "極上煮干らぁめん 大漁丸",
@@ -396,8 +396,8 @@
       "url": "https://ramendb.supleks.jp/s/173422.html",
       "city": "坂東市",
       "open_date": "2026年5月20日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.63",
+      "review_count": 1
     },
     {
       "name": "土浦屋台風ラーメン幸楽",
