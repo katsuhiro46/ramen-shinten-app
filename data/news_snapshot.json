@@ -27,7 +27,7 @@
       "url": "https://ramendb.supleks.jp/s/172898.html",
       "city": "高崎市",
       "open_date": "2026年5月11日",
-      "point": "82.82",
+      "point": "82.83",
       "review_count": 1
     },
     {
@@ -373,6 +373,15 @@
       "review_count": 0
     },
     {
+      "name": "ラーメン処 市丸製麺",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173529.html",
+      "city": "取手市",
+      "open_date": "2026年5月28日",
+      "point": "82.56",
+      "review_count": 1
+    },
+    {
       "name": "中華蕎麦 三藤 つくば店",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/173221.html",
@@ -535,15 +544,6 @@
       "review_count": 13
     },
     {
-      "name": "スープと麺フェスティバル",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/171158.html",
-      "city": "水戸市",
-      "open_date": "2026年3月6日",
-      "point": "85.73",
-      "review_count": 7
-    },
-    {
       "name": "リンガーハット 志木店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/172761.html",
@@ -585,8 +585,17 @@
       "url": "https://ramendb.supleks.jp/s/172992.html",
       "city": "東松山市",
       "open_date": "2026年5月30日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.77",
+      "review_count": 1
+    },
+    {
+      "name": "横浜家系ラーメン 壱角家 川越クレアモール店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/158168.html",
+      "city": "川越市",
+      "open_date": "2026年5月29日",
+      "point": "83.99",
+      "review_count": 3
     },
     {
       "name": "本気味噌ラーメン 肉玉ジョー 初夏の北海道物産展/丸広川越",
@@ -713,15 +722,6 @@
       "open_date": "2026年4月25日",
       "point": "82.68",
       "review_count": 1
-    },
-    {
-      "name": "金田家 九州・沖縄物産展/丸広川越",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172732.html",
-      "city": "川越市",
-      "open_date": "2026年4月15日",
-      "point": "83.37",
-      "review_count": 2
     }
   ]
 }
