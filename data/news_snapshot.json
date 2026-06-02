@@ -580,6 +580,15 @@
       "review_count": 0
     },
     {
+      "name": "餃子のしのちゃん",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173564.html",
+      "city": "南埼玉郡",
+      "open_date": "2026年5月30日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "覆麺 神田",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/172992.html",
@@ -712,15 +721,6 @@
       "city": "戸田市",
       "open_date": "2026年4月25日",
       "point": "82.62",
-      "review_count": 1
-    },
-    {
-      "name": "らぁ麺や 晴",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172983.html",
-      "city": "さいたま市西区",
-      "open_date": "2026年4月25日",
-      "point": "82.68",
       "review_count": 1
     }
   ]
