@@ -378,7 +378,7 @@
       "url": "https://ramendb.supleks.jp/s/173529.html",
       "city": "取手市",
       "open_date": "2026年5月28日",
-      "point": "82.57",
+      "point": "82.56",
       "review_count": 1
     },
     {
@@ -472,6 +472,15 @@
       "review_count": 6
     },
     {
+      "name": "日高屋 ファッションクルーズひたちなか内",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173580.html",
+      "city": "ひたちなか市",
+      "open_date": "2026年4月1日",
+      "point": "82.62",
+      "review_count": 1
+    },
+    {
       "name": "ラーメン食堂 あつ森",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/172577.html",
@@ -533,15 +542,6 @@
       "open_date": "2026年3月13日",
       "point": "85.40",
       "review_count": 14
-    },
-    {
-      "name": "味噌ラーメン山岡家 阿見店",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/171102.html",
-      "city": "稲敷郡",
-      "open_date": "2026年3月11日",
-      "point": "90.83",
-      "review_count": 13
     },
     {
       "name": "リンガーハット 志木店",
