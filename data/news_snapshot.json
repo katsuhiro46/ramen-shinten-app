@@ -576,6 +576,24 @@
       "url": "https://ramendb.supleks.jp/s/172728.html",
       "city": "川口市",
       "open_date": "2026年6月6日",
+      "point": "82.67",
+      "review_count": 1
+    },
+    {
+      "name": "横浜家系ラーメン 虎神家",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173625.html",
+      "city": "北本市",
+      "open_date": "2026年6月5日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "れんげ食堂Toshu イオンタウン吉川美南店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173632.html",
+      "city": "吉川市",
+      "open_date": "2026年5月30日",
       "point": "0.00",
       "review_count": 0
     },
@@ -704,24 +722,6 @@
       "open_date": "2026年4月30日",
       "point": "82.92",
       "review_count": 2
-    },
-    {
-      "name": "食堂ミサ 八潮店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172814.html",
-      "city": "八潮市",
-      "open_date": "2026年4月28日",
-      "point": "89.33",
-      "review_count": 8
-    },
-    {
-      "name": "元祖・屋台ラーメン とんとん丸",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173133.html",
-      "city": "戸田市",
-      "open_date": "2026年4月25日",
-      "point": "82.62",
-      "review_count": 1
     }
   ]
 }
