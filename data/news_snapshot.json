@@ -324,7 +324,7 @@
       "url": "https://ramendb.supleks.jp/s/171142.html",
       "city": "小山市",
       "open_date": "2026年2月3日",
-      "point": "82.37",
+      "point": "82.36",
       "review_count": 1
     },
     {
@@ -369,6 +369,15 @@
       "url": "https://ramendb.supleks.jp/s/159375.html",
       "city": "日立市",
       "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "北ノ醤油チーホー つくば店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173690.html",
+      "city": "つくば市",
+      "open_date": "2026年6月15日",
       "point": "0.00",
       "review_count": 0
     },
@@ -533,15 +542,6 @@
       "open_date": "2026年3月17日",
       "point": "86.26",
       "review_count": 5
-    },
-    {
-      "name": "大つけ麺博Presents つくばラーメン祭2026",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/169624.html",
-      "city": "つくば市",
-      "open_date": "2026年3月13日",
-      "point": "85.40",
-      "review_count": 14
     },
     {
       "name": "リンガーハット 志木店",
