@@ -18,7 +18,7 @@
       "url": "https://ramendb.supleks.jp/s/173503.html",
       "city": "渋川市",
       "open_date": "2026年5月18日",
-      "point": "82.86",
+      "point": "82.85",
       "review_count": 1
     },
     {
@@ -81,7 +81,7 @@
       "url": "https://ramendb.supleks.jp/s/172473.html",
       "city": "高崎市",
       "open_date": "2026年3月26日",
-      "point": "82.38",
+      "point": "82.37",
       "review_count": 1
     },
     {
@@ -180,7 +180,7 @@
       "url": "https://ramendb.supleks.jp/s/171468.html",
       "city": "高崎市",
       "open_date": "2026年2月14日",
-      "point": "82.83",
+      "point": "82.78",
       "review_count": 1
     },
     {
@@ -198,8 +198,8 @@
       "url": "https://ramendb.supleks.jp/s/173713.html",
       "city": "佐野市",
       "open_date": "2026年6月11日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.48",
+      "review_count": 1
     },
     {
       "name": "麦わら製麺所",
@@ -243,7 +243,7 @@
       "url": "https://ramendb.supleks.jp/s/173286.html",
       "city": "宇都宮市",
       "open_date": "2026年4月11日",
-      "point": "83.49",
+      "point": "83.48",
       "review_count": 3
     },
     {
@@ -360,7 +360,7 @@
       "url": "https://ramendb.supleks.jp/s/170969.html",
       "city": "宇都宮市",
       "open_date": "2026年1月30日",
-      "point": "82.20",
+      "point": "82.16",
       "review_count": 1
     },
     {
@@ -414,7 +414,7 @@
       "url": "https://ramendb.supleks.jp/s/173422.html",
       "city": "坂東市",
       "open_date": "2026年5月20日",
-      "point": "85.52",
+      "point": "85.51",
       "review_count": 4
     },
     {
@@ -477,7 +477,7 @@
       "url": "https://ramendb.supleks.jp/s/172584.html",
       "city": "つくば市",
       "open_date": "2026年4月2日",
-      "point": "87.82",
+      "point": "87.81",
       "review_count": 7
     },
     {
@@ -504,7 +504,7 @@
       "url": "https://ramendb.supleks.jp/s/171849.html",
       "city": "結城市",
       "open_date": "2026年3月22日",
-      "point": "87.33",
+      "point": "87.32",
       "review_count": 7
     },
     {
@@ -571,13 +571,22 @@
       "review_count": 0
     },
     {
+      "name": "ラーメンショップ◯改",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173725.html",
+      "city": "さいたま市北区",
+      "open_date": "2026年6月27日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "背脂ネギラーメン とんび",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/172728.html",
       "city": "川口市",
       "open_date": "2026年6月6日",
-      "point": "82.72",
-      "review_count": 1
+      "point": "83.55",
+      "review_count": 2
     },
     {
       "name": "横浜家系ラーメン 虎神家",
@@ -713,15 +722,6 @@
       "open_date": "2026年5月2日",
       "point": "89.43",
       "review_count": 10
-    },
-    {
-      "name": "ラーメンショップ☆オヨヨ",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/171498.html",
-      "city": "行田市",
-      "open_date": "2026年4月30日",
-      "point": "85.71",
-      "review_count": 5
     }
   ]
 }
