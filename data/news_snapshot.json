@@ -117,7 +117,7 @@
       "url": "https://ramendb.supleks.jp/s/172210.html",
       "city": "高崎市",
       "open_date": "2026年3月15日",
-      "point": "82.85",
+      "point": "82.84",
       "review_count": 1
     },
     {
@@ -315,7 +315,7 @@
       "url": "https://ramendb.supleks.jp/s/171858.html",
       "city": "小山市",
       "open_date": "2026年3月5日",
-      "point": "84.27",
+      "point": "84.22",
       "review_count": 3
     },
     {
@@ -369,6 +369,15 @@
       "url": "https://ramendb.supleks.jp/s/159375.html",
       "city": "日立市",
       "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "カニらーめん かみすや",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173794.html",
+      "city": "神栖市",
+      "open_date": "2026年7月9日",
       "point": "0.00",
       "review_count": 0
     },
@@ -459,8 +468,8 @@
       "url": "https://ramendb.supleks.jp/s/170133.html",
       "city": "つくば市",
       "open_date": "2026年4月9日",
-      "point": "91.78",
-      "review_count": 14
+      "point": "91.84",
+      "review_count": 16
     },
     {
       "name": "白河手打中華そば 法隆",
@@ -535,15 +544,6 @@
       "review_count": 1
     },
     {
-      "name": "麺と酒 なないち",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/172232.html",
-      "city": "つくば市",
-      "open_date": "2026年3月17日",
-      "point": "86.17",
-      "review_count": 5
-    },
-    {
       "name": "リンガーハット 志木店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/172761.html",
@@ -596,6 +596,15 @@
       "open_date": "2026年6月5日",
       "point": "83.10",
       "review_count": 2
+    },
+    {
+      "name": "大穀",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173785.html",
+      "city": "飯能市",
+      "open_date": "2026年6月4日",
+      "point": "79.72",
+      "review_count": 0
     },
     {
       "name": "れんげ食堂Toshu イオンタウン吉川美南店",
@@ -666,7 +675,7 @@
       "url": "https://ramendb.supleks.jp/s/173296.html",
       "city": "戸田市",
       "open_date": "2026年5月8日",
-      "point": "83.66",
+      "point": "83.65",
       "review_count": 2
     },
     {
@@ -713,15 +722,6 @@
       "open_date": "2026年5月2日",
       "point": "0.00",
       "review_count": 0
-    },
-    {
-      "name": "ラーメンショップ 〇波 東川口店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172694.html",
-      "city": "川口市",
-      "open_date": "2026年5月2日",
-      "point": "89.43",
-      "review_count": 10
     }
   ]
 }
