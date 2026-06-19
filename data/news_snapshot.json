@@ -9,7 +9,7 @@
       "url": "https://ramendb.supleks.jp/s/172858.html",
       "city": "太田市",
       "open_date": "2026年5月28日",
-      "point": "82.49",
+      "point": "82.48",
       "review_count": 1
     },
     {
@@ -117,7 +117,7 @@
       "url": "https://ramendb.supleks.jp/s/172210.html",
       "city": "高崎市",
       "open_date": "2026年3月15日",
-      "point": "82.84",
+      "point": "82.78",
       "review_count": 1
     },
     {
@@ -225,7 +225,7 @@
       "url": "https://ramendb.supleks.jp/s/172846.html",
       "city": "宇都宮市",
       "open_date": "2026年4月17日",
-      "point": "88.14",
+      "point": "88.13",
       "review_count": 7
     },
     {
@@ -391,6 +391,15 @@
       "review_count": 5
     },
     {
+      "name": "らーめん 源ニ",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173796.html",
+      "city": "桜川市",
+      "open_date": "2026年6月2日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "ラーメン処 市丸製麺",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/173529.html",
@@ -504,7 +513,7 @@
       "url": "https://ramendb.supleks.jp/s/172577.html",
       "city": "水戸市",
       "open_date": "2026年4月1日",
-      "point": "88.52",
+      "point": "88.51",
       "review_count": 8
     },
     {
@@ -533,15 +542,6 @@
       "open_date": "2026年3月19日",
       "point": "84.59",
       "review_count": 3
-    },
-    {
-      "name": "麺や がく",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/172531.html",
-      "city": "ひたちなか市",
-      "open_date": "2026年3月17日",
-      "point": "82.46",
-      "review_count": 1
     },
     {
       "name": "リンガーハット 志木店",
@@ -585,8 +585,8 @@
       "url": "https://ramendb.supleks.jp/s/172728.html",
       "city": "川口市",
       "open_date": "2026年6月6日",
-      "point": "84.53",
-      "review_count": 3
+      "point": "85.35",
+      "review_count": 4
     },
     {
       "name": "横浜家系ラーメン 虎神家",
@@ -603,7 +603,7 @@
       "url": "https://ramendb.supleks.jp/s/173785.html",
       "city": "飯能市",
       "open_date": "2026年6月4日",
-      "point": "79.72",
+      "point": "79.71",
       "review_count": 0
     },
     {
@@ -684,8 +684,8 @@
       "url": "https://ramendb.supleks.jp/s/172356.html",
       "city": "朝霞市",
       "open_date": "2026年5月7日",
-      "point": "95.71",
-      "review_count": 18
+      "point": "95.91",
+      "review_count": 19
     },
     {
       "name": "麺屋 誉",
