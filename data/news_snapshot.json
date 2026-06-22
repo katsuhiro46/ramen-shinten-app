@@ -36,7 +36,7 @@
       "url": "https://ramendb.supleks.jp/s/173206.html",
       "city": "高崎市",
       "open_date": "2026年5月1日",
-      "point": "83.80",
+      "point": "83.79",
       "review_count": 2
     },
     {
@@ -72,7 +72,7 @@
       "url": "https://ramendb.supleks.jp/s/172763.html",
       "city": "伊勢崎市",
       "open_date": "2026年4月1日",
-      "point": "84.65",
+      "point": "84.64",
       "review_count": 4
     },
     {
@@ -441,8 +441,17 @@
       "url": "https://ramendb.supleks.jp/s/173149.html",
       "city": "土浦市",
       "open_date": "2026年5月2日",
-      "point": "84.43",
+      "point": "84.42",
       "review_count": 4
+    },
+    {
+      "name": "らぁ～麺 まるわ 鹿島店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173840.html",
+      "city": "鹿嶋市",
+      "open_date": "2026年4月28日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "ラーメンショップ 魔女の味 小美玉店",
@@ -486,8 +495,8 @@
       "url": "https://ramendb.supleks.jp/s/170770.html",
       "city": "水戸市",
       "open_date": "2026年4月7日",
-      "point": "92.18",
-      "review_count": 9
+      "point": "92.17",
+      "review_count": 10
     },
     {
       "name": "中華そば たまちゃん",
@@ -522,7 +531,7 @@
       "url": "https://ramendb.supleks.jp/s/171849.html",
       "city": "結城市",
       "open_date": "2026年3月22日",
-      "point": "87.32",
+      "point": "87.26",
       "review_count": 7
     },
     {
@@ -533,15 +542,6 @@
       "open_date": "2026年3月20日",
       "point": "87.30",
       "review_count": 7
-    },
-    {
-      "name": "旭川らあめん季",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/171795.html",
-      "city": "水戸市",
-      "open_date": "2026年3月19日",
-      "point": "84.59",
-      "review_count": 3
     },
     {
       "name": "リンガーハット 志木店",
