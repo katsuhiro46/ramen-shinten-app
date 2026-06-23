@@ -135,7 +135,7 @@
       "url": "https://ramendb.supleks.jp/s/171852.html",
       "city": "高崎市",
       "open_date": "2026年3月5日",
-      "point": "82.24",
+      "point": "82.20",
       "review_count": 2
     },
     {
@@ -171,7 +171,7 @@
       "url": "https://ramendb.supleks.jp/s/169396.html",
       "city": "太田市",
       "open_date": "2026年2月20日",
-      "point": "87.85",
+      "point": "87.84",
       "review_count": 9
     },
     {
@@ -198,7 +198,7 @@
       "url": "https://ramendb.supleks.jp/s/173713.html",
       "city": "佐野市",
       "open_date": "2026年6月11日",
-      "point": "83.26",
+      "point": "83.25",
       "review_count": 2
     },
     {
@@ -382,6 +382,15 @@
       "review_count": 0
     },
     {
+      "name": "横浜家系ラーメン 壱角家 結城バイパス店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/173860.html",
+      "city": "結城市",
+      "open_date": "2026年7月2日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "北ノ醤油チーホー つくば店",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/173690.html",
@@ -531,16 +540,7 @@
       "url": "https://ramendb.supleks.jp/s/171849.html",
       "city": "結城市",
       "open_date": "2026年3月22日",
-      "point": "87.26",
-      "review_count": 7
-    },
-    {
-      "name": "どうとんぼり 神座 イーアスつくば店",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/172380.html",
-      "city": "つくば市",
-      "open_date": "2026年3月20日",
-      "point": "87.30",
+      "point": "87.24",
       "review_count": 7
     },
     {
@@ -585,8 +585,8 @@
       "url": "https://ramendb.supleks.jp/s/172728.html",
       "city": "川口市",
       "open_date": "2026年6月6日",
-      "point": "85.35",
-      "review_count": 4
+      "point": "86.09",
+      "review_count": 5
     },
     {
       "name": "横浜家系ラーメン 虎神家",
@@ -621,8 +621,8 @@
       "url": "https://ramendb.supleks.jp/s/173564.html",
       "city": "南埼玉郡",
       "open_date": "2026年5月30日",
-      "point": "84.49",
-      "review_count": 3
+      "point": "85.40",
+      "review_count": 4
     },
     {
       "name": "覆麺 神田",
@@ -630,8 +630,8 @@
       "url": "https://ramendb.supleks.jp/s/172992.html",
       "city": "東松山市",
       "open_date": "2026年5月30日",
-      "point": "88.28",
-      "review_count": 7
+      "point": "88.11",
+      "review_count": 8
     },
     {
       "name": "横浜家系ラーメン 壱角家 川越クレアモール店",
@@ -648,7 +648,7 @@
       "url": "https://ramendb.supleks.jp/s/173320.html",
       "city": "川越市",
       "open_date": "2026年5月28日",
-      "point": "82.61",
+      "point": "82.60",
       "review_count": 1
     },
     {
@@ -693,7 +693,7 @@
       "url": "https://ramendb.supleks.jp/s/172281.html",
       "city": "川越市",
       "open_date": "2026年5月7日",
-      "point": "92.75",
+      "point": "92.74",
       "review_count": 7
     },
     {
