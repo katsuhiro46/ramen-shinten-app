@@ -99,7 +99,7 @@
       "url": "https://ramendb.supleks.jp/s/172513.html",
       "city": "富岡市",
       "open_date": "2026年3月17日",
-      "point": "82.36",
+      "point": "82.30",
       "review_count": 1
     },
     {
@@ -225,7 +225,7 @@
       "url": "https://ramendb.supleks.jp/s/172846.html",
       "city": "宇都宮市",
       "open_date": "2026年4月17日",
-      "point": "88.13",
+      "point": "88.12",
       "review_count": 7
     },
     {
@@ -432,7 +432,7 @@
       "url": "https://ramendb.supleks.jp/s/173432.html",
       "city": "つくば市",
       "open_date": "2026年5月24日",
-      "point": "84.82",
+      "point": "84.81",
       "review_count": 3
     },
     {
@@ -567,6 +567,15 @@
       "url": "https://ramendb.supleks.jp/s/168978.html",
       "city": "さいたま市北区",
       "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "豚骨ラーメン 福の軒 北浦和",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173879.html",
+      "city": "さいたま市浦和区",
+      "open_date": "2026年7月9日",
       "point": "0.00",
       "review_count": 0
     },
@@ -713,15 +722,6 @@
       "open_date": "2026年5月4日",
       "point": "88.08",
       "review_count": 9
-    },
-    {
-      "name": "四六四九麻辣燙",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173155.html",
-      "city": "川越市",
-      "open_date": "2026年5月2日",
-      "point": "0.00",
-      "review_count": 0
     }
   ]
 }
