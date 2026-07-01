@@ -396,8 +396,8 @@
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "87.59",
-      "review_count": 8
+      "point": "88.42",
+      "review_count": 9
     },
     {
       "name": "らーめん 源ニ",
@@ -423,7 +423,7 @@
       "url": "https://ramendb.supleks.jp/s/173221.html",
       "city": "つくば市",
       "open_date": "2026年5月25日",
-      "point": "84.56",
+      "point": "84.55",
       "review_count": 3
     },
     {
@@ -531,7 +531,7 @@
       "url": "https://ramendb.supleks.jp/s/172577.html",
       "city": "水戸市",
       "open_date": "2026年4月1日",
-      "point": "89.30",
+      "point": "89.29",
       "review_count": 9
     },
     {
@@ -571,6 +571,15 @@
       "review_count": 0
     },
     {
+      "name": "国武屋ドカ盛り研究所 ブタ姫",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173967.html",
+      "city": "坂戸市",
+      "open_date": "2026年7月11日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "豚骨ラーメン 福の軒 北浦和",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/173879.html",
@@ -603,7 +612,7 @@
       "url": "https://ramendb.supleks.jp/s/173625.html",
       "city": "北本市",
       "open_date": "2026年6月5日",
-      "point": "83.12",
+      "point": "83.10",
       "review_count": 2
     },
     {
@@ -675,7 +684,7 @@
       "url": "https://ramendb.supleks.jp/s/173321.html",
       "city": "川越市",
       "open_date": "2026年5月20日",
-      "point": "83.25",
+      "point": "83.24",
       "review_count": 2
     },
     {
@@ -702,8 +711,8 @@
       "url": "https://ramendb.supleks.jp/s/172281.html",
       "city": "川越市",
       "open_date": "2026年5月7日",
-      "point": "92.72",
-      "review_count": 9
+      "point": "92.65",
+      "review_count": 10
     },
     {
       "name": "ラーメン&ホルモン 勇成",
@@ -713,15 +722,6 @@
       "open_date": "2026年5月6日",
       "point": "89.35",
       "review_count": 2
-    },
-    {
-      "name": "深谷らーめん 藤や",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172528.html",
-      "city": "深谷市",
-      "open_date": "2026年5月4日",
-      "point": "88.11",
-      "review_count": 9
     }
   ]
 }
