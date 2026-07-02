@@ -42,6 +42,15 @@
     {
       "name": "孔府麻辣烫",
       "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/173977.html",
+      "city": "高崎市",
+      "open_date": "2026年4月3日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "孔府麻辣烫",
+      "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/173363.html",
       "city": "高崎市",
       "open_date": "2026年4月3日",
@@ -175,20 +184,20 @@
       "review_count": 9
     },
     {
-      "name": "麺カフェ花京院",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/171468.html",
-      "city": "高崎市",
-      "open_date": "2026年2月14日",
-      "point": "82.80",
-      "review_count": 1
-    },
-    {
       "name": "麺屋 澤",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/173463.html",
       "city": "小山市",
       "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 1
+    },
+    {
+      "name": "麺処りょうや 足利店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/173983.html",
+      "city": "足利市",
+      "open_date": "2026年7月8日",
       "point": "0.00",
       "review_count": 0
     },
@@ -198,7 +207,7 @@
       "url": "https://ramendb.supleks.jp/s/173713.html",
       "city": "佐野市",
       "open_date": "2026年6月11日",
-      "point": "83.28",
+      "point": "83.26",
       "review_count": 2
     },
     {
@@ -261,7 +270,7 @@
       "url": "https://ramendb.supleks.jp/s/172539.html",
       "city": "鹿沼市",
       "open_date": "2026年3月31日",
-      "point": "82.64",
+      "point": "82.62",
       "review_count": 1
     },
     {
@@ -355,15 +364,6 @@
       "review_count": 0
     },
     {
-      "name": "手打ラーメン正宗",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/170969.html",
-      "city": "宇都宮市",
-      "open_date": "2026年1月30日",
-      "point": "82.18",
-      "review_count": 1
-    },
-    {
       "name": "ラーメン日本一やまがた 七代目",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/159375.html",
@@ -387,8 +387,8 @@
       "url": "https://ramendb.supleks.jp/s/173860.html",
       "city": "結城市",
       "open_date": "2026年7月2日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.54",
+      "review_count": 1
     },
     {
       "name": "北ノ醤油チーホー つくば店",
@@ -414,7 +414,7 @@
       "url": "https://ramendb.supleks.jp/s/173529.html",
       "city": "取手市",
       "open_date": "2026年5月28日",
-      "point": "86.78",
+      "point": "86.77",
       "review_count": 7
     },
     {
@@ -423,8 +423,8 @@
       "url": "https://ramendb.supleks.jp/s/173221.html",
       "city": "つくば市",
       "open_date": "2026年5月25日",
-      "point": "84.55",
-      "review_count": 3
+      "point": "85.56",
+      "review_count": 4
     },
     {
       "name": "しょうどう らーめん",
@@ -540,7 +540,7 @@
       "url": "https://ramendb.supleks.jp/s/171849.html",
       "city": "結城市",
       "open_date": "2026年3月22日",
-      "point": "87.27",
+      "point": "87.26",
       "review_count": 7
     },
     {
@@ -585,6 +585,15 @@
       "url": "https://ramendb.supleks.jp/s/173879.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年7月9日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "かわなべさんち",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173970.html",
+      "city": "春日部市",
+      "open_date": "2026年6月27日",
       "point": "0.00",
       "review_count": 0
     },
@@ -693,7 +702,7 @@
       "url": "https://ramendb.supleks.jp/s/173296.html",
       "city": "戸田市",
       "open_date": "2026年5月8日",
-      "point": "83.66",
+      "point": "83.65",
       "review_count": 2
     },
     {
@@ -711,17 +720,8 @@
       "url": "https://ramendb.supleks.jp/s/172281.html",
       "city": "川越市",
       "open_date": "2026年5月7日",
-      "point": "92.65",
-      "review_count": 10
-    },
-    {
-      "name": "ラーメン&ホルモン 勇成",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173091.html",
-      "city": "川越市",
-      "open_date": "2026年5月6日",
-      "point": "89.35",
-      "review_count": 2
+      "point": "92.62",
+      "review_count": 11
     }
   ]
 }
