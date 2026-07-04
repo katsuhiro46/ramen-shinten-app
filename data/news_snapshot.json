@@ -18,7 +18,7 @@
       "url": "https://ramendb.supleks.jp/s/173503.html",
       "city": "渋川市",
       "open_date": "2026年5月18日",
-      "point": "84.26",
+      "point": "84.29",
       "review_count": 3
     },
     {
@@ -180,7 +180,7 @@
       "url": "https://ramendb.supleks.jp/s/169396.html",
       "city": "太田市",
       "open_date": "2026年2月20日",
-      "point": "87.87",
+      "point": "87.86",
       "review_count": 9
     },
     {
@@ -405,7 +405,7 @@
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "89.10",
+      "point": "89.09",
       "review_count": 10
     },
     {
@@ -414,8 +414,8 @@
       "url": "https://ramendb.supleks.jp/s/173796.html",
       "city": "桜川市",
       "open_date": "2026年6月2日",
-      "point": "84.56",
-      "review_count": 3
+      "point": "85.44",
+      "review_count": 4
     },
     {
       "name": "ラーメン処 市丸製麺",
@@ -450,7 +450,7 @@
       "url": "https://ramendb.supleks.jp/s/173422.html",
       "city": "坂東市",
       "open_date": "2026年5月20日",
-      "point": "86.42",
+      "point": "86.40",
       "review_count": 5
     },
     {
@@ -544,6 +544,15 @@
       "review_count": 9
     },
     {
+      "name": "ラー麺ずんどう屋 川越店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173998.html",
+      "city": "川越市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "リンガーハット 志木店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/172761.html",
@@ -571,6 +580,15 @@
       "review_count": 0
     },
     {
+      "name": "国武屋 ドカ盛り研究所",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174006.html",
+      "city": "日高市",
+      "open_date": "2026年7月20日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "国武屋ドカ盛り研究所 ブタ姫",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/173967.html",
@@ -594,8 +612,8 @@
       "url": "https://ramendb.supleks.jp/s/173970.html",
       "city": "春日部市",
       "open_date": "2026年6月27日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.74",
+      "review_count": 1
     },
     {
       "name": "ラーメンショップ◯改",
@@ -704,24 +722,6 @@
       "open_date": "2026年5月8日",
       "point": "83.65",
       "review_count": 2
-    },
-    {
-      "name": "NOBU kitchenぬーどる",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172356.html",
-      "city": "朝霞市",
-      "open_date": "2026年5月7日",
-      "point": "95.91",
-      "review_count": 20
-    },
-    {
-      "name": "麺屋 誉",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172281.html",
-      "city": "川越市",
-      "open_date": "2026年5月7日",
-      "point": "92.62",
-      "review_count": 11
     }
   ]
 }
