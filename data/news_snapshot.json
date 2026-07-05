@@ -288,7 +288,7 @@
       "url": "https://ramendb.supleks.jp/s/171767.html",
       "city": "小山市",
       "open_date": "2026年3月27日",
-      "point": "87.10",
+      "point": "87.09",
       "review_count": 22
     },
     {
@@ -522,8 +522,8 @@
       "url": "https://ramendb.supleks.jp/s/172584.html",
       "city": "つくば市",
       "open_date": "2026年4月2日",
-      "point": "87.81",
-      "review_count": 7
+      "point": "88.63",
+      "review_count": 8
     },
     {
       "name": "日高屋 ファッションクルーズひたちなか内",
@@ -625,6 +625,15 @@
       "review_count": 3
     },
     {
+      "name": "担々麺と麻婆豆腐ととら",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174020.html",
+      "city": "熊谷市",
+      "open_date": "2026年6月23日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "背脂ネギラーメン とんび",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/172728.html",
@@ -693,7 +702,7 @@
       "url": "https://ramendb.supleks.jp/s/173320.html",
       "city": "川越市",
       "open_date": "2026年5月28日",
-      "point": "82.63",
+      "point": "82.60",
       "review_count": 1
     },
     {
@@ -711,16 +720,7 @@
       "url": "https://ramendb.supleks.jp/s/173321.html",
       "city": "川越市",
       "open_date": "2026年5月20日",
-      "point": "83.24",
-      "review_count": 2
-    },
-    {
-      "name": "めんや 壱龍",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173296.html",
-      "city": "戸田市",
-      "open_date": "2026年5月8日",
-      "point": "83.65",
+      "point": "83.22",
       "review_count": 2
     }
   ]
