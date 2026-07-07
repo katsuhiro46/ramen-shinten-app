@@ -81,7 +81,7 @@
       "url": "https://ramendb.supleks.jp/s/172763.html",
       "city": "伊勢崎市",
       "open_date": "2026年4月1日",
-      "point": "84.67",
+      "point": "84.66",
       "review_count": 4
     },
     {
@@ -184,13 +184,13 @@
       "review_count": 9
     },
     {
-      "name": "麺屋 澤",
+      "name": "麺匠 田村",
       "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/173463.html",
-      "city": "小山市",
-      "open_date": "オープン日未定",
+      "url": "https://ramendb.supleks.jp/s/174051.html",
+      "city": "佐野市",
+      "open_date": "2026年7月27日",
       "point": "0.00",
-      "review_count": 1
+      "review_count": 0
     },
     {
       "name": "麺処りょうや 足利店",
@@ -202,13 +202,22 @@
       "review_count": 0
     },
     {
-      "name": "青竹手打ち 佐野ラーメン 晴れる屋 馬門町店",
+      "name": "青竹手打ち 佐野ラーメン 晴れる屋",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174043.html",
       "city": "佐野市",
       "open_date": "2026年7月6日",
-      "point": "0.00",
+      "point": "91.07",
       "review_count": 0
+    },
+    {
+      "name": "麺屋 澤",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/173463.html",
+      "city": "小山市",
+      "open_date": "2026年7月1日",
+      "point": "82.64",
+      "review_count": 1
     },
     {
       "name": "佐野らーめん＆炒めし 一",
@@ -355,15 +364,6 @@
       "review_count": 1
     },
     {
-      "name": "町田商店 若草店",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/170995.html",
-      "city": "宇都宮市",
-      "open_date": "2026年2月2日",
-      "point": "82.28",
-      "review_count": 1
-    },
-    {
       "name": "ラーメン日本一やまがた 七代目",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/159375.html",
@@ -432,7 +432,7 @@
       "url": "https://ramendb.supleks.jp/s/173529.html",
       "city": "取手市",
       "open_date": "2026年5月28日",
-      "point": "86.77",
+      "point": "86.76",
       "review_count": 7
     },
     {
@@ -513,7 +513,7 @@
       "url": "https://ramendb.supleks.jp/s/170133.html",
       "city": "つくば市",
       "open_date": "2026年4月9日",
-      "point": "92.03",
+      "point": "92.01",
       "review_count": 17
     },
     {
@@ -639,8 +639,8 @@
       "url": "https://ramendb.supleks.jp/s/174020.html",
       "city": "熊谷市",
       "open_date": "2026年6月23日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.82",
+      "review_count": 1
     },
     {
       "name": "背脂ネギラーメン とんび",
