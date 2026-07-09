@@ -162,7 +162,7 @@
       "url": "https://ramendb.supleks.jp/s/171768.html",
       "city": "太田市",
       "open_date": "2026年2月27日",
-      "point": "87.70",
+      "point": "87.69",
       "review_count": 12
     },
     {
@@ -414,8 +414,8 @@
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "89.09",
-      "review_count": 10
+      "point": "89.65",
+      "review_count": 11
     },
     {
       "name": "らーめん 源ニ",
@@ -607,6 +607,15 @@
       "review_count": 0
     },
     {
+      "name": "ラーメン マルキ 蕨店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174081.html",
+      "city": "蕨市",
+      "open_date": "2026年7月7日",
+      "point": "82.65",
+      "review_count": 1
+    },
+    {
       "name": "あかね家",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174036.html",
@@ -713,15 +722,6 @@
       "open_date": "2026年5月28日",
       "point": "82.60",
       "review_count": 1
-    },
-    {
-      "name": "全国ラーメンフェスタ 春の陣2026 IN久喜菖蒲",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173275.html",
-      "city": "久喜市",
-      "open_date": "2026年5月22日",
-      "point": "0.00",
-      "review_count": 0
     }
   ]
 }
