@@ -216,8 +216,8 @@
       "url": "https://ramendb.supleks.jp/s/173463.html",
       "city": "小山市",
       "open_date": "2026年7月1日",
-      "point": "82.64",
-      "review_count": 1
+      "point": "83.31",
+      "review_count": 2
     },
     {
       "name": "佐野らーめん＆炒めし 一",
@@ -306,7 +306,7 @@
       "url": "https://ramendb.supleks.jp/s/171767.html",
       "city": "小山市",
       "open_date": "2026年3月27日",
-      "point": "87.09",
+      "point": "87.08",
       "review_count": 22
     },
     {
@@ -414,8 +414,8 @@
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "89.65",
-      "review_count": 11
+      "point": "89.79",
+      "review_count": 12
     },
     {
       "name": "らーめん 源ニ",
@@ -598,11 +598,29 @@
       "review_count": 0
     },
     {
+      "name": "横濱家系ラーメン 二十代目野中家",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174086.html",
+      "city": "川口市",
+      "open_date": "2026年7月10日",
+      "point": "82.73",
+      "review_count": 1
+    },
+    {
       "name": "豚骨ラーメン 福の軒 北浦和",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/173879.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年7月9日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "中華そば 玄",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174082.html",
+      "city": "熊谷市",
+      "open_date": "2026年7月7日",
       "point": "0.00",
       "review_count": 0
     },
@@ -614,6 +632,15 @@
       "open_date": "2026年7月7日",
       "point": "82.65",
       "review_count": 1
+    },
+    {
+      "name": "熱傑硬派まぜおくん",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174089.html",
+      "city": "春日部市",
+      "open_date": "2026年7月3日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "あかね家",
@@ -695,33 +722,6 @@
       "open_date": "2026年5月30日",
       "point": "86.33",
       "review_count": 6
-    },
-    {
-      "name": "覆麺 神田",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172992.html",
-      "city": "東松山市",
-      "open_date": "2026年5月30日",
-      "point": "88.82",
-      "review_count": 10
-    },
-    {
-      "name": "横浜家系ラーメン 壱角家 川越クレアモール店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/158168.html",
-      "city": "川越市",
-      "open_date": "2026年5月29日",
-      "point": "84.03",
-      "review_count": 3
-    },
-    {
-      "name": "本気味噌ラーメン 肉玉ジョー 初夏の北海道物産展/丸広川越",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173320.html",
-      "city": "川越市",
-      "open_date": "2026年5月28日",
-      "point": "82.60",
-      "review_count": 1
     }
   ]
 }
