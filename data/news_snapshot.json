@@ -234,7 +234,7 @@
       "url": "https://ramendb.supleks.jp/s/173395.html",
       "city": "宇都宮市",
       "open_date": "2026年5月1日",
-      "point": "81.96",
+      "point": "81.95",
       "review_count": 1
     },
     {
@@ -279,7 +279,7 @@
       "url": "https://ramendb.supleks.jp/s/172451.html",
       "city": "那須塩原市",
       "open_date": "2026年4月6日",
-      "point": "82.18",
+      "point": "82.17",
       "review_count": 1
     },
     {
@@ -379,6 +379,15 @@
       "city": "守谷市",
       "open_date": "2026年7月13日",
       "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "麺屋 鳳",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174124.html",
+      "city": "牛久市",
+      "open_date": "2026年7月11日",
+      "point": "89.54",
       "review_count": 0
     },
     {
@@ -535,15 +544,6 @@
       "review_count": 8
     },
     {
-      "name": "日高屋 ファッションクルーズひたちなか内",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/173580.html",
-      "city": "ひたちなか市",
-      "open_date": "2026年4月1日",
-      "point": "82.66",
-      "review_count": 1
-    },
-    {
       "name": "ラー麺ずんどう屋 川越店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/173998.html",
@@ -594,8 +594,8 @@
       "url": "https://ramendb.supleks.jp/s/173967.html",
       "city": "坂戸市",
       "open_date": "2026年7月11日",
-      "point": "83.77",
-      "review_count": 2
+      "point": "84.16",
+      "review_count": 3
     },
     {
       "name": "横濱家系ラーメン 二十代目野中家",
@@ -720,7 +720,7 @@
       "url": "https://ramendb.supleks.jp/s/173564.html",
       "city": "南埼玉郡",
       "open_date": "2026年5月30日",
-      "point": "86.33",
+      "point": "86.31",
       "review_count": 6
     }
   ]
