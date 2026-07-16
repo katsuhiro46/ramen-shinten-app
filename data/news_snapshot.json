@@ -387,8 +387,8 @@
       "url": "https://ramendb.supleks.jp/s/174124.html",
       "city": "牛久市",
       "open_date": "2026年7月11日",
-      "point": "89.74",
-      "review_count": 1
+      "point": "89.77",
+      "review_count": 2
     },
     {
       "name": "カニらーめん かみすや",
@@ -495,8 +495,8 @@
       "url": "https://ramendb.supleks.jp/s/171426.html",
       "city": "小美玉市",
       "open_date": "2026年4月28日",
-      "point": "84.51",
-      "review_count": 4
+      "point": "85.31",
+      "review_count": 5
     },
     {
       "name": "麺屋 金花土 日立多賀店",
@@ -598,6 +598,15 @@
       "review_count": 0
     },
     {
+      "name": "京都北白川ラーメン魁力屋 大宮東口店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174169.html",
+      "city": "さいたま市大宮区",
+      "open_date": "2026年7月17日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "国武屋ドカ盛り研究所 ブタ姫",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/173967.html",
@@ -639,8 +648,8 @@
       "url": "https://ramendb.supleks.jp/s/174081.html",
       "city": "蕨市",
       "open_date": "2026年7月7日",
-      "point": "83.62",
-      "review_count": 2
+      "point": "84.63",
+      "review_count": 3
     },
     {
       "name": "熱傑硬派まぜおくん",
@@ -713,15 +722,6 @@
       "open_date": "2026年6月4日",
       "point": "79.89",
       "review_count": 0
-    },
-    {
-      "name": "れんげ食堂Toshu イオンタウン吉川美南店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173632.html",
-      "city": "吉川市",
-      "open_date": "2026年5月30日",
-      "point": "82.70",
-      "review_count": 1
     }
   ]
 }
