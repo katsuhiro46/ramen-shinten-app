@@ -180,8 +180,8 @@
       "url": "https://ramendb.supleks.jp/s/169396.html",
       "city": "太田市",
       "open_date": "2026年2月20日",
-      "point": "88.03",
-      "review_count": 9
+      "point": "88.91",
+      "review_count": 10
     },
     {
       "name": "麺匠 田村",
@@ -378,8 +378,8 @@
       "url": "https://ramendb.supleks.jp/s/174040.html",
       "city": "守谷市",
       "open_date": "2026年7月13日",
-      "point": "82.88",
-      "review_count": 1
+      "point": "83.73",
+      "review_count": 2
     },
     {
       "name": "麺屋 鳳",
@@ -434,6 +434,15 @@
       "open_date": "2026年6月2日",
       "point": "85.61",
       "review_count": 4
+    },
+    {
+      "name": "油そばと丼。",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174196.html",
+      "city": "水戸市",
+      "open_date": "2026年6月1日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "ラーメン処 市丸製麺",
@@ -535,15 +544,6 @@
       "review_count": 10
     },
     {
-      "name": "中華そば たまちゃん",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/172584.html",
-      "city": "つくば市",
-      "open_date": "2026年4月2日",
-      "point": "88.79",
-      "review_count": 8
-    },
-    {
       "name": "なぎちゃんラーメン 川越店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174153.html",
@@ -585,6 +585,15 @@
       "url": "https://ramendb.supleks.jp/s/168978.html",
       "city": "さいたま市北区",
       "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "ゆで太郎 越谷蒲生店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174195.html",
+      "city": "越谷市",
+      "open_date": "2026年9月18日",
       "point": "0.00",
       "review_count": 0
     },
@@ -639,8 +648,8 @@
       "url": "https://ramendb.supleks.jp/s/174082.html",
       "city": "熊谷市",
       "open_date": "2026年7月7日",
-      "point": "82.92",
-      "review_count": 1
+      "point": "83.80",
+      "review_count": 2
     },
     {
       "name": "ラーメン マルキ 蕨店",
@@ -693,7 +702,7 @@
       "url": "https://ramendb.supleks.jp/s/174020.html",
       "city": "熊谷市",
       "open_date": "2026年6月23日",
-      "point": "82.99",
+      "point": "83.00",
       "review_count": 1
     },
     {
@@ -711,17 +720,8 @@
       "url": "https://ramendb.supleks.jp/s/173625.html",
       "city": "北本市",
       "open_date": "2026年6月5日",
-      "point": "83.27",
+      "point": "83.26",
       "review_count": 2
-    },
-    {
-      "name": "大穀",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173785.html",
-      "city": "飯能市",
-      "open_date": "2026年6月4日",
-      "point": "79.89",
-      "review_count": 0
     }
   ]
 }
