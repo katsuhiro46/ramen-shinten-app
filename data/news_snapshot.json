@@ -4,6 +4,15 @@
   "log": "群馬: 20件 | 栃木: 20件 | 茨城: 20件 | 埼玉: 20件",
   "shops": [
     {
+      "name": "我が豚は天地とひとつ 高崎店",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174217.html",
+      "city": "高崎市",
+      "open_date": "2026年7月18日",
+      "point": "83.54",
+      "review_count": 1
+    },
+    {
       "name": "RAMENSTAND 太田店",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/172858.html",
@@ -175,15 +184,6 @@
       "review_count": 1
     },
     {
-      "name": "中華そば HIBARI",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/169396.html",
-      "city": "太田市",
-      "open_date": "2026年2月20日",
-      "point": "88.91",
-      "review_count": 10
-    },
-    {
       "name": "麺匠 田村",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174051.html",
@@ -225,7 +225,7 @@
       "url": "https://ramendb.supleks.jp/s/173713.html",
       "city": "佐野市",
       "open_date": "2026年6月11日",
-      "point": "83.43",
+      "point": "83.42",
       "review_count": 2
     },
     {
@@ -373,13 +373,22 @@
       "review_count": 0
     },
     {
+      "name": "麺屋つむぎ亭 つくば店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174215.html",
+      "city": "つくば市",
+      "open_date": "2026年7月17日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "らーめん 三水 守谷店",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/174040.html",
       "city": "守谷市",
       "open_date": "2026年7月13日",
-      "point": "83.73",
-      "review_count": 2
+      "point": "84.71",
+      "review_count": 3
     },
     {
       "name": "麺屋 鳳",
@@ -405,7 +414,7 @@
       "url": "https://ramendb.supleks.jp/s/173860.html",
       "city": "結城市",
       "open_date": "2026年7月2日",
-      "point": "82.72",
+      "point": "82.70",
       "review_count": 1
     },
     {
@@ -441,8 +450,8 @@
       "url": "https://ramendb.supleks.jp/s/174196.html",
       "city": "水戸市",
       "open_date": "2026年6月1日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.86",
+      "review_count": 1
     },
     {
       "name": "ラーメン処 市丸製麺",
@@ -535,15 +544,6 @@
       "review_count": 17
     },
     {
-      "name": "白河手打中華そば 法隆",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/170770.html",
-      "city": "水戸市",
-      "open_date": "2026年4月7日",
-      "point": "92.32",
-      "review_count": 10
-    },
-    {
       "name": "なぎちゃんラーメン 川越店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174153.html",
@@ -630,8 +630,8 @@
       "url": "https://ramendb.supleks.jp/s/174086.html",
       "city": "川口市",
       "open_date": "2026年7月10日",
-      "point": "84.19",
-      "review_count": 2
+      "point": "85.23",
+      "review_count": 3
     },
     {
       "name": "豚骨ラーメン 福の軒 北浦和",
