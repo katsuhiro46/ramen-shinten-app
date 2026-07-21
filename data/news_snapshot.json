@@ -360,7 +360,7 @@
       "url": "https://ramendb.supleks.jp/s/171142.html",
       "city": "小山市",
       "open_date": "2026年2月3日",
-      "point": "83.37",
+      "point": "83.38",
       "review_count": 1
     },
     {
@@ -373,13 +373,22 @@
       "review_count": 0
     },
     {
+      "name": "激辛ラーメン専門店 レッチリ 土浦本店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174248.html",
+      "city": "土浦市",
+      "open_date": "2026年8月1日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "吉蔵ラーメン 銚子屋",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/174243.html",
       "city": "石岡市",
       "open_date": "2026年7月19日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.62",
+      "review_count": 1
     },
     {
       "name": "麺屋つむぎ亭 つくば店",
@@ -387,7 +396,7 @@
       "url": "https://ramendb.supleks.jp/s/174215.html",
       "city": "つくば市",
       "open_date": "2026年7月17日",
-      "point": "82.76",
+      "point": "82.77",
       "review_count": 1
     },
     {
@@ -414,8 +423,8 @@
       "url": "https://ramendb.supleks.jp/s/173794.html",
       "city": "神栖市",
       "open_date": "2026年7月9日",
-      "point": "82.76",
-      "review_count": 1
+      "point": "83.76",
+      "review_count": 2
     },
     {
       "name": "横浜家系ラーメン 壱角家 結城バイパス店",
@@ -441,7 +450,7 @@
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "89.96",
+      "point": "89.95",
       "review_count": 13
     },
     {
@@ -450,7 +459,7 @@
       "url": "https://ramendb.supleks.jp/s/173796.html",
       "city": "桜川市",
       "open_date": "2026年6月2日",
-      "point": "85.52",
+      "point": "85.50",
       "review_count": 4
     },
     {
@@ -533,15 +542,6 @@
       "open_date": "2026年4月22日",
       "point": "85.40",
       "review_count": 4
-    },
-    {
-      "name": "二代目 高菜 鉾田店",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/172875.html",
-      "city": "鉾田市",
-      "open_date": "2026年4月19日",
-      "point": "88.36",
-      "review_count": 9
     },
     {
       "name": "明朎 マーラータン",
