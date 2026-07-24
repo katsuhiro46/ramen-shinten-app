@@ -4,6 +4,15 @@
   "log": "群馬: 20件 | 栃木: 20件 | 茨城: 20件 | 埼玉: 20件",
   "shops": [
     {
+      "name": "RAMEN MATSUNAGA",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174303.html",
+      "city": "伊勢崎市",
+      "open_date": "2026年9月1日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "自由麻辣湯",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174236.html",
@@ -36,7 +45,7 @@
       "url": "https://ramendb.supleks.jp/s/172858.html",
       "city": "太田市",
       "open_date": "2026年5月28日",
-      "point": "82.54",
+      "point": "82.55",
       "review_count": 1
     },
     {
@@ -81,7 +90,7 @@
       "url": "https://ramendb.supleks.jp/s/172763.html",
       "city": "伊勢崎市",
       "open_date": "2026年4月1日",
-      "point": "84.74",
+      "point": "84.73",
       "review_count": 4
     },
     {
@@ -175,20 +184,20 @@
       "review_count": 1
     },
     {
-      "name": "中華そば HIBARI",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/169396.html",
-      "city": "太田市",
-      "open_date": "2026年2月20日",
-      "point": "88.83",
-      "review_count": 10
-    },
-    {
       "name": "麺匠 田村",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "ラーメンえびす",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/174301.html",
+      "city": "小山市",
+      "open_date": "2026年7月24日",
       "point": "0.00",
       "review_count": 0
     },
@@ -355,15 +364,6 @@
       "review_count": 2
     },
     {
-      "name": "らーめん牛愛",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/171142.html",
-      "city": "小山市",
-      "open_date": "2026年2月3日",
-      "point": "83.38",
-      "review_count": 1
-    },
-    {
       "name": "ラーメン日本一やまがた 七代目",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/159375.html",
@@ -450,7 +450,7 @@
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "89.95",
+      "point": "89.96",
       "review_count": 13
     },
     {
