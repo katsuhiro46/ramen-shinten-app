@@ -81,7 +81,7 @@
       "url": "https://ramendb.supleks.jp/s/172874.html",
       "city": "前橋市",
       "open_date": "2026年4月3日",
-      "point": "87.30",
+      "point": "87.31",
       "review_count": 1
     },
     {
@@ -90,7 +90,7 @@
       "url": "https://ramendb.supleks.jp/s/172763.html",
       "city": "伊勢崎市",
       "open_date": "2026年4月1日",
-      "point": "84.73",
+      "point": "84.74",
       "review_count": 4
     },
     {
@@ -333,7 +333,7 @@
       "url": "https://ramendb.supleks.jp/s/172304.html",
       "city": "宇都宮市",
       "open_date": "2026年3月17日",
-      "point": "82.63",
+      "point": "82.64",
       "review_count": 1
     },
     {
@@ -360,7 +360,7 @@
       "url": "https://ramendb.supleks.jp/s/171415.html",
       "city": "佐野市",
       "open_date": "2026年2月21日",
-      "point": "83.77",
+      "point": "83.78",
       "review_count": 2
     },
     {
@@ -423,8 +423,8 @@
       "url": "https://ramendb.supleks.jp/s/173794.html",
       "city": "神栖市",
       "open_date": "2026年7月9日",
-      "point": "83.76",
-      "review_count": 2
+      "point": "84.70",
+      "review_count": 3
     },
     {
       "name": "横浜家系ラーメン 壱角家 結城バイパス店",
@@ -450,8 +450,8 @@
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "89.96",
-      "review_count": 13
+      "point": "90.06",
+      "review_count": 14
     },
     {
       "name": "らーめん 源ニ",
@@ -486,7 +486,7 @@
       "url": "https://ramendb.supleks.jp/s/173221.html",
       "city": "つくば市",
       "open_date": "2026年5月25日",
-      "point": "86.50",
+      "point": "86.51",
       "review_count": 5
     },
     {
@@ -612,8 +612,8 @@
       "url": "https://ramendb.supleks.jp/s/174006.html",
       "city": "日高市",
       "open_date": "2026年7月23日",
-      "point": "86.68",
-      "review_count": 2
+      "point": "87.52",
+      "review_count": 3
     },
     {
       "name": "京都北白川ラーメン魁力屋 大宮東口店",
@@ -648,8 +648,8 @@
       "url": "https://ramendb.supleks.jp/s/173879.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年7月9日",
-      "point": "82.81",
-      "review_count": 1
+      "point": "83.85",
+      "review_count": 2
     },
     {
       "name": "中華そば 玄",
@@ -711,7 +711,7 @@
       "url": "https://ramendb.supleks.jp/s/174020.html",
       "city": "熊谷市",
       "open_date": "2026年6月23日",
-      "point": "82.90",
+      "point": "82.91",
       "review_count": 1
     },
     {
@@ -720,8 +720,8 @@
       "url": "https://ramendb.supleks.jp/s/172728.html",
       "city": "川口市",
       "open_date": "2026年6月6日",
-      "point": "87.18",
-      "review_count": 7
+      "point": "88.09",
+      "review_count": 8
     }
   ]
 }
