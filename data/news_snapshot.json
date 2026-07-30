@@ -189,8 +189,8 @@
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "82.94",
-      "review_count": 1
+      "point": "83.90",
+      "review_count": 2
     },
     {
       "name": "ラーメンえびす",
@@ -198,8 +198,8 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "82.67",
-      "review_count": 1
+      "point": "83.54",
+      "review_count": 2
     },
     {
       "name": "麺処りょうや 足利店",
@@ -324,7 +324,7 @@
       "url": "https://ramendb.supleks.jp/s/172896.html",
       "city": "佐野市",
       "open_date": "2026年3月17日",
-      "point": "85.71",
+      "point": "85.72",
       "review_count": 4
     },
     {
@@ -342,7 +342,7 @@
       "url": "https://ramendb.supleks.jp/s/172129.html",
       "city": "小山市",
       "open_date": "2026年3月13日",
-      "point": "82.49",
+      "point": "82.50",
       "review_count": 1
     },
     {
@@ -378,6 +378,33 @@
       "url": "https://ramendb.supleks.jp/s/174248.html",
       "city": "土浦市",
       "open_date": "2026年8月1日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "タイガーステップ",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174402.html",
+      "city": "土浦市",
+      "open_date": "2026年7月28日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "鶏そば つむじ風",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174395.html",
+      "city": "東茨城郡",
+      "open_date": "2026年7月25日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "博多・豚骨ラーメン 無双",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174404.html",
+      "city": "鹿嶋市",
+      "open_date": "2026年7月22日",
       "point": "0.00",
       "review_count": 0
     },
@@ -517,33 +544,6 @@
       "review_count": 4
     },
     {
-      "name": "らぁ～麺 まるわ 鹿島店",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/173840.html",
-      "city": "鹿嶋市",
-      "open_date": "2026年4月28日",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
-      "name": "ラーメンショップ 魔女の味 小美玉店",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/171426.html",
-      "city": "小美玉市",
-      "open_date": "2026年4月28日",
-      "point": "85.23",
-      "review_count": 5
-    },
-    {
-      "name": "麺屋 金花土 日立多賀店",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/172707.html",
-      "city": "日立市",
-      "open_date": "2026年4月22日",
-      "point": "85.39",
-      "review_count": 4
-    },
-    {
       "name": "明朎 マーラータン",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174228.html",
@@ -630,7 +630,7 @@
       "url": "https://ramendb.supleks.jp/s/173967.html",
       "city": "坂戸市",
       "open_date": "2026年7月11日",
-      "point": "85.17",
+      "point": "85.16",
       "review_count": 4
     },
     {
@@ -639,7 +639,7 @@
       "url": "https://ramendb.supleks.jp/s/174086.html",
       "city": "川口市",
       "open_date": "2026年7月10日",
-      "point": "86.91",
+      "point": "86.92",
       "review_count": 5
     },
     {
@@ -684,7 +684,7 @@
       "url": "https://ramendb.supleks.jp/s/174036.html",
       "city": "鴻巣市",
       "open_date": "2026年7月1日",
-      "point": "89.54",
+      "point": "89.53",
       "review_count": 2
     },
     {
@@ -693,7 +693,7 @@
       "url": "https://ramendb.supleks.jp/s/173970.html",
       "city": "春日部市",
       "open_date": "2026年6月27日",
-      "point": "83.83",
+      "point": "83.81",
       "review_count": 2
     },
     {
