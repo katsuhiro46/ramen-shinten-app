@@ -2,28 +2,19 @@
 
 ## アプリ概要
 
-`ramen-shinten-app` は、ラーメンデータベースのニューオープン情報と、配送ルートの翌日天気を確認・通知するWebアプリです。
+`ramen-shinten-app` は、ラーメンデータベースのニューオープン情報を確認・通知するWebアプリです。
 
 - GitHub: `katsuhiro46/ramen-shinten-app`
 - 本番URL: `https://ramen-shinten-app.vercel.app/`
 - ローカル作業フォルダ: `/Users/katsuhiro/ramen-shinten-app`
 - デスクトップの `ramen-shinten-app` は、このフォルダへのショートカットです。
 
-## 通知の種類
-
-### ラーメン新店通知
+## 通知
 
 - 通知タイトル: `ラ`
 - 通知本文: `ラーメン新店が追加されました` または `ラーメン新店がN件追加されました`
 - 新店がある時だけ通知します。
 - 通知を押すとラーメン新店速報ページを開きます。
-
-### 配送天気通知
-
-- 通知タイトル: `天`
-- 通知本文: 翌日の配送ルート天気
-- 毎日通知します。
-- 通知を押すと配送天気ページを開きます。
 
 ## 現在の自動実行
 
@@ -40,19 +31,6 @@ Macで実行します。
   - `~/Library/Logs/ramen-shinten-app/local_update.err.log`
 
 ラーメンDBは GitHub Actions / Vercel からだと 403 で拒否されるため、Macから取得します。
-
-### 天気通知
-
-Macで実行します。
-
-- 天気通知: 毎日 11:58
-- 実行設定: `~/Library/LaunchAgents/com.katsuhiro.ramen-weather-notify.plist`
-- 実行スクリプト: `/Users/katsuhiro/ramen-shinten-app/scripts/local_weather_notify.sh`
-- ログ:
-  - `~/Library/Logs/ramen-shinten-app/weather_notify.out.log`
-  - `~/Library/Logs/ramen-shinten-app/weather_notify.err.log`
-
-GitHub Actions の天気定期実行は遅延が大きかったため停止済みです。Vercel Cronはバックアップとして残っています。
 
 ## 秘密設定
 
@@ -104,24 +82,11 @@ pmset -g sched
 launchctl print gui/$(id -u)/com.katsuhiro.ramen-shinten-update
 ```
 
-天気通知設定の確認:
-
-```bash
-launchctl print gui/$(id -u)/com.katsuhiro.ramen-weather-notify
-```
-
 ラーメン更新ログ:
 
 ```bash
 tail -n 120 ~/Library/Logs/ramen-shinten-app/local_update.out.log
 tail -n 120 ~/Library/Logs/ramen-shinten-app/local_update.err.log
-```
-
-天気通知ログ:
-
-```bash
-tail -n 120 ~/Library/Logs/ramen-shinten-app/weather_notify.out.log
-tail -n 120 ~/Library/Logs/ramen-shinten-app/weather_notify.err.log
 ```
 
 ## 復旧手順の概要
@@ -133,6 +98,5 @@ tail -n 120 ~/Library/Logs/ramen-shinten-app/weather_notify.err.log
 3. Bitwardenの `ramen-shinten-app secrets` から6個の環境変数を取り出す。
 4. `~/.config/ramen-shinten-app/env` を作って貼る。
 5. `scripts/local_ramen_update.sh` を一度実行して確認する。
-6. `scripts/local_weather_notify.sh` をドライランまたはテスト送信で確認する。
-7. LaunchAgentを登録し直す。
-8. `pmset` でMac自動起床を設定する。
+6. LaunchAgentを登録し直す。
+7. `pmset` でMac自動起床を設定する。
