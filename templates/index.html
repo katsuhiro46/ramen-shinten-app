@@ -12,7 +12,7 @@
     <title>北関東ラーメン新店速報</title>
     <link rel="manifest" href="/manifest.json">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/style.css?v=20260731">
 </head>
 
 <body>
@@ -31,6 +31,13 @@
                 <div class="spinner"></div>
                 <p>情報を取得中...</p>
             </div>
+            <section id="new-shop-section" class="new-shop-section hidden" aria-labelledby="new-shop-heading">
+                <div class="new-shop-heading-row">
+                    <h2 id="new-shop-heading">今回追加された新店</h2>
+                    <span id="new-shop-count" class="new-shop-count"></span>
+                </div>
+                <ul id="new-shop-list" class="shop-list new-shop-list"></ul>
+            </section>
             <div id="accordion-container"></div>
         </main>
 
@@ -38,7 +45,7 @@
             <p>データ元: <a href="https://ramendb.supleks.jp/" target="_blank">ラーメンデータベース</a></p>
         </footer>
     </div>
-    <script src="/static/js/main.js"></script>
+    <script src="/static/js/main.js?v=20260731"></script>
 </body>
 
 </html>

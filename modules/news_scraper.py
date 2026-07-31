@@ -251,10 +251,17 @@ def get_new_reviews(include_debug: bool = False, allow_snapshot: bool = True) ->
     return all_shops, log, _cache["debug"] if include_debug else {}
 
 def load_snapshot() -> Tuple[List[Dict], str]:
+    payload = load_snapshot_payload()
+    if not payload:
+        return [], ""
+
+    shops = payload.get("shops", [])
+    return shops, f"{payload.get('log', '')} | fallback: snapshot"
+
+
+def load_snapshot_payload() -> Dict[str, Any]:
     try:
-        payload = json.loads(SNAPSHOT_PATH.read_text(encoding="utf-8"))
-        shops = payload.get("shops", [])
-        return shops, f"{payload.get('log', '')} | fallback: snapshot"
+        return json.loads(SNAPSHOT_PATH.read_text(encoding="utf-8"))
     except Exception as e:
         print(f"Snapshot Error: {e}")
-        return [], ""
+        return {}

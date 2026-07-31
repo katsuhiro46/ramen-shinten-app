@@ -27,7 +27,8 @@ def get_news():
         payload = {
             "status": "success",
             "shops": news_data,
-            "log": log_msg
+            "log": log_msg,
+            "addition_events": news_scraper.load_snapshot_payload().get("addition_events", []),
         }
         if include_debug:
             payload["debug"] = debug_info

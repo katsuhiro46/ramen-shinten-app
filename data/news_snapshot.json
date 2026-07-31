@@ -1,7 +1,9 @@
 {
+  "snapshot_version": 2,
   "status": "success",
   "source": "snapshot",
   "log": "群馬: 20件 | 栃木: 20件 | 茨城: 20件 | 埼玉: 20件",
+  "addition_events": [],
   "shops": [
     {
       "name": "RAMEN MATSUNAGA",
