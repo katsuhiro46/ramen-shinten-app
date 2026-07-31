@@ -3,7 +3,6 @@
   "status": "success",
   "source": "snapshot",
   "log": "群馬: 20件 | 栃木: 20件 | 茨城: 20件 | 埼玉: 20件",
-  "addition_events": [],
   "shops": [
     {
       "name": "RAMEN MATSUNAGA",
@@ -47,7 +46,7 @@
       "url": "https://ramendb.supleks.jp/s/172858.html",
       "city": "太田市",
       "open_date": "2026年5月28日",
-      "point": "82.55",
+      "point": "82.53",
       "review_count": 1
     },
     {
@@ -65,7 +64,7 @@
       "url": "https://ramendb.supleks.jp/s/172898.html",
       "city": "高崎市",
       "open_date": "2026年5月11日",
-      "point": "82.91",
+      "point": "82.89",
       "review_count": 1
     },
     {
@@ -74,7 +73,7 @@
       "url": "https://ramendb.supleks.jp/s/173206.html",
       "city": "高崎市",
       "open_date": "2026年5月1日",
-      "point": "83.86",
+      "point": "83.85",
       "review_count": 2
     },
     {
@@ -83,7 +82,7 @@
       "url": "https://ramendb.supleks.jp/s/172874.html",
       "city": "前橋市",
       "open_date": "2026年4月3日",
-      "point": "87.31",
+      "point": "87.30",
       "review_count": 1
     },
     {
@@ -182,7 +181,7 @@
       "url": "https://ramendb.supleks.jp/s/171627.html",
       "city": "太田市",
       "open_date": "2026年2月27日",
-      "point": "82.31",
+      "point": "82.32",
       "review_count": 1
     },
     {
@@ -191,8 +190,8 @@
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "83.90",
-      "review_count": 2
+      "point": "84.78",
+      "review_count": 3
     },
     {
       "name": "ラーメンえびす",
@@ -317,7 +316,7 @@
       "url": "https://ramendb.supleks.jp/s/171767.html",
       "city": "小山市",
       "open_date": "2026年3月27日",
-      "point": "87.16",
+      "point": "87.17",
       "review_count": 22
     },
     {
@@ -380,7 +379,7 @@
       "url": "https://ramendb.supleks.jp/s/174248.html",
       "city": "土浦市",
       "open_date": "2026年8月1日",
-      "point": "0.00",
+      "point": "89.75",
       "review_count": 0
     },
     {
@@ -416,8 +415,8 @@
       "url": "https://ramendb.supleks.jp/s/174243.html",
       "city": "石岡市",
       "open_date": "2026年7月19日",
-      "point": "83.55",
-      "review_count": 2
+      "point": "84.14",
+      "review_count": 3
     },
     {
       "name": "麺屋つむぎ亭 つくば店",
@@ -524,7 +523,7 @@
       "url": "https://ramendb.supleks.jp/s/173432.html",
       "city": "つくば市",
       "open_date": "2026年5月24日",
-      "point": "84.89",
+      "point": "84.87",
       "review_count": 3
     },
     {
@@ -542,7 +541,7 @@
       "url": "https://ramendb.supleks.jp/s/173149.html",
       "city": "土浦市",
       "open_date": "2026年5月2日",
-      "point": "84.49",
+      "point": "84.48",
       "review_count": 4
     },
     {
@@ -607,6 +606,15 @@
       "open_date": "2026年9月18日",
       "point": "0.00",
       "review_count": 0
+    },
+    {
+      "name": "顎で喰らえ 北越谷店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174320.html",
+      "city": "越谷市",
+      "open_date": "2026年7月29日",
+      "point": "83.82",
+      "review_count": 2
     },
     {
       "name": "国武屋 ドカ盛り研究所",
@@ -704,7 +712,7 @@
       "url": "https://ramendb.supleks.jp/s/173725.html",
       "city": "さいたま市北区",
       "open_date": "2026年6月27日",
-      "point": "84.03",
+      "point": "84.02",
       "review_count": 3
     },
     {
@@ -715,15 +723,23 @@
       "open_date": "2026年6月23日",
       "point": "84.88",
       "review_count": 3
-    },
+    }
+  ],
+  "addition_events": [
     {
-      "name": "背脂ネギラーメン とんび",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/172728.html",
-      "city": "川口市",
-      "open_date": "2026年6月6日",
-      "point": "88.09",
-      "review_count": 8
+      "id": "2026-07-31T18:35:37+00:00",
+      "added_at": "2026-07-31T18:35:37+00:00",
+      "shops": [
+        {
+          "name": "顎で喰らえ 北越谷店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174320.html",
+          "city": "越谷市",
+          "open_date": "2026年7月29日",
+          "point": "83.82",
+          "review_count": 2
+        }
+      ]
     }
   ]
 }
