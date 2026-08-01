@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const pushPanel = document.getElementById('push-panel');
     const pushToggle = document.getElementById('push-toggle');
     const pushStatus = document.getElementById('push-status');
-    const SEEN_EVENTS_STORAGE_KEY = 'ramen-shinten-seen-addition-events';
 
     // 県別カラー設定
     const PREF_CONFIG = {
@@ -62,7 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 container.appendChild(section);
             });
 
-            markEventsSeen(highlightedEvents, additionEvents);
         } catch (err) {
             console.error('Fetch error:', err);
             loading.innerHTML = '<p class="error-msg">データ取得に失敗しました</p>';
@@ -89,10 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return requestedEvent ? [requestedEvent] : [];
         }
 
-        const seenEventIds = loadSeenEventIds();
-        return events
-            .filter(event => !seenEventIds.has(event.id))
-            .reverse();
+        return events.length > 0 ? [events[events.length - 1]] : [];
     }
 
     function collectEventShops(events) {
@@ -110,36 +105,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         return shops;
-    }
-
-    function loadSeenEventIds() {
-        try {
-            const stored = JSON.parse(window.localStorage.getItem(SEEN_EVENTS_STORAGE_KEY) || '[]');
-            return new Set(Array.isArray(stored) ? stored : []);
-        } catch (_err) {
-            return new Set();
-        }
-    }
-
-    function markEventsSeen(highlightedEvents, allEvents) {
-        if (highlightedEvents.length === 0) {
-            return;
-        }
-
-        const currentEventIds = new Set(allEvents.map(event => event.id));
-        const seenEventIds = new Set(
-            [...loadSeenEventIds()].filter(eventId => currentEventIds.has(eventId))
-        );
-        highlightedEvents.forEach(event => seenEventIds.add(event.id));
-
-        try {
-            window.localStorage.setItem(
-                SEEN_EVENTS_STORAGE_KEY,
-                JSON.stringify([...seenEventIds])
-            );
-        } catch (_err) {
-            // Private browsing or restricted storage should not block the page.
-        }
     }
 
     function renderNewShopSection(shops) {
@@ -280,7 +245,10 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             pushPanel.classList.remove('hidden');
-            const registration = await navigator.serviceWorker.register('/service-worker.js');
+            const registration = await navigator.serviceWorker.register(
+                '/service-worker.js?v=20260801-1',
+                { updateViaCache: 'none' }
+            );
             const subscription = await registration.pushManager.getSubscription();
             updatePushButton(subscription);
 

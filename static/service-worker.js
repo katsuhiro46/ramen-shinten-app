@@ -1,9 +1,27 @@
+self.APP_VERSION = '20260801-1';
+
 self.addEventListener('install', (event) => {
     event.waitUntil(self.skipWaiting());
 });
 
 self.addEventListener('activate', (event) => {
-    event.waitUntil(self.clients.claim());
+    event.waitUntil((async () => {
+        await self.clients.claim();
+        const windowClients = await self.clients.matchAll({
+            type: 'window',
+            includeUncontrolled: true,
+        });
+
+        await Promise.all(windowClients.map(async (client) => {
+            if ('navigate' in client) {
+                try {
+                    await client.navigate(client.url);
+                } catch (_err) {
+                    // A closed or suspended client can be ignored.
+                }
+            }
+        }));
+    })());
 });
 
 self.addEventListener('push', (event) => {
