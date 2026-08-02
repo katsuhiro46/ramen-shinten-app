@@ -136,7 +136,7 @@
       "url": "https://ramendb.supleks.jp/s/172210.html",
       "city": "高崎市",
       "open_date": "2026年3月15日",
-      "point": "82.88",
+      "point": "82.89",
       "review_count": 1
     },
     {
@@ -190,8 +190,8 @@
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "84.78",
-      "review_count": 3
+      "point": "84.69",
+      "review_count": 4
     },
     {
       "name": "ラーメンえびす",
@@ -208,7 +208,7 @@
       "url": "https://ramendb.supleks.jp/s/173983.html",
       "city": "足利市",
       "open_date": "2026年7月8日",
-      "point": "82.70",
+      "point": "82.71",
       "review_count": 1
     },
     {
@@ -415,7 +415,7 @@
       "url": "https://ramendb.supleks.jp/s/174243.html",
       "city": "石岡市",
       "open_date": "2026年7月19日",
-      "point": "84.14",
+      "point": "84.13",
       "review_count": 3
     },
     {
@@ -424,7 +424,7 @@
       "url": "https://ramendb.supleks.jp/s/174215.html",
       "city": "つくば市",
       "open_date": "2026年7月17日",
-      "point": "83.77",
+      "point": "83.78",
       "review_count": 2
     },
     {
@@ -608,6 +608,15 @@
       "review_count": 0
     },
     {
+      "name": "つけ麺 丸武",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174429.html",
+      "city": "所沢市",
+      "open_date": "2026年7月31日",
+      "point": "82.83",
+      "review_count": 1
+    },
+    {
       "name": "顎で喰らえ 北越谷店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174320.html",
@@ -631,8 +640,8 @@
       "url": "https://ramendb.supleks.jp/s/174428.html",
       "city": "川越市",
       "open_date": "2026年7月22日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.73",
+      "review_count": 1
     },
     {
       "name": "京都北白川ラーメン魁力屋 大宮東口店",
@@ -667,8 +676,8 @@
       "url": "https://ramendb.supleks.jp/s/173879.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年7月9日",
-      "point": "83.85",
-      "review_count": 2
+      "point": "84.38",
+      "review_count": 3
     },
     {
       "name": "中華そば 玄",
@@ -714,15 +723,6 @@
       "open_date": "2026年6月27日",
       "point": "83.81",
       "review_count": 2
-    },
-    {
-      "name": "ラーメンショップ◯改",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173725.html",
-      "city": "さいたま市北区",
-      "open_date": "2026年6月27日",
-      "point": "84.02",
-      "review_count": 3
     }
   ],
   "addition_events": [
@@ -753,6 +753,21 @@
           "open_date": "2026年7月22日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-08-02T18:35:38+00:00",
+      "added_at": "2026-08-02T18:35:38+00:00",
+      "shops": [
+        {
+          "name": "つけ麺 丸武",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174429.html",
+          "city": "所沢市",
+          "open_date": "2026年7月31日",
+          "point": "82.83",
+          "review_count": 1
         }
       ]
     }
