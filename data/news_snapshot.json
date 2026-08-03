@@ -28,7 +28,7 @@
       "url": "https://ramendb.supleks.jp/s/174217.html",
       "city": "高崎市",
       "open_date": "2026年7月18日",
-      "point": "83.45",
+      "point": "83.43",
       "review_count": 1
     },
     {
@@ -145,7 +145,7 @@
       "url": "https://ramendb.supleks.jp/s/171883.html",
       "city": "太田市",
       "open_date": "2026年3月5日",
-      "point": "86.87",
+      "point": "86.88",
       "review_count": 11
     },
     {
@@ -190,7 +190,7 @@
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "84.69",
+      "point": "84.56",
       "review_count": 4
     },
     {
@@ -235,7 +235,7 @@
       "url": "https://ramendb.supleks.jp/s/173713.html",
       "city": "佐野市",
       "open_date": "2026年6月11日",
-      "point": "83.33",
+      "point": "83.31",
       "review_count": 2
     },
     {
@@ -244,7 +244,7 @@
       "url": "https://ramendb.supleks.jp/s/173395.html",
       "city": "宇都宮市",
       "open_date": "2026年5月1日",
-      "point": "82.02",
+      "point": "82.03",
       "review_count": 1
     },
     {
@@ -383,6 +383,15 @@
       "review_count": 0
     },
     {
+      "name": "日高屋 つくば東2丁目店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174446.html",
+      "city": "つくば市",
+      "open_date": "2026年7月30日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "タイガーステップ",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/174402.html",
@@ -397,8 +406,8 @@
       "url": "https://ramendb.supleks.jp/s/174395.html",
       "city": "東茨城郡",
       "open_date": "2026年7月25日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.62",
+      "review_count": 1
     },
     {
       "name": "博多・豚骨ラーメン 無双",
@@ -406,8 +415,8 @@
       "url": "https://ramendb.supleks.jp/s/174404.html",
       "city": "鹿嶋市",
       "open_date": "2026年7月22日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.76",
+      "review_count": 1
     },
     {
       "name": "吉蔵ラーメン 銚子屋",
@@ -415,7 +424,7 @@
       "url": "https://ramendb.supleks.jp/s/174243.html",
       "city": "石岡市",
       "open_date": "2026年7月19日",
-      "point": "84.13",
+      "point": "84.14",
       "review_count": 3
     },
     {
@@ -460,7 +469,7 @@
       "url": "https://ramendb.supleks.jp/s/173860.html",
       "city": "結城市",
       "open_date": "2026年7月2日",
-      "point": "82.61",
+      "point": "82.60",
       "review_count": 1
     },
     {
@@ -496,7 +505,7 @@
       "url": "https://ramendb.supleks.jp/s/174196.html",
       "city": "水戸市",
       "open_date": "2026年6月1日",
-      "point": "82.77",
+      "point": "82.75",
       "review_count": 1
     },
     {
@@ -534,15 +543,6 @@
       "open_date": "2026年5月20日",
       "point": "88.42",
       "review_count": 7
-    },
-    {
-      "name": "土浦屋台風ラーメン幸楽",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/173149.html",
-      "city": "土浦市",
-      "open_date": "2026年5月2日",
-      "point": "84.48",
-      "review_count": 4
     },
     {
       "name": "明朎 マーラータン",
@@ -613,8 +613,17 @@
       "url": "https://ramendb.supleks.jp/s/174429.html",
       "city": "所沢市",
       "open_date": "2026年7月31日",
-      "point": "82.83",
-      "review_count": 1
+      "point": "83.87",
+      "review_count": 2
+    },
+    {
+      "name": "どうとんぼり神座 イオンレイクタウンkaze店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174453.html",
+      "city": "越谷市",
+      "open_date": "2026年7月30日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "顎で喰らえ 北越谷店",
@@ -667,8 +676,8 @@
       "url": "https://ramendb.supleks.jp/s/174086.html",
       "city": "川口市",
       "open_date": "2026年7月10日",
-      "point": "86.92",
-      "review_count": 5
+      "point": "86.89",
+      "review_count": 6
     },
     {
       "name": "豚骨ラーメン 福の軒 北浦和",
@@ -685,7 +694,7 @@
       "url": "https://ramendb.supleks.jp/s/174082.html",
       "city": "熊谷市",
       "open_date": "2026年7月7日",
-      "point": "84.74",
+      "point": "84.75",
       "review_count": 3
     },
     {
@@ -713,15 +722,6 @@
       "city": "鴻巣市",
       "open_date": "2026年7月1日",
       "point": "89.54",
-      "review_count": 2
-    },
-    {
-      "name": "かわなべさんち",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173970.html",
-      "city": "春日部市",
-      "open_date": "2026年6月27日",
-      "point": "83.81",
       "review_count": 2
     }
   ],
@@ -768,6 +768,30 @@
           "open_date": "2026年7月31日",
           "point": "82.83",
           "review_count": 1
+        }
+      ]
+    },
+    {
+      "id": "2026-08-03T18:35:39+00:00",
+      "added_at": "2026-08-03T18:35:39+00:00",
+      "shops": [
+        {
+          "name": "日高屋 つくば東2丁目店",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/174446.html",
+          "city": "つくば市",
+          "open_date": "2026年7月30日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "どうとんぼり神座 イオンレイクタウンkaze店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174453.html",
+          "city": "越谷市",
+          "open_date": "2026年7月30日",
+          "point": "0.00",
+          "review_count": 0
         }
       ]
     }
