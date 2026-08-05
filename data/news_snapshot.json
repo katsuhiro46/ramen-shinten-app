@@ -19,7 +19,7 @@
       "url": "https://ramendb.supleks.jp/s/174236.html",
       "city": "高崎市",
       "open_date": "2026年7月19日",
-      "point": "83.46",
+      "point": "83.44",
       "review_count": 1
     },
     {
@@ -37,7 +37,7 @@
       "url": "https://ramendb.supleks.jp/s/174194.html",
       "city": "高崎市",
       "open_date": "2026年7月16日",
-      "point": "84.30",
+      "point": "84.29",
       "review_count": 2
     },
     {
@@ -55,7 +55,7 @@
       "url": "https://ramendb.supleks.jp/s/173503.html",
       "city": "渋川市",
       "open_date": "2026年5月18日",
-      "point": "84.37",
+      "point": "84.35",
       "review_count": 3
     },
     {
@@ -185,13 +185,22 @@
       "review_count": 12
     },
     {
+      "name": "ラーメン酒場ねぎぼうず",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/174481.html",
+      "city": "宇都宮市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "麺匠 田村",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "84.57",
-      "review_count": 4
+      "point": "85.48",
+      "review_count": 5
     },
     {
       "name": "ラーメンえびす",
@@ -199,7 +208,7 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "83.55",
+      "point": "83.56",
       "review_count": 2
     },
     {
@@ -235,7 +244,7 @@
       "url": "https://ramendb.supleks.jp/s/173713.html",
       "city": "佐野市",
       "open_date": "2026年6月11日",
-      "point": "83.32",
+      "point": "83.33",
       "review_count": 2
     },
     {
@@ -262,7 +271,7 @@
       "url": "https://ramendb.supleks.jp/s/172846.html",
       "city": "宇都宮市",
       "open_date": "2026年4月17日",
-      "point": "89.15",
+      "point": "89.16",
       "review_count": 8
     },
     {
@@ -354,15 +363,6 @@
       "open_date": "2026年3月5日",
       "point": "84.34",
       "review_count": 3
-    },
-    {
-      "name": "名島亭 佐野高萩店",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/171415.html",
-      "city": "佐野市",
-      "open_date": "2026年2月21日",
-      "point": "83.79",
-      "review_count": 2
     },
     {
       "name": "ラーメン日本一やまがた 七代目",
@@ -460,7 +460,7 @@
       "url": "https://ramendb.supleks.jp/s/173794.html",
       "city": "神栖市",
       "open_date": "2026年7月9日",
-      "point": "84.71",
+      "point": "84.72",
       "review_count": 3
     },
     {
@@ -613,8 +613,8 @@
       "url": "https://ramendb.supleks.jp/s/174429.html",
       "city": "所沢市",
       "open_date": "2026年7月31日",
-      "point": "84.90",
-      "review_count": 3
+      "point": "85.86",
+      "review_count": 4
     },
     {
       "name": "どうとんぼり神座 イオンレイクタウンkaze店",
@@ -622,8 +622,8 @@
       "url": "https://ramendb.supleks.jp/s/174453.html",
       "city": "越谷市",
       "open_date": "2026年7月30日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.66",
+      "review_count": 1
     },
     {
       "name": "顎で喰らえ 北越谷店",
@@ -721,8 +721,8 @@
       "url": "https://ramendb.supleks.jp/s/174036.html",
       "city": "鴻巣市",
       "open_date": "2026年7月1日",
-      "point": "89.55",
-      "review_count": 2
+      "point": "89.59",
+      "review_count": 3
     }
   ],
   "addition_events": [
@@ -807,6 +807,21 @@
           "open_date": "2026年4月3日",
           "point": "83.42",
           "review_count": 2
+        }
+      ]
+    },
+    {
+      "id": "2026-08-05T18:35:36+00:00",
+      "added_at": "2026-08-05T18:35:36+00:00",
+      "shops": [
+        {
+          "name": "ラーメン酒場ねぎぼうず",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/174481.html",
+          "city": "宇都宮市",
+          "open_date": "オープン日未定",
+          "point": "0.00",
+          "review_count": 0
         }
       ]
     }
