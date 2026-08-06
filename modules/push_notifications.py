@@ -110,6 +110,12 @@ def delete_subscription(subscription: Dict[str, Any]) -> None:
     redis_command("DEL", subscription_key(endpoint))
 
 
+def subscription_registered(endpoint: str) -> bool:
+    if not endpoint or not storage_configured():
+        return False
+    return bool(redis_command("GET", subscription_key(endpoint)))
+
+
 def list_subscriptions() -> List[Dict[str, Any]]:
     endpoints = redis_command("SMEMBERS", SUBSCRIPTIONS_SET_KEY) or []
     subscriptions = []

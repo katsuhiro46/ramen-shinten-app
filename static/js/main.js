@@ -246,11 +246,29 @@ document.addEventListener('DOMContentLoaded', () => {
 
             pushPanel.classList.remove('hidden');
             const registration = await navigator.serviceWorker.register(
-                '/service-worker.js?v=20260801-1',
+                '/service-worker.js?v=20260806-1',
                 { updateViaCache: 'none' }
             );
-            const subscription = await registration.pushManager.getSubscription();
+            let subscription = await registration.pushManager.getSubscription();
+            let renewalFailed = false;
+            if (subscription) {
+                try {
+                    subscription = await renewExpiredSubscription(
+                        registration,
+                        subscription,
+                        config.publicKey
+                    );
+                } catch (err) {
+                    console.error('Push renewal error:', err);
+                    await subscription.unsubscribe().catch(() => {});
+                    subscription = null;
+                    renewalFailed = true;
+                }
+            }
             updatePushButton(subscription);
+            if (renewalFailed) {
+                pushStatus.textContent = '通知の再登録が必要です。ボタンを押してください';
+            }
 
             pushToggle.addEventListener('click', async () => {
                 pushToggle.disabled = true;
@@ -308,6 +326,31 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!response.ok) {
             throw new Error('Subscribe failed');
         }
+    }
+
+    async function renewExpiredSubscription(registration, subscription, publicKey) {
+        const response = await fetch('/api/push/status', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify(subscription),
+        });
+
+        if (!response.ok) {
+            return subscription;
+        }
+
+        const status = await response.json();
+        if (status.registered) {
+            return subscription;
+        }
+
+        await subscription.unsubscribe();
+        const renewedSubscription = await registration.pushManager.subscribe({
+            userVisibleOnly: true,
+            applicationServerKey: urlBase64ToUint8Array(publicKey),
+        });
+        await subscribePush(renewedSubscription);
+        return renewedSubscription;
     }
 
     async function unsubscribePush(subscription) {

@@ -67,6 +67,25 @@ def push_subscribe():
         }), 400
 
 
+@app.route('/api/push/status', methods=['POST'])
+def push_status():
+    try:
+        subscription = request.get_json(force=True)
+        endpoint = subscription.get("endpoint", "")
+        if not endpoint:
+            raise ValueError("Missing subscription endpoint")
+        return jsonify({
+            "status": "success",
+            "registered": push_notifications.subscription_registered(endpoint),
+        })
+    except Exception as e:
+        print(f"Push status error: {e}")
+        return jsonify({
+            "status": "error",
+            "message": "通知登録状態の確認に失敗しました",
+        }), 400
+
+
 @app.route('/api/push/unsubscribe', methods=['POST'])
 def push_unsubscribe():
     try:
