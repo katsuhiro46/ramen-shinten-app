@@ -203,6 +203,15 @@
       "review_count": 0
     },
     {
+      "name": "八吉食堂",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/174527.html",
+      "city": "佐野市",
+      "open_date": "2026年8月8日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "麺匠 田村",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174051.html",
@@ -343,7 +352,7 @@
       "url": "https://ramendb.supleks.jp/s/172896.html",
       "city": "佐野市",
       "open_date": "2026年3月17日",
-      "point": "85.71",
+      "point": "85.72",
       "review_count": 4
     },
     {
@@ -353,15 +362,6 @@
       "city": "宇都宮市",
       "open_date": "2026年3月17日",
       "point": "82.64",
-      "review_count": 1
-    },
-    {
-      "name": "町田商店 小山店",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/172129.html",
-      "city": "小山市",
-      "open_date": "2026年3月13日",
-      "point": "82.49",
       "review_count": 1
     },
     {
@@ -460,7 +460,7 @@
       "url": "https://ramendb.supleks.jp/s/173794.html",
       "city": "神栖市",
       "open_date": "2026年7月9日",
-      "point": "84.70",
+      "point": "84.68",
       "review_count": 3
     },
     {
@@ -631,7 +631,7 @@
       "url": "https://ramendb.supleks.jp/s/174320.html",
       "city": "越谷市",
       "open_date": "2026年7月29日",
-      "point": "84.85",
+      "point": "84.86",
       "review_count": 4
     },
     {
@@ -685,7 +685,7 @@
       "url": "https://ramendb.supleks.jp/s/173879.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年7月9日",
-      "point": "84.37",
+      "point": "84.38",
       "review_count": 3
     },
     {
@@ -835,6 +835,21 @@
           "url": "https://ramendb.supleks.jp/s/174476.html",
           "city": "栃木市",
           "open_date": "オープン日未定",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-08-09T18:35:37+00:00",
+      "added_at": "2026-08-09T18:35:37+00:00",
+      "shops": [
+        {
+          "name": "八吉食堂",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/174527.html",
+          "city": "佐野市",
+          "open_date": "2026年8月8日",
           "point": "0.00",
           "review_count": 0
         }
