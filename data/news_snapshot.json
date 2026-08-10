@@ -46,7 +46,7 @@
       "url": "https://ramendb.supleks.jp/s/172858.html",
       "city": "太田市",
       "open_date": "2026年5月28日",
-      "point": "82.53",
+      "point": "82.52",
       "review_count": 1
     },
     {
@@ -235,7 +235,7 @@
       "url": "https://ramendb.supleks.jp/s/173983.html",
       "city": "足利市",
       "open_date": "2026年7月8日",
-      "point": "82.70",
+      "point": "82.69",
       "review_count": 1
     },
     {
@@ -253,7 +253,7 @@
       "url": "https://ramendb.supleks.jp/s/173463.html",
       "city": "小山市",
       "open_date": "2026年7月1日",
-      "point": "85.16",
+      "point": "85.15",
       "review_count": 4
     },
     {
@@ -343,7 +343,7 @@
       "url": "https://ramendb.supleks.jp/s/171767.html",
       "city": "小山市",
       "open_date": "2026年3月27日",
-      "point": "87.16",
+      "point": "87.17",
       "review_count": 22
     },
     {
@@ -433,7 +433,7 @@
       "url": "https://ramendb.supleks.jp/s/174215.html",
       "city": "つくば市",
       "open_date": "2026年7月17日",
-      "point": "83.77",
+      "point": "83.76",
       "review_count": 2
     },
     {
@@ -469,8 +469,8 @@
       "url": "https://ramendb.supleks.jp/s/173860.html",
       "city": "結城市",
       "open_date": "2026年7月2日",
-      "point": "82.59",
-      "review_count": 1
+      "point": "83.41",
+      "review_count": 2
     },
     {
       "name": "ラボ麻辣湯",
@@ -608,6 +608,15 @@
       "review_count": 0
     },
     {
+      "name": "Ramen house メリー",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174542.html",
+      "city": "深谷市",
+      "open_date": "2026年8月11日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "つけ麺 丸武",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174429.html",
@@ -631,8 +640,8 @@
       "url": "https://ramendb.supleks.jp/s/174320.html",
       "city": "越谷市",
       "open_date": "2026年7月29日",
-      "point": "84.86",
-      "review_count": 4
+      "point": "85.74",
+      "review_count": 5
     },
     {
       "name": "国武屋 ドカ盛り研究所",
@@ -658,7 +667,7 @@
       "url": "https://ramendb.supleks.jp/s/174169.html",
       "city": "さいたま市大宮区",
       "open_date": "2026年7月17日",
-      "point": "82.43",
+      "point": "82.44",
       "review_count": 1
     },
     {
@@ -667,7 +676,7 @@
       "url": "https://ramendb.supleks.jp/s/173967.html",
       "city": "坂戸市",
       "open_date": "2026年7月11日",
-      "point": "85.15",
+      "point": "85.16",
       "review_count": 4
     },
     {
@@ -703,8 +712,8 @@
       "url": "https://ramendb.supleks.jp/s/174081.html",
       "city": "蕨市",
       "open_date": "2026年7月7日",
-      "point": "84.52",
-      "review_count": 3
+      "point": "85.41",
+      "review_count": 4
     },
     {
       "name": "熱傑硬派まぜおくん",
@@ -714,15 +723,6 @@
       "open_date": "2026年7月3日",
       "point": "83.80",
       "review_count": 2
-    },
-    {
-      "name": "あかね家",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174036.html",
-      "city": "鴻巣市",
-      "open_date": "2026年7月1日",
-      "point": "89.58",
-      "review_count": 3
     }
   ],
   "addition_events": [
@@ -850,6 +850,21 @@
           "url": "https://ramendb.supleks.jp/s/174527.html",
           "city": "佐野市",
           "open_date": "2026年8月8日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-08-10T18:35:38+00:00",
+      "added_at": "2026-08-10T18:35:38+00:00",
+      "shops": [
+        {
+          "name": "Ramen house メリー",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174542.html",
+          "city": "深谷市",
+          "open_date": "2026年8月11日",
           "point": "0.00",
           "review_count": 0
         }
