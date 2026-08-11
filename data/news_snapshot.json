@@ -14,6 +14,15 @@
       "review_count": 0
     },
     {
+      "name": "旺旺麻辣燙 高崎店",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174576.html",
+      "city": "高崎市",
+      "open_date": "2026年8月8日",
+      "point": "82.98",
+      "review_count": 1
+    },
+    {
       "name": "自由麻辣湯",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174236.html",
@@ -64,7 +73,7 @@
       "url": "https://ramendb.supleks.jp/s/172898.html",
       "city": "高崎市",
       "open_date": "2026年5月11日",
-      "point": "83.80",
+      "point": "83.81",
       "review_count": 2
     },
     {
@@ -82,7 +91,7 @@
       "url": "https://ramendb.supleks.jp/s/173026.html",
       "city": "高崎市",
       "open_date": "2026年4月3日",
-      "point": "83.40",
+      "point": "83.41",
       "review_count": 2
     },
     {
@@ -91,7 +100,7 @@
       "url": "https://ramendb.supleks.jp/s/172874.html",
       "city": "前橋市",
       "open_date": "2026年4月3日",
-      "point": "87.30",
+      "point": "87.31",
       "review_count": 1
     },
     {
@@ -176,15 +185,6 @@
       "review_count": 0
     },
     {
-      "name": "ラーメンショップ 太田122号店",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/171768.html",
-      "city": "太田市",
-      "open_date": "2026年2月27日",
-      "point": "87.77",
-      "review_count": 12
-    },
-    {
       "name": "ラーメン酒場ねぎぼうず",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174481.html",
@@ -208,8 +208,8 @@
       "url": "https://ramendb.supleks.jp/s/174527.html",
       "city": "佐野市",
       "open_date": "2026年8月8日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.73",
+      "review_count": 1
     },
     {
       "name": "麺匠 田村",
@@ -226,8 +226,8 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "83.54",
-      "review_count": 2
+      "point": "84.47",
+      "review_count": 3
     },
     {
       "name": "麺処りょうや 足利店",
@@ -352,8 +352,8 @@
       "url": "https://ramendb.supleks.jp/s/172896.html",
       "city": "佐野市",
       "open_date": "2026年3月17日",
-      "point": "85.72",
-      "review_count": 4
+      "point": "86.36",
+      "review_count": 5
     },
     {
       "name": "みそらーめん麺屋満天",
@@ -451,8 +451,8 @@
       "url": "https://ramendb.supleks.jp/s/174124.html",
       "city": "牛久市",
       "open_date": "2026年7月11日",
-      "point": "89.73",
-      "review_count": 3
+      "point": "89.75",
+      "review_count": 4
     },
     {
       "name": "カニらーめん かみすや",
@@ -514,7 +514,7 @@
       "url": "https://ramendb.supleks.jp/s/173529.html",
       "city": "取手市",
       "open_date": "2026年5月28日",
-      "point": "87.54",
+      "point": "87.55",
       "review_count": 8
     },
     {
@@ -667,7 +667,7 @@
       "url": "https://ramendb.supleks.jp/s/174169.html",
       "city": "さいたま市大宮区",
       "open_date": "2026年7月17日",
-      "point": "82.44",
+      "point": "82.42",
       "review_count": 1
     },
     {
@@ -703,7 +703,7 @@
       "url": "https://ramendb.supleks.jp/s/174082.html",
       "city": "熊谷市",
       "open_date": "2026年7月7日",
-      "point": "84.77",
+      "point": "84.78",
       "review_count": 4
     },
     {
@@ -867,6 +867,21 @@
           "open_date": "2026年8月11日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-08-11T18:35:31+00:00",
+      "added_at": "2026-08-11T18:35:31+00:00",
+      "shops": [
+        {
+          "name": "旺旺麻辣燙 高崎店",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/174576.html",
+          "city": "高崎市",
+          "open_date": "2026年8月8日",
+          "point": "82.98",
+          "review_count": 1
         }
       ]
     }
