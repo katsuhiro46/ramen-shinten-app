@@ -325,7 +325,7 @@
       "url": "https://ramendb.supleks.jp/s/173286.html",
       "city": "宇都宮市",
       "open_date": "2026年4月11日",
-      "point": "83.55",
+      "point": "83.56",
       "review_count": 3
     },
     {
@@ -334,7 +334,7 @@
       "url": "https://ramendb.supleks.jp/s/172451.html",
       "city": "那須塩原市",
       "open_date": "2026年4月6日",
-      "point": "82.25",
+      "point": "82.26",
       "review_count": 1
     },
     {
@@ -482,12 +482,21 @@
       "review_count": 0
     },
     {
+      "name": "愛千",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174627.html",
+      "city": "稲敷郡",
+      "open_date": "2026年6月21日",
+      "point": "82.52",
+      "review_count": 1
+    },
+    {
       "name": "北ノ醤油チーホー つくば店",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "89.94",
+      "point": "89.93",
       "review_count": 15
     },
     {
@@ -534,15 +543,6 @@
       "open_date": "2026年5月24日",
       "point": "84.87",
       "review_count": 3
-    },
-    {
-      "name": "極上煮干らぁめん 大漁丸",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/173422.html",
-      "city": "坂東市",
-      "open_date": "2026年5月20日",
-      "point": "88.42",
-      "review_count": 7
     },
     {
       "name": "明朎 マーラータン",
@@ -640,8 +640,8 @@
       "url": "https://ramendb.supleks.jp/s/174320.html",
       "city": "越谷市",
       "open_date": "2026年7月29日",
-      "point": "85.74",
-      "review_count": 5
+      "point": "86.64",
+      "review_count": 6
     },
     {
       "name": "国武屋 ドカ盛り研究所",
@@ -685,7 +685,7 @@
       "url": "https://ramendb.supleks.jp/s/174086.html",
       "city": "川口市",
       "open_date": "2026年7月10日",
-      "point": "86.88",
+      "point": "86.89",
       "review_count": 6
     },
     {
@@ -703,8 +703,8 @@
       "url": "https://ramendb.supleks.jp/s/174082.html",
       "city": "熊谷市",
       "open_date": "2026年7月7日",
-      "point": "84.78",
-      "review_count": 4
+      "point": "85.66",
+      "review_count": 5
     },
     {
       "name": "ラーメン マルキ 蕨店",
@@ -721,8 +721,8 @@
       "url": "https://ramendb.supleks.jp/s/174089.html",
       "city": "春日部市",
       "open_date": "2026年7月3日",
-      "point": "83.80",
-      "review_count": 2
+      "point": "84.79",
+      "review_count": 3
     }
   ],
   "addition_events": [
@@ -906,6 +906,21 @@
           "open_date": "2026年8月20日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-08-13T18:35:33+00:00",
+      "added_at": "2026-08-13T18:35:33+00:00",
+      "shops": [
+        {
+          "name": "愛千",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/174627.html",
+          "city": "稲敷郡",
+          "open_date": "2026年6月21日",
+          "point": "82.52",
+          "review_count": 1
         }
       ]
     }
