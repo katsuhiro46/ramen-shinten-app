@@ -109,8 +109,8 @@
       "url": "https://ramendb.supleks.jp/s/172763.html",
       "city": "伊勢崎市",
       "open_date": "2026年4月1日",
-      "point": "84.74",
-      "review_count": 4
+      "point": "84.75",
+      "review_count": 5
     },
     {
       "name": "パンダ麻辣湯",
@@ -154,7 +154,7 @@
       "url": "https://ramendb.supleks.jp/s/172210.html",
       "city": "高崎市",
       "open_date": "2026年3月15日",
-      "point": "82.88",
+      "point": "82.89",
       "review_count": 1
     },
     {
@@ -246,6 +246,15 @@
       "open_date": "2026年7月24日",
       "point": "85.49",
       "review_count": 4
+    },
+    {
+      "name": "つけ麺や楽笑",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/174633.html",
+      "city": "足利市",
+      "open_date": "2026年7月21日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "麺処りょうや 足利店",
@@ -356,15 +365,6 @@
       "review_count": 3
     },
     {
-      "name": "大つけ麺博Presents 最強ラーメン祭 in 小山2026",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/171767.html",
-      "city": "小山市",
-      "open_date": "2026年3月27日",
-      "point": "87.17",
-      "review_count": 22
-    },
-    {
       "name": "ラーメン日本一やまがた 七代目",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/159375.html",
@@ -379,8 +379,8 @@
       "url": "https://ramendb.supleks.jp/s/174248.html",
       "city": "土浦市",
       "open_date": "2026年8月1日",
-      "point": "89.74",
-      "review_count": 1
+      "point": "89.72",
+      "review_count": 2
     },
     {
       "name": "日高屋 つくば東2丁目店",
@@ -442,7 +442,7 @@
       "url": "https://ramendb.supleks.jp/s/174040.html",
       "city": "守谷市",
       "open_date": "2026年7月13日",
-      "point": "85.51",
+      "point": "85.50",
       "review_count": 4
     },
     {
@@ -469,7 +469,7 @@
       "url": "https://ramendb.supleks.jp/s/173860.html",
       "city": "結城市",
       "open_date": "2026年7月2日",
-      "point": "83.41",
+      "point": "83.42",
       "review_count": 2
     },
     {
@@ -532,8 +532,8 @@
       "url": "https://ramendb.supleks.jp/s/173221.html",
       "city": "つくば市",
       "open_date": "2026年5月25日",
-      "point": "87.70",
-      "review_count": 6
+      "point": "88.62",
+      "review_count": 7
     },
     {
       "name": "しょうどう らーめん",
@@ -921,6 +921,21 @@
           "open_date": "2026年6月21日",
           "point": "82.52",
           "review_count": 1
+        }
+      ]
+    },
+    {
+      "id": "2026-08-14T18:35:40+00:00",
+      "added_at": "2026-08-14T18:35:40+00:00",
+      "shops": [
+        {
+          "name": "つけ麺や楽笑",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/174633.html",
+          "city": "足利市",
+          "open_date": "2026年7月21日",
+          "point": "0.00",
+          "review_count": 0
         }
       ]
     }
