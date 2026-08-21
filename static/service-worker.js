@@ -1,4 +1,4 @@
-self.APP_VERSION = '20260806-1';
+self.APP_VERSION = '20260822-1';
 
 self.addEventListener('install', (event) => {
     event.waitUntil(self.skipWaiting());

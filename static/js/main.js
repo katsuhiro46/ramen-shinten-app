@@ -4,6 +4,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const newShopSection = document.getElementById('new-shop-section');
     const newShopList = document.getElementById('new-shop-list');
     const newShopCount = document.getElementById('new-shop-count');
+    const recentShopSection = document.getElementById('recent-shop-section');
+    const recentShopToggle = document.getElementById('recent-shop-toggle');
+    const recentShopList = document.getElementById('recent-shop-list');
+    const recentShopCount = document.getElementById('recent-shop-count');
     const pushPanel = document.getElementById('push-panel');
     const pushToggle = document.getElementById('push-toggle');
     const pushStatus = document.getElementById('push-status');
@@ -49,6 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             loading.classList.add('hidden');
             renderNewShopSection(highlightedShops);
+            renderRecentShopSection(additionEvents);
 
             // アコーディオン生成
             PREF_ORDER.forEach(pref => {
@@ -77,7 +82,7 @@ document.addEventListener('DOMContentLoaded', () => {
             && typeof event.id === 'string'
             && Array.isArray(event.shops)
             && event.shops.length > 0
-        ));
+        )).sort((left, right) => eventTimestamp(left) - eventTimestamp(right));
     }
 
     function selectHighlightedEvents(events) {
@@ -107,6 +112,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return shops;
     }
 
+    function eventTimestamp(event) {
+        const timestamp = Date.parse(event.added_at || event.id);
+        return Number.isNaN(timestamp) ? 0 : timestamp;
+    }
+
     function renderNewShopSection(shops) {
         if (shops.length === 0 || !newShopSection || !newShopList || !newShopCount) {
             return;
@@ -118,6 +128,64 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         newShopCount.textContent = `${shops.length}件`;
         newShopSection.classList.remove('hidden');
+    }
+
+    function renderRecentShopSection(events) {
+        if (!recentShopSection || !recentShopToggle || !recentShopList || !recentShopCount) {
+            return;
+        }
+
+        const recentEntries = collectRecentShopEntries(events);
+        if (recentEntries.length === 0) {
+            return;
+        }
+
+        recentEntries.forEach(({ shop, addedAt }) => {
+            const config = PREF_CONFIG[shop.area] || {};
+            recentShopList.appendChild(
+                createShopItem(shop, config, false, formatAdditionDate(addedAt))
+            );
+        });
+
+        recentShopCount.textContent = `${recentEntries.length}件`;
+        recentShopSection.classList.remove('hidden');
+        recentShopToggle.addEventListener('click', () => {
+            const isOpen = recentShopSection.classList.toggle('open');
+            recentShopToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+        });
+    }
+
+    function collectRecentShopEntries(events) {
+        const entries = [];
+        const collectedKeys = new Set();
+
+        [...events].reverse().forEach(event => {
+            event.shops.forEach(shop => {
+                const key = shopKey(shop);
+                if (!collectedKeys.has(key)) {
+                    entries.push({
+                        shop,
+                        addedAt: event.added_at || event.id,
+                    });
+                    collectedKeys.add(key);
+                }
+            });
+        });
+
+        return entries;
+    }
+
+    function formatAdditionDate(value) {
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) {
+            return '';
+        }
+
+        return new Intl.DateTimeFormat('ja-JP', {
+            month: 'numeric',
+            day: 'numeric',
+            timeZone: 'Asia/Tokyo',
+        }).format(date);
     }
 
     function createAccordion(prefName, shops, config, highlightedKeys) {
@@ -167,7 +235,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return section;
     }
 
-    function createShopItem(shop, config, isNew = false) {
+    function createShopItem(shop, config, isNew = false, additionDate = '') {
         const li = document.createElement('li');
         li.className = isNew ? 'shop-item is-new' : 'shop-item';
         li.style.setProperty('--pref-color', config.color || '#FFD700');
@@ -186,6 +254,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <a href="${url}" target="_blank" rel="noopener" class="shop-link">
                     <span class="shop-name">${name}</span>
                     ${isNew ? '<span class="new-badge">NEW</span>' : ''}
+                    ${additionDate ? `<span class="addition-date-badge">${escapeHtml(additionDate)}追加</span>` : ''}
                 </a>
                 <button class="navi-btn" type="button" aria-label="${name}を地図で開く">📍</button>
             </div>
@@ -246,7 +315,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             pushPanel.classList.remove('hidden');
             const registration = await navigator.serviceWorker.register(
-                '/service-worker.js?v=20260806-1',
+                '/service-worker.js?v=20260822-1',
                 { updateViaCache: 'none' }
             );
             let subscription = await registration.pushManager.getSubscription();
