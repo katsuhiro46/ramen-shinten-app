@@ -163,8 +163,8 @@
       "url": "https://ramendb.supleks.jp/s/171883.html",
       "city": "太田市",
       "open_date": "2026年3月5日",
-      "point": "86.97",
-      "review_count": 11
+      "point": "86.95",
+      "review_count": 12
     },
     {
       "name": "地鶏ラーメン とりじ 高崎店",
@@ -203,6 +203,24 @@
       "review_count": 0
     },
     {
+      "name": "中華そば おおの",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/174790.html",
+      "city": "宇都宮市",
+      "open_date": "2026年9月1日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "日高屋 栃木平柳町店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/174791.html",
+      "city": "栃木市",
+      "open_date": "2026年8月24日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "節貝麺和のいつ花",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174476.html",
@@ -217,8 +235,8 @@
       "url": "https://ramendb.supleks.jp/s/174589.html",
       "city": "宇都宮市",
       "open_date": "2026年8月20日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.79",
+      "review_count": 1
     },
     {
       "name": "八吉食堂",
@@ -347,24 +365,6 @@
       "review_count": 1
     },
     {
-      "name": "日高屋 鹿沼栄町店",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/172539.html",
-      "city": "鹿沼市",
-      "open_date": "2026年3月31日",
-      "point": "82.81",
-      "review_count": 1
-    },
-    {
-      "name": "中華蕎麦 禅",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/172543.html",
-      "city": "那須烏山市",
-      "open_date": "2026年3月29日",
-      "point": "84.34",
-      "review_count": 3
-    },
-    {
       "name": "ラーメン日本一やまがた 七代目",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/159375.html",
@@ -406,8 +406,8 @@
       "url": "https://ramendb.supleks.jp/s/174655.html",
       "city": "つくば市",
       "open_date": "2026年8月15日",
-      "point": "83.93",
-      "review_count": 2
+      "point": "84.90",
+      "review_count": 3
     },
     {
       "name": "激辛ラーメン専門店 レッチリ 土浦本店",
@@ -686,7 +686,7 @@
       "city": "川口市",
       "open_date": "2026年7月10日",
       "point": "86.98",
-      "review_count": 7
+      "review_count": 8
     },
     {
       "name": "豚骨ラーメン 福の軒 北浦和",
@@ -721,7 +721,7 @@
       "url": "https://ramendb.supleks.jp/s/174089.html",
       "city": "春日部市",
       "open_date": "2026年7月3日",
-      "point": "84.89",
+      "point": "84.90",
       "review_count": 3
     }
   ],
@@ -1023,6 +1023,30 @@
           "open_date": "2026年7月3日",
           "point": "84.89",
           "review_count": 3
+        }
+      ]
+    },
+    {
+      "id": "2026-08-23T18:35:36+00:00",
+      "added_at": "2026-08-23T18:35:36+00:00",
+      "shops": [
+        {
+          "name": "中華そば おおの",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/174790.html",
+          "city": "宇都宮市",
+          "open_date": "2026年9月1日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "日高屋 栃木平柳町店",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/174791.html",
+          "city": "栃木市",
+          "open_date": "2026年8月24日",
+          "point": "0.00",
+          "review_count": 0
         }
       ]
     }
