@@ -5,6 +5,15 @@
   "log": "群馬: 20件 | 栃木: 20件 | 茨城: 20件 | 埼玉: 20件",
   "shops": [
     {
+      "name": "自家製麺 JAMMY STORE",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174726.html",
+      "city": "伊勢崎市",
+      "open_date": "2026年9月10日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "RAMEN MATSUNAGA",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174303.html",
@@ -46,7 +55,7 @@
       "url": "https://ramendb.supleks.jp/s/174194.html",
       "city": "高崎市",
       "open_date": "2026年7月16日",
-      "point": "84.31",
+      "point": "84.29",
       "review_count": 3
     },
     {
@@ -109,8 +118,8 @@
       "url": "https://ramendb.supleks.jp/s/172763.html",
       "city": "伊勢崎市",
       "open_date": "2026年4月1日",
-      "point": "84.86",
-      "review_count": 5
+      "point": "86.06",
+      "review_count": 6
     },
     {
       "name": "パンダ麻辣湯",
@@ -174,15 +183,6 @@
       "open_date": "2026年3月5日",
       "point": "82.42",
       "review_count": 2
-    },
-    {
-      "name": "カミナリオヤジ 伊勢崎店",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/171808.html",
-      "city": "伊勢崎市",
-      "open_date": "2026年3月3日",
-      "point": "0.00",
-      "review_count": 0
     },
     {
       "name": "どいちゃんラーメン",
@@ -505,8 +505,8 @@
       "url": "https://ramendb.supleks.jp/s/173794.html",
       "city": "神栖市",
       "open_date": "2026年7月9日",
-      "point": "85.71",
-      "review_count": 4
+      "point": "86.58",
+      "review_count": 5
     },
     {
       "name": "横浜家系ラーメン 壱角家 結城バイパス店",
@@ -590,6 +590,15 @@
       "review_count": 0
     },
     {
+      "name": "喜多方老麺まるや 丸広百貨店 東北物産展",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174810.html",
+      "city": "川越市",
+      "open_date": "2026年8月20日",
+      "point": "82.68",
+      "review_count": 1
+    },
+    {
       "name": "Ramen house メリー",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174542.html",
@@ -653,6 +662,15 @@
       "review_count": 2
     },
     {
+      "name": "沖縄料理 あやぱに",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174803.html",
+      "city": "ふじみ野市",
+      "open_date": "2026年7月19日",
+      "point": "83.17",
+      "review_count": 2
+    },
+    {
       "name": "恵比寿餃子 大豊記 本川越店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/171941.html",
@@ -705,24 +723,6 @@
       "open_date": "2026年7月7日",
       "point": "85.77",
       "review_count": 5
-    },
-    {
-      "name": "ラーメン マルキ 蕨店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174081.html",
-      "city": "蕨市",
-      "open_date": "2026年7月7日",
-      "point": "85.51",
-      "review_count": 4
-    },
-    {
-      "name": "熱傑硬派まぜおくん",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174089.html",
-      "city": "春日部市",
-      "open_date": "2026年7月3日",
-      "point": "84.90",
-      "review_count": 3
     }
   ],
   "addition_events": [
@@ -1047,6 +1047,39 @@
           "open_date": "2026年8月24日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-08-24T18:35:37+00:00",
+      "added_at": "2026-08-24T18:35:37+00:00",
+      "shops": [
+        {
+          "name": "自家製麺 JAMMY STORE",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/174726.html",
+          "city": "伊勢崎市",
+          "open_date": "2026年9月10日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "喜多方老麺まるや 丸広百貨店 東北物産展",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174810.html",
+          "city": "川越市",
+          "open_date": "2026年8月20日",
+          "point": "82.68",
+          "review_count": 1
+        },
+        {
+          "name": "沖縄料理 あやぱに",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174803.html",
+          "city": "ふじみ野市",
+          "open_date": "2026年7月19日",
+          "point": "83.17",
+          "review_count": 2
         }
       ]
     }
