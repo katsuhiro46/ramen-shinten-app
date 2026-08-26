@@ -298,7 +298,7 @@
       "url": "https://ramendb.supleks.jp/s/173463.html",
       "city": "小山市",
       "open_date": "2026年7月1日",
-      "point": "85.08",
+      "point": "85.09",
       "review_count": 4
     },
     {
@@ -514,7 +514,7 @@
       "url": "https://ramendb.supleks.jp/s/173860.html",
       "city": "結城市",
       "open_date": "2026年7月2日",
-      "point": "83.52",
+      "point": "83.50",
       "review_count": 2
     },
     {
@@ -590,6 +590,15 @@
       "review_count": 0
     },
     {
+      "name": "らーめん粋 鴻巣店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174829.html",
+      "city": "鴻巣市",
+      "open_date": "2026年8月20日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "喜多方老麺まるや 丸広百貨店 東北物産展",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174810.html",
@@ -631,7 +640,7 @@
       "url": "https://ramendb.supleks.jp/s/174453.html",
       "city": "越谷市",
       "open_date": "2026年7月30日",
-      "point": "83.67",
+      "point": "83.68",
       "review_count": 2
     },
     {
@@ -640,8 +649,8 @@
       "url": "https://ramendb.supleks.jp/s/174320.html",
       "city": "越谷市",
       "open_date": "2026年7月29日",
-      "point": "88.43",
-      "review_count": 8
+      "point": "89.45",
+      "review_count": 9
     },
     {
       "name": "国武屋 ドカ盛り研究所",
@@ -714,15 +723,6 @@
       "open_date": "2026年7月9日",
       "point": "84.46",
       "review_count": 3
-    },
-    {
-      "name": "中華そば 玄",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174082.html",
-      "city": "熊谷市",
-      "open_date": "2026年7月7日",
-      "point": "85.77",
-      "review_count": 5
     }
   ],
   "addition_events": [
@@ -1080,6 +1080,21 @@
           "open_date": "2026年7月19日",
           "point": "83.17",
           "review_count": 2
+        }
+      ]
+    },
+    {
+      "id": "2026-08-26T18:35:33+00:00",
+      "added_at": "2026-08-26T18:35:33+00:00",
+      "shops": [
+        {
+          "name": "らーめん粋 鴻巣店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174829.html",
+          "city": "鴻巣市",
+          "open_date": "2026年8月20日",
+          "point": "0.00",
+          "review_count": 0
         }
       ]
     }
