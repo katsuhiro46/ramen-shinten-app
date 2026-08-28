@@ -23,6 +23,15 @@
       "review_count": 0
     },
     {
+      "name": "麺屋 松もと 高崎店",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174849.html",
+      "city": "高崎市",
+      "open_date": "2026年8月26日",
+      "point": "83.08",
+      "review_count": 1
+    },
+    {
       "name": "旺旺麻辣燙 高崎店",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174576.html",
@@ -176,15 +185,6 @@
       "review_count": 12
     },
     {
-      "name": "地鶏ラーメン とりじ 高崎店",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/171852.html",
-      "city": "高崎市",
-      "open_date": "2026年3月5日",
-      "point": "82.42",
-      "review_count": 2
-    },
-    {
       "name": "どいちゃんラーメン",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174601.html",
@@ -262,7 +262,7 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "85.59",
+      "point": "85.40",
       "review_count": 4
     },
     {
@@ -541,8 +541,8 @@
       "url": "https://ramendb.supleks.jp/s/173690.html",
       "city": "つくば市",
       "open_date": "2026年6月15日",
-      "point": "90.15",
-      "review_count": 16
+      "point": "89.97",
+      "review_count": 17
     },
     {
       "name": "明朎 マーラータン",
@@ -595,8 +595,8 @@
       "url": "https://ramendb.supleks.jp/s/174829.html",
       "city": "鴻巣市",
       "open_date": "2026年8月20日",
-      "point": "84.79",
-      "review_count": 3
+      "point": "85.67",
+      "review_count": 4
     },
     {
       "name": "喜多方老麺まるや 丸広百貨店 東北物産展",
@@ -1095,6 +1095,21 @@
           "open_date": "2026年8月20日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-08-28T18:35:42+00:00",
+      "added_at": "2026-08-28T18:35:42+00:00",
+      "shops": [
+        {
+          "name": "麺屋 松もと 高崎店",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/174849.html",
+          "city": "高崎市",
+          "open_date": "2026年8月26日",
+          "point": "83.08",
+          "review_count": 1
         }
       ]
     }
