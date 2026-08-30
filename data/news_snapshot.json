@@ -32,6 +32,15 @@
       "review_count": 1
     },
     {
+      "name": "麺屋 絆",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174903.html",
+      "city": "前橋市",
+      "open_date": "2026年8月23日",
+      "point": "83.08",
+      "review_count": 1
+    },
+    {
       "name": "旺旺麻辣燙 高崎店",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174576.html",
@@ -176,15 +185,6 @@
       "review_count": 1
     },
     {
-      "name": "ラーメンはなみ",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/171883.html",
-      "city": "太田市",
-      "open_date": "2026年3月5日",
-      "point": "87.80",
-      "review_count": 13
-    },
-    {
       "name": "どいちゃんラーメン",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174601.html",
@@ -217,8 +217,8 @@
       "url": "https://ramendb.supleks.jp/s/174791.html",
       "city": "栃木市",
       "open_date": "2026年8月24日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.64",
+      "review_count": 1
     },
     {
       "name": "節貝麺和のいつ花",
@@ -640,7 +640,7 @@
       "url": "https://ramendb.supleks.jp/s/174453.html",
       "city": "越谷市",
       "open_date": "2026年7月30日",
-      "point": "83.68",
+      "point": "83.67",
       "review_count": 2
     },
     {
@@ -676,8 +676,8 @@
       "url": "https://ramendb.supleks.jp/s/174803.html",
       "city": "ふじみ野市",
       "open_date": "2026年7月19日",
-      "point": "83.17",
-      "review_count": 2
+      "point": "84.21",
+      "review_count": 3
     },
     {
       "name": "恵比寿餃子 大豊記 本川越店",
@@ -726,21 +726,6 @@
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-07-31T18:35:37+00:00",
-      "added_at": "2026-07-31T18:35:37+00:00",
-      "shops": [
-        {
-          "name": "顎で喰らえ 北越谷店",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174320.html",
-          "city": "越谷市",
-          "open_date": "2026年7月29日",
-          "point": "83.82",
-          "review_count": 2
-        }
-      ]
-    },
     {
       "id": "2026-08-01T18:35:41+00:00",
       "added_at": "2026-08-01T18:35:41+00:00",
@@ -1134,6 +1119,21 @@
           "open_date": "2026年8月29日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-08-30T18:35:38+00:00",
+      "added_at": "2026-08-30T18:35:38+00:00",
+      "shops": [
+        {
+          "name": "麺屋 絆",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/174903.html",
+          "city": "前橋市",
+          "open_date": "2026年8月23日",
+          "point": "83.08",
+          "review_count": 1
         }
       ]
     }
