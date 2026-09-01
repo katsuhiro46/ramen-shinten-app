@@ -28,8 +28,17 @@
       "url": "https://ramendb.supleks.jp/s/174849.html",
       "city": "高崎市",
       "open_date": "2026年8月26日",
-      "point": "83.08",
-      "review_count": 1
+      "point": "84.14",
+      "review_count": 2
+    },
+    {
+      "name": "麺や 貝灯",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174936.html",
+      "city": "前橋市",
+      "open_date": "2026年8月24日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "麺屋 絆",
@@ -46,7 +55,7 @@
       "url": "https://ramendb.supleks.jp/s/174576.html",
       "city": "高崎市",
       "open_date": "2026年8月8日",
-      "point": "83.08",
+      "point": "83.06",
       "review_count": 1
     },
     {
@@ -176,15 +185,6 @@
       "review_count": 4
     },
     {
-      "name": "ITTERASSHAI",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/172210.html",
-      "city": "高崎市",
-      "open_date": "2026年3月15日",
-      "point": "82.99",
-      "review_count": 1
-    },
-    {
       "name": "どいちゃんラーメン",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174601.html",
@@ -217,7 +217,7 @@
       "url": "https://ramendb.supleks.jp/s/174791.html",
       "city": "栃木市",
       "open_date": "2026年8月24日",
-      "point": "82.64",
+      "point": "82.63",
       "review_count": 1
     },
     {
@@ -253,7 +253,7 @@
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "86.41",
+      "point": "86.39",
       "review_count": 6
     },
     {
@@ -383,20 +383,11 @@
       "review_count": 0
     },
     {
-      "name": "ラーメンセンター松ちゃん",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/174886.html",
-      "city": "筑西市",
-      "open_date": "2026年9月14日",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
       "name": "ラーメンセンター 松ちゃん",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/174665.html",
       "city": "筑西市",
-      "open_date": "2026年9月8日",
+      "open_date": "2026年9月14日",
       "point": "0.00",
       "review_count": 0
     },
@@ -545,6 +536,15 @@
       "review_count": 0
     },
     {
+      "name": "麺と米",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174923.html",
+      "city": "常陸太田市",
+      "open_date": "2026年6月24日",
+      "point": "83.11",
+      "review_count": 1
+    },
+    {
       "name": "明朎 マーラータン",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174228.html",
@@ -557,15 +557,6 @@
       "name": "なぎちゃんラーメン 川越店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174153.html",
-      "city": "川越市",
-      "open_date": "オープン日未定",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
-      "name": "ラー麺ずんどう屋 川越店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173998.html",
       "city": "川越市",
       "open_date": "オープン日未定",
       "point": "0.00",
@@ -590,13 +581,22 @@
       "review_count": 0
     },
     {
-      "name": "らーめん粋 鴻巣店",
+      "name": "国武屋 ドカ盛り研究所 辛味研究部鶴ヶ島店",
       "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174829.html",
-      "city": "鴻巣市",
-      "open_date": "2026年8月20日",
-      "point": "86.63",
-      "review_count": 5
+      "url": "https://ramendb.supleks.jp/s/174931.html",
+      "city": "鶴ヶ島市",
+      "open_date": "2026年9月1日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "ラー麺ずんどう屋 川越店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/173998.html",
+      "city": "川越市",
+      "open_date": "2026年9月1日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "喜多方老麺まるや 丸広百貨店 東北物産展",
@@ -604,8 +604,17 @@
       "url": "https://ramendb.supleks.jp/s/174810.html",
       "city": "川越市",
       "open_date": "2026年8月20日",
-      "point": "82.68",
+      "point": "82.67",
       "review_count": 1
+    },
+    {
+      "name": "らーめん粋 鴻巣店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174829.html",
+      "city": "鴻巣市",
+      "open_date": "2026年8月20日",
+      "point": "86.63",
+      "review_count": 5
     },
     {
       "name": "Ramen house メリー",
@@ -631,7 +640,7 @@
       "url": "https://ramendb.supleks.jp/s/174429.html",
       "city": "所沢市",
       "open_date": "2026年7月31日",
-      "point": "87.70",
+      "point": "87.68",
       "review_count": 6
     },
     {
@@ -676,7 +685,7 @@
       "url": "https://ramendb.supleks.jp/s/174803.html",
       "city": "ふじみ野市",
       "open_date": "2026年7月19日",
-      "point": "84.21",
+      "point": "84.20",
       "review_count": 3
     },
     {
@@ -703,7 +712,7 @@
       "url": "https://ramendb.supleks.jp/s/173967.html",
       "city": "坂戸市",
       "open_date": "2026年7月11日",
-      "point": "85.24",
+      "point": "85.23",
       "review_count": 4
     },
     {
@@ -714,33 +723,9 @@
       "open_date": "2026年7月10日",
       "point": "86.98",
       "review_count": 8
-    },
-    {
-      "name": "豚骨ラーメン 福の軒 北浦和",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173879.html",
-      "city": "さいたま市浦和区",
-      "open_date": "2026年7月9日",
-      "point": "84.46",
-      "review_count": 3
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-01T18:35:41+00:00",
-      "added_at": "2026-08-01T18:35:41+00:00",
-      "shops": [
-        {
-          "name": "中華そば 暁亭",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174428.html",
-          "city": "川越市",
-          "open_date": "2026年7月22日",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-08-02T18:35:38+00:00",
       "added_at": "2026-08-02T18:35:38+00:00",
@@ -1134,6 +1119,39 @@
           "open_date": "2026年8月23日",
           "point": "83.08",
           "review_count": 1
+        }
+      ]
+    },
+    {
+      "id": "2026-09-01T18:35:32+00:00",
+      "added_at": "2026-09-01T18:35:32+00:00",
+      "shops": [
+        {
+          "name": "麺や 貝灯",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/174936.html",
+          "city": "前橋市",
+          "open_date": "2026年8月24日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "麺と米",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/174923.html",
+          "city": "常陸太田市",
+          "open_date": "2026年6月24日",
+          "point": "83.11",
+          "review_count": 1
+        },
+        {
+          "name": "国武屋 ドカ盛り研究所 辛味研究部鶴ヶ島店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174931.html",
+          "city": "鶴ヶ島市",
+          "open_date": "2026年9月1日",
+          "point": "0.00",
+          "review_count": 0
         }
       ]
     }
