@@ -14,6 +14,15 @@
       "review_count": 0
     },
     {
+      "name": "大喜麻辣湯",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174965.html",
+      "city": "富岡市",
+      "open_date": "2026年9月2日",
+      "point": "83.09",
+      "review_count": 1
+    },
+    {
       "name": "RAMEN MATSUNAGA",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174303.html",
@@ -176,15 +185,6 @@
       "review_count": 1
     },
     {
-      "name": "らーめん はやぶさ",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/171708.html",
-      "city": "高崎市",
-      "open_date": "2026年3月16日",
-      "point": "91.61",
-      "review_count": 4
-    },
-    {
       "name": "どいちゃんラーメン",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174601.html",
@@ -209,7 +209,7 @@
       "city": "宇都宮市",
       "open_date": "2026年9月1日",
       "point": "90.09",
-      "review_count": 0
+      "review_count": 1
     },
     {
       "name": "日高屋 栃木平柳町店",
@@ -298,7 +298,7 @@
       "url": "https://ramendb.supleks.jp/s/173463.html",
       "city": "小山市",
       "open_date": "2026年7月1日",
-      "point": "85.08",
+      "point": "85.07",
       "review_count": 4
     },
     {
@@ -599,6 +599,15 @@
       "review_count": 0
     },
     {
+      "name": "自家製麺 関田",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174958.html",
+      "city": "白岡市",
+      "open_date": "2026年8月31日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "喜多方老麺まるや 丸広百貨店 東北物産展",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174810.html",
@@ -631,7 +640,7 @@
       "url": "https://ramendb.supleks.jp/s/174679.html",
       "city": "川口市",
       "open_date": "2026年8月7日",
-      "point": "82.24",
+      "point": "82.23",
       "review_count": 1
     },
     {
@@ -714,33 +723,9 @@
       "open_date": "2026年7月11日",
       "point": "85.23",
       "review_count": 4
-    },
-    {
-      "name": "横濱家系ラーメン 二十代目野中家",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174086.html",
-      "city": "川口市",
-      "open_date": "2026年7月10日",
-      "point": "86.98",
-      "review_count": 8
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-02T18:35:38+00:00",
-      "added_at": "2026-08-02T18:35:38+00:00",
-      "shops": [
-        {
-          "name": "つけ麺 丸武",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174429.html",
-          "city": "所沢市",
-          "open_date": "2026年7月31日",
-          "point": "82.83",
-          "review_count": 1
-        }
-      ]
-    },
     {
       "id": "2026-08-03T18:35:39+00:00",
       "added_at": "2026-08-03T18:35:39+00:00",
@@ -1150,6 +1135,30 @@
           "url": "https://ramendb.supleks.jp/s/174931.html",
           "city": "鶴ヶ島市",
           "open_date": "2026年9月1日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02T18:35:29+00:00",
+      "added_at": "2026-09-02T18:35:29+00:00",
+      "shops": [
+        {
+          "name": "大喜麻辣湯",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/174965.html",
+          "city": "富岡市",
+          "open_date": "2026年9月2日",
+          "point": "83.09",
+          "review_count": 1
+        },
+        {
+          "name": "自家製麺 関田",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174958.html",
+          "city": "白岡市",
+          "open_date": "2026年8月31日",
           "point": "0.00",
           "review_count": 0
         }
