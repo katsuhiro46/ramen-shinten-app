@@ -19,7 +19,7 @@
       "url": "https://ramendb.supleks.jp/s/174965.html",
       "city": "富岡市",
       "open_date": "2026年9月2日",
-      "point": "83.09",
+      "point": "83.08",
       "review_count": 1
     },
     {
@@ -46,8 +46,8 @@
       "url": "https://ramendb.supleks.jp/s/174936.html",
       "city": "前橋市",
       "open_date": "2026年8月24日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.87",
+      "review_count": 1
     },
     {
       "name": "麺屋 絆",
@@ -212,6 +212,15 @@
       "review_count": 1
     },
     {
+      "name": "豚骨醤油ラーメン 稲葉屋",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/174982.html",
+      "city": "宇都宮市",
+      "open_date": "2026年8月29日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "日高屋 栃木平柳町店",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174791.html",
@@ -356,15 +365,6 @@
       "review_count": 3
     },
     {
-      "name": "ニューラーメンショップ 西那須野店",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/172451.html",
-      "city": "那須塩原市",
-      "open_date": "2026年4月6日",
-      "point": "82.36",
-      "review_count": 1
-    },
-    {
       "name": "ラーメン日本一やまがた 七代目",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/159375.html",
@@ -379,6 +379,15 @@
       "url": "https://ramendb.supleks.jp/s/174779.html",
       "city": "下妻市",
       "open_date": "2026年10月5日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "全国ラーメンフェスタ 秋の陣 2026 in 日立",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174989.html",
+      "city": "日立市",
+      "open_date": "2026年9月19日",
       "point": "0.00",
       "review_count": 0
     },
@@ -415,8 +424,8 @@
       "url": "https://ramendb.supleks.jp/s/174655.html",
       "city": "つくば市",
       "open_date": "2026年8月15日",
-      "point": "85.82",
-      "review_count": 4
+      "point": "86.61",
+      "review_count": 5
     },
     {
       "name": "激辛ラーメン専門店 レッチリ 土浦本店",
@@ -433,8 +442,8 @@
       "url": "https://ramendb.supleks.jp/s/174780.html",
       "city": "つくば市",
       "open_date": "2026年7月31日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.86",
+      "review_count": 1
     },
     {
       "name": "日高屋 つくば東2丁目店",
@@ -496,7 +505,7 @@
       "url": "https://ramendb.supleks.jp/s/174040.html",
       "city": "守谷市",
       "open_date": "2026年7月13日",
-      "point": "86.41",
+      "point": "86.40",
       "review_count": 5
     },
     {
@@ -536,13 +545,13 @@
       "review_count": 0
     },
     {
-      "name": "麺と米",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/174923.html",
-      "city": "常陸太田市",
-      "open_date": "2026年6月24日",
-      "point": "83.11",
-      "review_count": 1
+      "name": "六福麻辣湯",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174980.html",
+      "city": "草加市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "明朎 マーラータン",
@@ -649,8 +658,8 @@
       "url": "https://ramendb.supleks.jp/s/174429.html",
       "city": "所沢市",
       "open_date": "2026年7月31日",
-      "point": "87.68",
-      "review_count": 6
+      "point": "87.70",
+      "review_count": 7
     },
     {
       "name": "どうとんぼり神座 イオンレイクタウンkaze店",
@@ -714,57 +723,9 @@
       "open_date": "2026年7月17日",
       "point": "82.51",
       "review_count": 1
-    },
-    {
-      "name": "国武屋ドカ盛り研究所 ブタ姫",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173967.html",
-      "city": "坂戸市",
-      "open_date": "2026年7月11日",
-      "point": "85.23",
-      "review_count": 4
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-03T18:35:39+00:00",
-      "added_at": "2026-08-03T18:35:39+00:00",
-      "shops": [
-        {
-          "name": "日高屋 つくば東2丁目店",
-          "area": "茨城",
-          "url": "https://ramendb.supleks.jp/s/174446.html",
-          "city": "つくば市",
-          "open_date": "2026年7月30日",
-          "point": "0.00",
-          "review_count": 0
-        },
-        {
-          "name": "どうとんぼり神座 イオンレイクタウンkaze店",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174453.html",
-          "city": "越谷市",
-          "open_date": "2026年7月30日",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
-    {
-      "id": "2026-08-04T18:35:32+00:00",
-      "added_at": "2026-08-04T18:35:32+00:00",
-      "shops": [
-        {
-          "name": "孔府麻辣烫",
-          "area": "群馬",
-          "url": "https://ramendb.supleks.jp/s/173026.html",
-          "city": "高崎市",
-          "open_date": "2026年4月3日",
-          "point": "83.42",
-          "review_count": 2
-        }
-      ]
-    },
     {
       "id": "2026-08-05T18:35:36+00:00",
       "added_at": "2026-08-05T18:35:36+00:00",
@@ -1159,6 +1120,39 @@
           "url": "https://ramendb.supleks.jp/s/174958.html",
           "city": "白岡市",
           "open_date": "2026年8月31日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-03T18:35:37+00:00",
+      "added_at": "2026-09-03T18:35:37+00:00",
+      "shops": [
+        {
+          "name": "豚骨醤油ラーメン 稲葉屋",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/174982.html",
+          "city": "宇都宮市",
+          "open_date": "2026年8月29日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "全国ラーメンフェスタ 秋の陣 2026 in 日立",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/174989.html",
+          "city": "日立市",
+          "open_date": "2026年9月19日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "六福麻辣湯",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174980.html",
+          "city": "草加市",
+          "open_date": "オープン日未定",
           "point": "0.00",
           "review_count": 0
         }
