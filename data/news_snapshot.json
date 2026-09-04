@@ -5,6 +5,15 @@
   "log": "群馬: 20件 | 栃木: 20件 | 茨城: 20件 | 埼玉: 20件",
   "shops": [
     {
+      "name": "全国ラーメンフェスタ秋の陣 2026 in 高崎 〒-群馬県高崎市",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/174996.html",
+      "city": "高崎市",
+      "open_date": "2026年10月9日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "自家製麺 JAMMY STORE",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174726.html",
@@ -19,7 +28,7 @@
       "url": "https://ramendb.supleks.jp/s/174965.html",
       "city": "富岡市",
       "open_date": "2026年9月2日",
-      "point": "83.08",
+      "point": "83.25",
       "review_count": 1
     },
     {
@@ -37,7 +46,7 @@
       "url": "https://ramendb.supleks.jp/s/174849.html",
       "city": "高崎市",
       "open_date": "2026年8月26日",
-      "point": "84.14",
+      "point": "84.30",
       "review_count": 2
     },
     {
@@ -46,7 +55,7 @@
       "url": "https://ramendb.supleks.jp/s/174936.html",
       "city": "前橋市",
       "open_date": "2026年8月24日",
-      "point": "82.87",
+      "point": "83.04",
       "review_count": 1
     },
     {
@@ -55,7 +64,7 @@
       "url": "https://ramendb.supleks.jp/s/174903.html",
       "city": "前橋市",
       "open_date": "2026年8月23日",
-      "point": "83.08",
+      "point": "83.25",
       "review_count": 1
     },
     {
@@ -64,7 +73,7 @@
       "url": "https://ramendb.supleks.jp/s/174576.html",
       "city": "高崎市",
       "open_date": "2026年8月8日",
-      "point": "83.06",
+      "point": "83.23",
       "review_count": 1
     },
     {
@@ -73,7 +82,7 @@
       "url": "https://ramendb.supleks.jp/s/174236.html",
       "city": "高崎市",
       "open_date": "2026年7月19日",
-      "point": "83.52",
+      "point": "83.68",
       "review_count": 1
     },
     {
@@ -82,7 +91,7 @@
       "url": "https://ramendb.supleks.jp/s/174217.html",
       "city": "高崎市",
       "open_date": "2026年7月18日",
-      "point": "83.52",
+      "point": "83.68",
       "review_count": 1
     },
     {
@@ -91,7 +100,7 @@
       "url": "https://ramendb.supleks.jp/s/174194.html",
       "city": "高崎市",
       "open_date": "2026年7月16日",
-      "point": "84.29",
+      "point": "84.46",
       "review_count": 3
     },
     {
@@ -100,7 +109,7 @@
       "url": "https://ramendb.supleks.jp/s/172858.html",
       "city": "太田市",
       "open_date": "2026年5月28日",
-      "point": "82.61",
+      "point": "82.78",
       "review_count": 1
     },
     {
@@ -109,7 +118,7 @@
       "url": "https://ramendb.supleks.jp/s/173503.html",
       "city": "渋川市",
       "open_date": "2026年5月18日",
-      "point": "84.43",
+      "point": "84.60",
       "review_count": 3
     },
     {
@@ -118,7 +127,7 @@
       "url": "https://ramendb.supleks.jp/s/172898.html",
       "city": "高崎市",
       "open_date": "2026年5月11日",
-      "point": "83.91",
+      "point": "84.07",
       "review_count": 2
     },
     {
@@ -127,7 +136,7 @@
       "url": "https://ramendb.supleks.jp/s/173206.html",
       "city": "高崎市",
       "open_date": "2026年5月1日",
-      "point": "83.95",
+      "point": "84.12",
       "review_count": 2
     },
     {
@@ -136,7 +145,7 @@
       "url": "https://ramendb.supleks.jp/s/173026.html",
       "city": "高崎市",
       "open_date": "2026年4月3日",
-      "point": "83.51",
+      "point": "83.68",
       "review_count": 2
     },
     {
@@ -145,7 +154,7 @@
       "url": "https://ramendb.supleks.jp/s/172874.html",
       "city": "前橋市",
       "open_date": "2026年4月3日",
-      "point": "87.41",
+      "point": "87.57",
       "review_count": 1
     },
     {
@@ -154,7 +163,7 @@
       "url": "https://ramendb.supleks.jp/s/172763.html",
       "city": "伊勢崎市",
       "open_date": "2026年4月1日",
-      "point": "86.06",
+      "point": "86.23",
       "review_count": 6
     },
     {
@@ -163,7 +172,7 @@
       "url": "https://ramendb.supleks.jp/s/172473.html",
       "city": "高崎市",
       "open_date": "2026年3月26日",
-      "point": "82.52",
+      "point": "82.68",
       "review_count": 1
     },
     {
@@ -174,15 +183,6 @@
       "open_date": "2026年3月23日",
       "point": "0.00",
       "review_count": 0
-    },
-    {
-      "name": "中華そば マルタカ",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/172513.html",
-      "city": "富岡市",
-      "open_date": "2026年3月17日",
-      "point": "82.52",
-      "review_count": 1
     },
     {
       "name": "どいちゃんラーメン",
@@ -208,7 +208,7 @@
       "url": "https://ramendb.supleks.jp/s/174790.html",
       "city": "宇都宮市",
       "open_date": "2026年9月1日",
-      "point": "90.09",
+      "point": "90.24",
       "review_count": 1
     },
     {
@@ -226,7 +226,7 @@
       "url": "https://ramendb.supleks.jp/s/174791.html",
       "city": "栃木市",
       "open_date": "2026年8月24日",
-      "point": "82.63",
+      "point": "82.80",
       "review_count": 1
     },
     {
@@ -235,7 +235,7 @@
       "url": "https://ramendb.supleks.jp/s/174476.html",
       "city": "栃木市",
       "open_date": "2026年8月22日",
-      "point": "91.55",
+      "point": "91.70",
       "review_count": 1
     },
     {
@@ -244,7 +244,7 @@
       "url": "https://ramendb.supleks.jp/s/174589.html",
       "city": "宇都宮市",
       "open_date": "2026年8月20日",
-      "point": "82.79",
+      "point": "82.96",
       "review_count": 1
     },
     {
@@ -253,7 +253,7 @@
       "url": "https://ramendb.supleks.jp/s/174527.html",
       "city": "佐野市",
       "open_date": "2026年8月8日",
-      "point": "84.60",
+      "point": "84.75",
       "review_count": 3
     },
     {
@@ -262,7 +262,7 @@
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "86.39",
+      "point": "86.55",
       "review_count": 6
     },
     {
@@ -271,7 +271,7 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "85.40",
+      "point": "85.56",
       "review_count": 4
     },
     {
@@ -289,7 +289,7 @@
       "url": "https://ramendb.supleks.jp/s/173983.html",
       "city": "足利市",
       "open_date": "2026年7月8日",
-      "point": "82.78",
+      "point": "82.95",
       "review_count": 1
     },
     {
@@ -298,7 +298,7 @@
       "url": "https://ramendb.supleks.jp/s/174043.html",
       "city": "佐野市",
       "open_date": "2026年7月6日",
-      "point": "91.20",
+      "point": "91.35",
       "review_count": 1
     },
     {
@@ -307,7 +307,7 @@
       "url": "https://ramendb.supleks.jp/s/173463.html",
       "city": "小山市",
       "open_date": "2026年7月1日",
-      "point": "85.07",
+      "point": "85.24",
       "review_count": 4
     },
     {
@@ -316,7 +316,7 @@
       "url": "https://ramendb.supleks.jp/s/173713.html",
       "city": "佐野市",
       "open_date": "2026年6月11日",
-      "point": "83.40",
+      "point": "83.57",
       "review_count": 2
     },
     {
@@ -325,7 +325,7 @@
       "url": "https://ramendb.supleks.jp/s/173395.html",
       "city": "宇都宮市",
       "open_date": "2026年5月1日",
-      "point": "82.12",
+      "point": "82.29",
       "review_count": 1
     },
     {
@@ -343,7 +343,7 @@
       "url": "https://ramendb.supleks.jp/s/172846.html",
       "city": "宇都宮市",
       "open_date": "2026年4月17日",
-      "point": "89.24",
+      "point": "89.39",
       "review_count": 8
     },
     {
@@ -361,7 +361,7 @@
       "url": "https://ramendb.supleks.jp/s/173286.html",
       "city": "宇都宮市",
       "open_date": "2026年4月11日",
-      "point": "83.66",
+      "point": "83.83",
       "review_count": 3
     },
     {
@@ -424,7 +424,7 @@
       "url": "https://ramendb.supleks.jp/s/174655.html",
       "city": "つくば市",
       "open_date": "2026年8月15日",
-      "point": "86.61",
+      "point": "86.77",
       "review_count": 5
     },
     {
@@ -433,7 +433,7 @@
       "url": "https://ramendb.supleks.jp/s/174248.html",
       "city": "土浦市",
       "open_date": "2026年8月1日",
-      "point": "89.81",
+      "point": "89.96",
       "review_count": 2
     },
     {
@@ -442,7 +442,7 @@
       "url": "https://ramendb.supleks.jp/s/174780.html",
       "city": "つくば市",
       "open_date": "2026年7月31日",
-      "point": "82.86",
+      "point": "83.03",
       "review_count": 1
     },
     {
@@ -460,7 +460,7 @@
       "url": "https://ramendb.supleks.jp/s/174402.html",
       "city": "土浦市",
       "open_date": "2026年7月28日",
-      "point": "89.04",
+      "point": "89.20",
       "review_count": 8
     },
     {
@@ -469,7 +469,7 @@
       "url": "https://ramendb.supleks.jp/s/174395.html",
       "city": "東茨城郡",
       "open_date": "2026年7月25日",
-      "point": "83.63",
+      "point": "83.80",
       "review_count": 2
     },
     {
@@ -478,7 +478,7 @@
       "url": "https://ramendb.supleks.jp/s/174404.html",
       "city": "鹿嶋市",
       "open_date": "2026年7月22日",
-      "point": "82.85",
+      "point": "83.02",
       "review_count": 1
     },
     {
@@ -487,7 +487,7 @@
       "url": "https://ramendb.supleks.jp/s/174243.html",
       "city": "石岡市",
       "open_date": "2026年7月19日",
-      "point": "84.22",
+      "point": "84.39",
       "review_count": 3
     },
     {
@@ -496,8 +496,8 @@
       "url": "https://ramendb.supleks.jp/s/174215.html",
       "city": "つくば市",
       "open_date": "2026年7月17日",
-      "point": "83.84",
-      "review_count": 3
+      "point": "84.93",
+      "review_count": 4
     },
     {
       "name": "らーめん 三水 守谷店",
@@ -505,7 +505,7 @@
       "url": "https://ramendb.supleks.jp/s/174040.html",
       "city": "守谷市",
       "open_date": "2026年7月13日",
-      "point": "86.40",
+      "point": "86.56",
       "review_count": 5
     },
     {
@@ -514,7 +514,7 @@
       "url": "https://ramendb.supleks.jp/s/174124.html",
       "city": "牛久市",
       "open_date": "2026年7月11日",
-      "point": "89.80",
+      "point": "89.95",
       "review_count": 5
     },
     {
@@ -523,7 +523,7 @@
       "url": "https://ramendb.supleks.jp/s/173794.html",
       "city": "神栖市",
       "open_date": "2026年7月9日",
-      "point": "86.58",
+      "point": "86.75",
       "review_count": 5
     },
     {
@@ -532,7 +532,7 @@
       "url": "https://ramendb.supleks.jp/s/173860.html",
       "city": "結城市",
       "open_date": "2026年7月2日",
-      "point": "83.50",
+      "point": "83.67",
       "review_count": 2
     },
     {
@@ -541,6 +541,15 @@
       "url": "https://ramendb.supleks.jp/s/173987.html",
       "city": "取手市",
       "open_date": "2026年6月27日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "豚が1番⭐︎脂が2番 春日部店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175014.html",
+      "city": "春日部市",
+      "open_date": "オープン日未定",
       "point": "0.00",
       "review_count": 0
     },
@@ -581,6 +590,15 @@
       "review_count": 0
     },
     {
+      "name": "全国ラーメンフェスタ 秋の陣 2026 in 春日部 ヤマダデンキTecc LIFE SELECT 春日部本店 〒",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174997.html",
+      "city": "春日部市",
+      "open_date": "2026年10月31日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "ゆで太郎 越谷蒲生店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174195.html",
@@ -590,13 +608,22 @@
       "review_count": 0
     },
     {
+      "name": "一風堂 minanoba川口店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175006.html",
+      "city": "川口市",
+      "open_date": "2026年9月17日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "国武屋 ドカ盛り研究所 辛味研究部鶴ヶ島店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174931.html",
       "city": "鶴ヶ島市",
       "open_date": "2026年9月1日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "83.92",
+      "review_count": 2
     },
     {
       "name": "ラー麺ずんどう屋 川越店",
@@ -622,7 +649,7 @@
       "url": "https://ramendb.supleks.jp/s/174810.html",
       "city": "川越市",
       "open_date": "2026年8月20日",
-      "point": "82.67",
+      "point": "82.84",
       "review_count": 1
     },
     {
@@ -631,7 +658,7 @@
       "url": "https://ramendb.supleks.jp/s/174829.html",
       "city": "鴻巣市",
       "open_date": "2026年8月20日",
-      "point": "86.63",
+      "point": "86.80",
       "review_count": 5
     },
     {
@@ -640,7 +667,7 @@
       "url": "https://ramendb.supleks.jp/s/174542.html",
       "city": "深谷市",
       "open_date": "2026年8月11日",
-      "point": "88.45",
+      "point": "88.61",
       "review_count": 8
     },
     {
@@ -649,7 +676,7 @@
       "url": "https://ramendb.supleks.jp/s/174679.html",
       "city": "川口市",
       "open_date": "2026年8月7日",
-      "point": "82.23",
+      "point": "82.40",
       "review_count": 1
     },
     {
@@ -658,7 +685,7 @@
       "url": "https://ramendb.supleks.jp/s/174429.html",
       "city": "所沢市",
       "open_date": "2026年7月31日",
-      "point": "87.70",
+      "point": "87.86",
       "review_count": 7
     },
     {
@@ -667,7 +694,7 @@
       "url": "https://ramendb.supleks.jp/s/174453.html",
       "city": "越谷市",
       "open_date": "2026年7月30日",
-      "point": "83.66",
+      "point": "83.83",
       "review_count": 3
     },
     {
@@ -676,7 +703,7 @@
       "url": "https://ramendb.supleks.jp/s/174320.html",
       "city": "越谷市",
       "open_date": "2026年7月29日",
-      "point": "89.45",
+      "point": "89.61",
       "review_count": 9
     },
     {
@@ -685,7 +712,7 @@
       "url": "https://ramendb.supleks.jp/s/174006.html",
       "city": "日高市",
       "open_date": "2026年7月23日",
-      "point": "88.59",
+      "point": "88.74",
       "review_count": 4
     },
     {
@@ -694,53 +721,11 @@
       "url": "https://ramendb.supleks.jp/s/174428.html",
       "city": "川越市",
       "open_date": "2026年7月22日",
-      "point": "83.49",
+      "point": "83.66",
       "review_count": 2
-    },
-    {
-      "name": "沖縄料理 あやぱに",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174803.html",
-      "city": "ふじみ野市",
-      "open_date": "2026年7月19日",
-      "point": "84.20",
-      "review_count": 3
-    },
-    {
-      "name": "恵比寿餃子 大豊記 本川越店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/171941.html",
-      "city": "川越市",
-      "open_date": "2026年7月19日",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
-      "name": "京都北白川ラーメン魁力屋 大宮東口店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174169.html",
-      "city": "さいたま市大宮区",
-      "open_date": "2026年7月17日",
-      "point": "82.51",
-      "review_count": 1
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-05T18:35:36+00:00",
-      "added_at": "2026-08-05T18:35:36+00:00",
-      "shops": [
-        {
-          "name": "ラーメン酒場ねぎぼうず",
-          "area": "栃木",
-          "url": "https://ramendb.supleks.jp/s/174481.html",
-          "city": "宇都宮市",
-          "open_date": "オープン日未定",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-08-06T18:35:36+00:00",
       "added_at": "2026-08-06T18:35:36+00:00",
@@ -1153,6 +1138,48 @@
           "url": "https://ramendb.supleks.jp/s/174980.html",
           "city": "草加市",
           "open_date": "オープン日未定",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-04T18:35:43+00:00",
+      "added_at": "2026-09-04T18:35:43+00:00",
+      "shops": [
+        {
+          "name": "全国ラーメンフェスタ秋の陣 2026 in 高崎 〒-群馬県高崎市",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/174996.html",
+          "city": "高崎市",
+          "open_date": "2026年10月9日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "豚が1番⭐︎脂が2番 春日部店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175014.html",
+          "city": "春日部市",
+          "open_date": "オープン日未定",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "全国ラーメンフェスタ 秋の陣 2026 in 春日部 ヤマダデンキTecc LIFE SELECT 春日部本店 〒",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174997.html",
+          "city": "春日部市",
+          "open_date": "2026年10月31日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "一風堂 minanoba川口店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175006.html",
+          "city": "川口市",
+          "open_date": "2026年9月17日",
           "point": "0.00",
           "review_count": 0
         }
