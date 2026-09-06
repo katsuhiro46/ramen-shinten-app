@@ -100,7 +100,7 @@
       "url": "https://ramendb.supleks.jp/s/174217.html",
       "city": "高崎市",
       "open_date": "2026年7月18日",
-      "point": "83.69",
+      "point": "83.67",
       "review_count": 1
     },
     {
@@ -298,7 +298,7 @@
       "url": "https://ramendb.supleks.jp/s/174043.html",
       "city": "佐野市",
       "open_date": "2026年7月6日",
-      "point": "91.35",
+      "point": "91.34",
       "review_count": 1
     },
     {
@@ -316,7 +316,7 @@
       "url": "https://ramendb.supleks.jp/s/173713.html",
       "city": "佐野市",
       "open_date": "2026年6月11日",
-      "point": "83.57",
+      "point": "83.55",
       "review_count": 2
     },
     {
@@ -419,6 +419,15 @@
       "review_count": 0
     },
     {
+      "name": "麺屋 なか乃",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174442.html",
+      "city": "下妻市",
+      "open_date": "2026年9月10日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "日高屋 牛久中央店",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/174742.html",
@@ -496,7 +505,7 @@
       "url": "https://ramendb.supleks.jp/s/174404.html",
       "city": "鹿嶋市",
       "open_date": "2026年7月22日",
-      "point": "83.02",
+      "point": "83.00",
       "review_count": 1
     },
     {
@@ -534,15 +543,6 @@
       "open_date": "2026年7月11日",
       "point": "89.98",
       "review_count": 6
-    },
-    {
-      "name": "カニらーめん かみすや",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/173794.html",
-      "city": "神栖市",
-      "open_date": "2026年7月9日",
-      "point": "86.75",
-      "review_count": 5
     },
     {
       "name": "豚が1番⭐︎脂が2番 春日部店",
@@ -649,8 +649,8 @@
       "url": "https://ramendb.supleks.jp/s/174920.html",
       "city": "川口市",
       "open_date": "2026年8月23日",
-      "point": "82.88",
-      "review_count": 1
+      "point": "83.85",
+      "review_count": 2
     },
     {
       "name": "喜多方老麺まるや 丸広百貨店 東北物産展",
@@ -721,7 +721,7 @@
       "url": "https://ramendb.supleks.jp/s/174006.html",
       "city": "日高市",
       "open_date": "2026年7月23日",
-      "point": "88.75",
+      "point": "88.73",
       "review_count": 4
     }
   ],
@@ -1209,6 +1209,21 @@
           "open_date": "2026年8月23日",
           "point": "82.88",
           "review_count": 1
+        }
+      ]
+    },
+    {
+      "id": "2026-09-06T18:35:43+00:00",
+      "added_at": "2026-09-06T18:35:43+00:00",
+      "shops": [
+        {
+          "name": "麺屋 なか乃",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/174442.html",
+          "city": "下妻市",
+          "open_date": "2026年9月10日",
+          "point": "0.00",
+          "review_count": 0
         }
       ]
     }
