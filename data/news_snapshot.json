@@ -91,7 +91,7 @@
       "url": "https://ramendb.supleks.jp/s/174236.html",
       "city": "高崎市",
       "open_date": "2026年7月19日",
-      "point": "83.69",
+      "point": "83.67",
       "review_count": 1
     },
     {
@@ -298,7 +298,7 @@
       "url": "https://ramendb.supleks.jp/s/174043.html",
       "city": "佐野市",
       "open_date": "2026年7月6日",
-      "point": "91.34",
+      "point": "91.33",
       "review_count": 1
     },
     {
@@ -451,7 +451,7 @@
       "url": "https://ramendb.supleks.jp/s/174655.html",
       "city": "つくば市",
       "open_date": "2026年8月15日",
-      "point": "86.78",
+      "point": "86.77",
       "review_count": 5
     },
     {
@@ -617,6 +617,15 @@
       "review_count": 0
     },
     {
+      "name": "ガチで濃いヤツ 鶴瀬店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175057.html",
+      "city": "富士見市",
+      "open_date": "2026年9月7日",
+      "point": "82.97",
+      "review_count": 1
+    },
+    {
       "name": "国武屋 ドカ盛り研究所 辛味研究部鶴ヶ島店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174931.html",
@@ -640,8 +649,8 @@
       "url": "https://ramendb.supleks.jp/s/174958.html",
       "city": "白岡市",
       "open_date": "2026年8月31日",
-      "point": "84.21",
-      "review_count": 2
+      "point": "85.19",
+      "review_count": 3
     },
     {
       "name": "中華そば青竹 西川口店",
@@ -658,7 +667,7 @@
       "url": "https://ramendb.supleks.jp/s/174810.html",
       "city": "川越市",
       "open_date": "2026年8月20日",
-      "point": "82.85",
+      "point": "82.84",
       "review_count": 1
     },
     {
@@ -703,7 +712,7 @@
       "url": "https://ramendb.supleks.jp/s/174453.html",
       "city": "越谷市",
       "open_date": "2026年7月30日",
-      "point": "83.84",
+      "point": "83.83",
       "review_count": 3
     },
     {
@@ -712,17 +721,8 @@
       "url": "https://ramendb.supleks.jp/s/174320.html",
       "city": "越谷市",
       "open_date": "2026年7月29日",
-      "point": "89.61",
-      "review_count": 9
-    },
-    {
-      "name": "国武屋 ドカ盛り研究所",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174006.html",
-      "city": "日高市",
-      "open_date": "2026年7月23日",
-      "point": "88.73",
-      "review_count": 4
+      "point": "89.62",
+      "review_count": 10
     }
   ],
   "addition_events": [
@@ -1224,6 +1224,21 @@
           "open_date": "2026年9月10日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-07T18:35:36+00:00",
+      "added_at": "2026-09-07T18:35:36+00:00",
+      "shops": [
+        {
+          "name": "ガチで濃いヤツ 鶴瀬店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175057.html",
+          "city": "富士見市",
+          "open_date": "2026年9月7日",
+          "point": "82.97",
+          "review_count": 1
         }
       ]
     }
