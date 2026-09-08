@@ -23,6 +23,15 @@
       "review_count": 0
     },
     {
+      "name": "好好麻辣湯",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/175067.html",
+      "city": "高崎市",
+      "open_date": "2026年9月7日",
+      "point": "82.78",
+      "review_count": 1
+    },
+    {
       "name": "麺屋ロドリゲス",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/175026.html",
@@ -55,7 +64,7 @@
       "url": "https://ramendb.supleks.jp/s/174849.html",
       "city": "高崎市",
       "open_date": "2026年8月26日",
-      "point": "84.31",
+      "point": "84.30",
       "review_count": 2
     },
     {
@@ -176,15 +185,6 @@
       "review_count": 6
     },
     {
-      "name": "パンダ麻辣湯",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/172473.html",
-      "city": "高崎市",
-      "open_date": "2026年3月26日",
-      "point": "82.69",
-      "review_count": 1
-    },
-    {
       "name": "どいちゃんラーメン",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174601.html",
@@ -235,7 +235,7 @@
       "url": "https://ramendb.supleks.jp/s/174476.html",
       "city": "栃木市",
       "open_date": "2026年8月22日",
-      "point": "91.70",
+      "point": "91.68",
       "review_count": 1
     },
     {
@@ -343,8 +343,8 @@
       "url": "https://ramendb.supleks.jp/s/172846.html",
       "city": "宇都宮市",
       "open_date": "2026年4月17日",
-      "point": "89.40",
-      "review_count": 8
+      "point": "90.22",
+      "review_count": 9
     },
     {
       "name": "東の餃子 本店",
@@ -451,8 +451,8 @@
       "url": "https://ramendb.supleks.jp/s/174655.html",
       "city": "つくば市",
       "open_date": "2026年8月15日",
-      "point": "86.77",
-      "review_count": 5
+      "point": "87.58",
+      "review_count": 6
     },
     {
       "name": "激辛ラーメン専門店 レッチリ 土浦本店",
@@ -460,7 +460,7 @@
       "url": "https://ramendb.supleks.jp/s/174248.html",
       "city": "土浦市",
       "open_date": "2026年8月1日",
-      "point": "89.97",
+      "point": "89.96",
       "review_count": 2
     },
     {
@@ -478,8 +478,8 @@
       "url": "https://ramendb.supleks.jp/s/174446.html",
       "city": "つくば市",
       "open_date": "2026年7月30日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.73",
+      "review_count": 1
     },
     {
       "name": "タイガーステップ",
@@ -487,7 +487,7 @@
       "url": "https://ramendb.supleks.jp/s/174402.html",
       "city": "土浦市",
       "open_date": "2026年7月28日",
-      "point": "89.20",
+      "point": "89.18",
       "review_count": 8
     },
     {
@@ -631,7 +631,7 @@
       "url": "https://ramendb.supleks.jp/s/174931.html",
       "city": "鶴ヶ島市",
       "open_date": "2026年9月1日",
-      "point": "84.86",
+      "point": "84.85",
       "review_count": 3
     },
     {
@@ -1238,6 +1238,21 @@
           "city": "富士見市",
           "open_date": "2026年9月7日",
           "point": "82.97",
+          "review_count": 1
+        }
+      ]
+    },
+    {
+      "id": "2026-09-08T18:35:31+00:00",
+      "added_at": "2026-09-08T18:35:31+00:00",
+      "shops": [
+        {
+          "name": "好好麻辣湯",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/175067.html",
+          "city": "高崎市",
+          "open_date": "2026年9月7日",
+          "point": "82.78",
           "review_count": 1
         }
       ]
