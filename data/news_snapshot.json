@@ -46,7 +46,7 @@
       "url": "https://ramendb.supleks.jp/s/174965.html",
       "city": "富岡市",
       "open_date": "2026年9月2日",
-      "point": "83.26",
+      "point": "83.25",
       "review_count": 1
     },
     {
@@ -55,8 +55,8 @@
       "url": "https://ramendb.supleks.jp/s/174303.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月1日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "83.24",
+      "review_count": 1
     },
     {
       "name": "麺屋 松もと 高崎店",
@@ -118,8 +118,17 @@
       "url": "https://ramendb.supleks.jp/s/174194.html",
       "city": "高崎市",
       "open_date": "2026年7月16日",
-      "point": "84.46",
+      "point": "84.44",
       "review_count": 3
+    },
+    {
+      "name": "らぁ麺 紬",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/175110.html",
+      "city": "前橋市",
+      "open_date": "2026年6月27日",
+      "point": "82.93",
+      "review_count": 1
     },
     {
       "name": "RAMENSTAND 太田店",
@@ -174,15 +183,6 @@
       "open_date": "2026年4月3日",
       "point": "87.57",
       "review_count": 1
-    },
-    {
-      "name": "麺処 咲",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/172763.html",
-      "city": "伊勢崎市",
-      "open_date": "2026年4月1日",
-      "point": "86.23",
-      "review_count": 6
     },
     {
       "name": "どいちゃんラーメン",
@@ -311,12 +311,21 @@
       "review_count": 4
     },
     {
+      "name": "ばり嗎 宇都宮平松店",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/175099.html",
+      "city": "宇都宮市",
+      "open_date": "2026年6月26日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "井岡屋 下平出店",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/175083.html",
       "city": "宇都宮市",
       "open_date": "2026年6月26日",
-      "point": "83.41",
+      "point": "83.45",
       "review_count": 2
     },
     {
@@ -354,15 +363,6 @@
       "open_date": "2026年4月17日",
       "point": "90.22",
       "review_count": 9
-    },
-    {
-      "name": "東の餃子 本店",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/173187.html",
-      "city": "宇都宮市",
-      "open_date": "2026年4月16日",
-      "point": "0.00",
-      "review_count": 0
     },
     {
       "name": "ラーメンショップ 石岡店",
@@ -424,8 +424,8 @@
       "url": "https://ramendb.supleks.jp/s/174442.html",
       "city": "下妻市",
       "open_date": "2026年9月10日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "92.11",
+      "review_count": 1
     },
     {
       "name": "日高屋 牛久中央店",
@@ -726,21 +726,6 @@
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-11T18:35:31+00:00",
-      "added_at": "2026-08-11T18:35:31+00:00",
-      "shops": [
-        {
-          "name": "旺旺麻辣燙 高崎店",
-          "area": "群馬",
-          "url": "https://ramendb.supleks.jp/s/174576.html",
-          "city": "高崎市",
-          "open_date": "2026年8月8日",
-          "point": "82.98",
-          "review_count": 1
-        }
-      ]
-    },
     {
       "id": "2026-08-12T18:35:34+00:00",
       "added_at": "2026-08-12T18:35:34+00:00",
@@ -1246,6 +1231,30 @@
           "url": "https://ramendb.supleks.jp/s/175090.html",
           "city": "川越市",
           "open_date": "2026年9月16日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10T18:35:41+00:00",
+      "added_at": "2026-09-10T18:35:41+00:00",
+      "shops": [
+        {
+          "name": "らぁ麺 紬",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/175110.html",
+          "city": "前橋市",
+          "open_date": "2026年6月27日",
+          "point": "82.93",
+          "review_count": 1
+        },
+        {
+          "name": "ばり嗎 宇都宮平松店",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/175099.html",
+          "city": "宇都宮市",
+          "open_date": "2026年6月26日",
           "point": "0.00",
           "review_count": 0
         }
