@@ -226,7 +226,7 @@
       "url": "https://ramendb.supleks.jp/s/174791.html",
       "city": "栃木市",
       "open_date": "2026年8月24日",
-      "point": "82.81",
+      "point": "82.80",
       "review_count": 1
     },
     {
@@ -253,7 +253,7 @@
       "url": "https://ramendb.supleks.jp/s/174527.html",
       "city": "佐野市",
       "open_date": "2026年8月8日",
-      "point": "84.76",
+      "point": "84.75",
       "review_count": 3
     },
     {
@@ -271,7 +271,7 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "85.57",
+      "point": "85.56",
       "review_count": 4
     },
     {
@@ -523,8 +523,8 @@
       "url": "https://ramendb.supleks.jp/s/174215.html",
       "city": "つくば市",
       "open_date": "2026年7月17日",
-      "point": "84.93",
-      "review_count": 4
+      "point": "85.67",
+      "review_count": 5
     },
     {
       "name": "らーめん 三水 守谷店",
@@ -721,35 +721,11 @@
       "url": "https://ramendb.supleks.jp/s/174453.html",
       "city": "越谷市",
       "open_date": "2026年7月30日",
-      "point": "83.83",
+      "point": "83.82",
       "review_count": 3
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-12T18:35:34+00:00",
-      "added_at": "2026-08-12T18:35:34+00:00",
-      "shops": [
-        {
-          "name": "どいちゃんラーメン",
-          "area": "栃木",
-          "url": "https://ramendb.supleks.jp/s/174601.html",
-          "city": "宇都宮市",
-          "open_date": "オープン日未定",
-          "point": "0.00",
-          "review_count": 0
-        },
-        {
-          "name": "青木まさる食堂",
-          "area": "栃木",
-          "url": "https://ramendb.supleks.jp/s/174589.html",
-          "city": "宇都宮市",
-          "open_date": "2026年8月20日",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-08-13T18:35:33+00:00",
       "added_at": "2026-08-13T18:35:33+00:00",
