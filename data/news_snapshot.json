@@ -19,8 +19,8 @@
       "url": "https://ramendb.supleks.jp/s/174726.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月10日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.85",
+      "review_count": 1
     },
     {
       "name": "好好麻辣湯",
@@ -289,7 +289,7 @@
       "url": "https://ramendb.supleks.jp/s/173983.html",
       "city": "足利市",
       "open_date": "2026年7月8日",
-      "point": "82.95",
+      "point": "82.93",
       "review_count": 1
     },
     {
@@ -626,6 +626,15 @@
       "review_count": 0
     },
     {
+      "name": "濃厚豚骨とんび",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175124.html",
+      "city": "川口市",
+      "open_date": "2026年9月10日",
+      "point": "85.93",
+      "review_count": 3
+    },
+    {
       "name": "ガチで濃いヤツ 鶴瀬店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/175057.html",
@@ -644,12 +653,12 @@
       "review_count": 3
     },
     {
-      "name": "ラー麺ずんどう屋 川越店",
+      "name": "ラー麺ずんどう屋 川越上寺山店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/173998.html",
       "city": "川越市",
       "open_date": "2026年9月1日",
-      "point": "82.96",
+      "point": "84.05",
       "review_count": 1
     },
     {
@@ -658,7 +667,7 @@
       "url": "https://ramendb.supleks.jp/s/174958.html",
       "city": "白岡市",
       "open_date": "2026年8月31日",
-      "point": "85.19",
+      "point": "85.18",
       "review_count": 3
     },
     {
@@ -714,33 +723,9 @@
       "open_date": "2026年7月31日",
       "point": "87.86",
       "review_count": 7
-    },
-    {
-      "name": "どうとんぼり神座 イオンレイクタウンkaze店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174453.html",
-      "city": "越谷市",
-      "open_date": "2026年7月30日",
-      "point": "83.82",
-      "review_count": 3
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-13T18:35:33+00:00",
-      "added_at": "2026-08-13T18:35:33+00:00",
-      "shops": [
-        {
-          "name": "愛千",
-          "area": "茨城",
-          "url": "https://ramendb.supleks.jp/s/174627.html",
-          "city": "稲敷郡",
-          "open_date": "2026年6月21日",
-          "point": "82.52",
-          "review_count": 1
-        }
-      ]
-    },
     {
       "id": "2026-08-14T18:35:40+00:00",
       "added_at": "2026-08-14T18:35:40+00:00",
@@ -1233,6 +1218,21 @@
           "open_date": "2026年6月26日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-12T18:35:42+00:00",
+      "added_at": "2026-09-12T18:35:42+00:00",
+      "shops": [
+        {
+          "name": "濃厚豚骨とんび",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175124.html",
+          "city": "川口市",
+          "open_date": "2026年9月10日",
+          "point": "85.93",
+          "review_count": 3
         }
       ]
     }
