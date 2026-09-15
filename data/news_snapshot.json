@@ -5,7 +5,7 @@
   "log": "群馬: 20件 | 栃木: 20件 | 茨城: 20件 | 埼玉: 20件",
   "shops": [
     {
-      "name": "全国ラーメンフェスタ秋の陣 2026 in 高崎 〒-群馬県高崎市",
+      "name": "全国ラーメンフェスタ秋の陣 2026 in 高崎",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174996.html",
       "city": "高崎市",
@@ -19,7 +19,7 @@
       "url": "https://ramendb.supleks.jp/s/174726.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月10日",
-      "point": "85.56",
+      "point": "85.64",
       "review_count": 3
     },
     {
@@ -64,7 +64,7 @@
       "url": "https://ramendb.supleks.jp/s/174849.html",
       "city": "高崎市",
       "open_date": "2026年8月26日",
-      "point": "84.32",
+      "point": "84.31",
       "review_count": 2
     },
     {
@@ -154,7 +154,7 @@
       "url": "https://ramendb.supleks.jp/s/172898.html",
       "city": "高崎市",
       "open_date": "2026年5月11日",
-      "point": "84.09",
+      "point": "84.08",
       "review_count": 2
     },
     {
@@ -424,8 +424,8 @@
       "url": "https://ramendb.supleks.jp/s/174665.html",
       "city": "筑西市",
       "open_date": "2026年9月14日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "83.08",
+      "review_count": 1
     },
     {
       "name": "麺屋 なか乃",
@@ -572,7 +572,7 @@
       "review_count": 0
     },
     {
-      "name": "全国ラーメンフェスタ 秋の陣 2026 in 春日部 ヤマダデンキTecc LIFE SELECT 春日部本店 〒",
+      "name": "全国ラーメンフェスタ 秋の陣 2026 in 春日部",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174997.html",
       "city": "春日部市",
@@ -624,6 +624,15 @@
       "open_date": "2026年9月16日",
       "point": "0.00",
       "review_count": 0
+    },
+    {
+      "name": "新ラーメンショップ大福",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/174839.html",
+      "city": "入間郡",
+      "open_date": "2026年9月14日",
+      "point": "83.48",
+      "review_count": 2
     },
     {
       "name": "濃厚豚骨とんび",
@@ -714,15 +723,6 @@
       "open_date": "2026年8月11日",
       "point": "89.33",
       "review_count": 9
-    },
-    {
-      "name": "焼きたてのかるび 川口道合店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174679.html",
-      "city": "川口市",
-      "open_date": "2026年8月7日",
-      "point": "82.41",
-      "review_count": 1
     }
   ],
   "addition_events": [
@@ -1233,6 +1233,21 @@
           "open_date": "2026年8月13日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15T18:35:33+00:00",
+      "added_at": "2026-09-15T18:35:33+00:00",
+      "shops": [
+        {
+          "name": "新ラーメンショップ大福",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174839.html",
+          "city": "入間郡",
+          "open_date": "2026年9月14日",
+          "point": "83.48",
+          "review_count": 2
         }
       ]
     }
