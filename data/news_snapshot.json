@@ -55,7 +55,7 @@
       "url": "https://ramendb.supleks.jp/s/174303.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月1日",
-      "point": "83.26",
+      "point": "83.25",
       "review_count": 1
     },
     {
@@ -91,7 +91,7 @@
       "url": "https://ramendb.supleks.jp/s/174576.html",
       "city": "高崎市",
       "open_date": "2026年8月8日",
-      "point": "83.24",
+      "point": "83.22",
       "review_count": 1
     },
     {
@@ -244,7 +244,7 @@
       "url": "https://ramendb.supleks.jp/s/174476.html",
       "city": "栃木市",
       "open_date": "2026年8月22日",
-      "point": "91.69",
+      "point": "91.68",
       "review_count": 1
     },
     {
@@ -262,7 +262,7 @@
       "url": "https://ramendb.supleks.jp/s/174527.html",
       "city": "佐野市",
       "open_date": "2026年8月8日",
-      "point": "84.77",
+      "point": "84.76",
       "review_count": 3
     },
     {
@@ -271,7 +271,7 @@
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "86.57",
+      "point": "86.55",
       "review_count": 6
     },
     {
@@ -280,7 +280,7 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "85.58",
+      "point": "85.57",
       "review_count": 4
     },
     {
@@ -365,15 +365,6 @@
       "review_count": 0
     },
     {
-      "name": "つけ麺 秋山",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/175186.html",
-      "city": "つくば市",
-      "open_date": "オープン日未定",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
       "name": "ラーメンショップ 石岡店",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/175021.html",
@@ -401,6 +392,15 @@
       "review_count": 0
     },
     {
+      "name": "ラーメンショップ◯夕 友部店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/175020.html",
+      "city": "笠間市",
+      "open_date": "2026年9月24日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "全国ラーメンフェスタ 秋の陣 2026 in 日立",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/174989.html",
@@ -410,10 +410,10 @@
       "review_count": 0
     },
     {
-      "name": "ラーメンショップ◯夕 友部店",
+      "name": "つけ麺 秋山 つくば店",
       "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/175020.html",
-      "city": "笠間市",
+      "url": "https://ramendb.supleks.jp/s/175186.html",
+      "city": "つくば市",
       "open_date": "2026年9月17日",
       "point": "0.00",
       "review_count": 0
@@ -424,8 +424,8 @@
       "url": "https://ramendb.supleks.jp/s/174665.html",
       "city": "筑西市",
       "open_date": "2026年9月14日",
-      "point": "83.07",
-      "review_count": 1
+      "point": "84.02",
+      "review_count": 2
     },
     {
       "name": "麺屋 なか乃",
@@ -622,8 +622,8 @@
       "url": "https://ramendb.supleks.jp/s/175090.html",
       "city": "川越市",
       "open_date": "2026年9月16日",
-      "point": "82.87",
-      "review_count": 1
+      "point": "83.87",
+      "review_count": 2
     },
     {
       "name": "なぎちゃんラーメン 川越店",
@@ -631,7 +631,7 @@
       "url": "https://ramendb.supleks.jp/s/174153.html",
       "city": "川越市",
       "open_date": "2026年9月16日",
-      "point": "84.15",
+      "point": "84.24",
       "review_count": 2
     },
     {
@@ -712,8 +712,8 @@
       "url": "https://ramendb.supleks.jp/s/174829.html",
       "city": "鴻巣市",
       "open_date": "2026年8月20日",
-      "point": "86.79",
-      "review_count": 5
+      "point": "86.77",
+      "review_count": 6
     },
     {
       "name": "横浜家系ラーメン 壱角家 戸田店",
