@@ -46,7 +46,7 @@
       "url": "https://ramendb.supleks.jp/s/174965.html",
       "city": "富岡市",
       "open_date": "2026年9月2日",
-      "point": "83.26",
+      "point": "83.24",
       "review_count": 1
     },
     {
@@ -181,7 +181,7 @@
       "url": "https://ramendb.supleks.jp/s/172874.html",
       "city": "前橋市",
       "open_date": "2026年4月3日",
-      "point": "87.58",
+      "point": "87.57",
       "review_count": 1
     },
     {
@@ -280,8 +280,8 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "85.56",
-      "review_count": 4
+      "point": "86.41",
+      "review_count": 5
     },
     {
       "name": "つけ麺や楽笑",
@@ -325,8 +325,8 @@
       "url": "https://ramendb.supleks.jp/s/175099.html",
       "city": "宇都宮市",
       "open_date": "2026年6月26日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.65",
+      "review_count": 1
     },
     {
       "name": "井岡屋 下平出店",
@@ -478,7 +478,7 @@
       "url": "https://ramendb.supleks.jp/s/174780.html",
       "city": "つくば市",
       "open_date": "2026年7月31日",
-      "point": "83.04",
+      "point": "83.02",
       "review_count": 1
     },
     {
@@ -545,6 +545,15 @@
       "review_count": 5
     },
     {
+      "name": "ゴールデンタイガー",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175309.html",
+      "city": "熊谷市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "六福麻辣湯",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/174980.html",
@@ -595,8 +604,8 @@
       "url": "https://ramendb.supleks.jp/s/175014.html",
       "city": "春日部市",
       "open_date": "2026年9月18日",
-      "point": "83.13",
-      "review_count": 1
+      "point": "84.20",
+      "review_count": 2
     },
     {
       "name": "ゆで太郎 越谷蒲生店",
@@ -631,8 +640,8 @@
       "url": "https://ramendb.supleks.jp/s/174153.html",
       "city": "川越市",
       "open_date": "2026年9月16日",
-      "point": "85.22",
-      "review_count": 3
+      "point": "86.21",
+      "review_count": 4
     },
     {
       "name": "新ラーメンショップ大福",
@@ -676,7 +685,7 @@
       "url": "https://ramendb.supleks.jp/s/173998.html",
       "city": "川越市",
       "open_date": "2026年9月1日",
-      "point": "84.06",
+      "point": "84.05",
       "review_count": 1
     },
     {
@@ -694,8 +703,8 @@
       "url": "https://ramendb.supleks.jp/s/174920.html",
       "city": "川口市",
       "open_date": "2026年8月23日",
-      "point": "83.86",
-      "review_count": 2
+      "point": "84.71",
+      "review_count": 3
     },
     {
       "name": "喜多方老麺まるや 丸広百貨店 東北物産展",
@@ -712,17 +721,8 @@
       "url": "https://ramendb.supleks.jp/s/174829.html",
       "city": "鴻巣市",
       "open_date": "2026年8月20日",
-      "point": "86.77",
+      "point": "86.76",
       "review_count": 6
-    },
-    {
-      "name": "横浜家系ラーメン 壱角家 戸田店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/175213.html",
-      "city": "戸田市",
-      "open_date": "2026年8月13日",
-      "point": "0.00",
-      "review_count": 0
     }
   ],
   "addition_events": [
@@ -1246,6 +1246,21 @@
           "url": "https://ramendb.supleks.jp/s/175263.html",
           "city": "志木市",
           "open_date": "2026年10月1日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-19T18:35:31+00:00",
+      "added_at": "2026-09-19T18:35:31+00:00",
+      "shops": [
+        {
+          "name": "ゴールデンタイガー",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175309.html",
+          "city": "熊谷市",
+          "open_date": "オープン日未定",
           "point": "0.00",
           "review_count": 0
         }
