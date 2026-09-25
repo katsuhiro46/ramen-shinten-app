@@ -73,7 +73,7 @@
       "url": "https://ramendb.supleks.jp/s/174936.html",
       "city": "前橋市",
       "open_date": "2026年8月24日",
-      "point": "85.79",
+      "point": "85.78",
       "review_count": 3
     },
     {
@@ -280,7 +280,7 @@
       "url": "https://ramendb.supleks.jp/s/174301.html",
       "city": "小山市",
       "open_date": "2026年7月24日",
-      "point": "86.41",
+      "point": "86.40",
       "review_count": 5
     },
     {
@@ -406,8 +406,8 @@
       "url": "https://ramendb.supleks.jp/s/175020.html",
       "city": "笠間市",
       "open_date": "2026年9月24日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "83.49",
+      "review_count": 1
     },
     {
       "name": "全国ラーメンフェスタ 秋の陣 2026 in 日立",
@@ -523,7 +523,7 @@
       "url": "https://ramendb.supleks.jp/s/174402.html",
       "city": "土浦市",
       "open_date": "2026年7月28日",
-      "point": "89.19",
+      "point": "89.17",
       "review_count": 8
     },
     {
@@ -608,10 +608,10 @@
       "review_count": 0
     },
     {
-      "name": "手揉み麺 与野日和",
+      "name": "手揉み麺与野日和",
       "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/175394.html",
-      "city": "埼玉市",
+      "url": "https://ramendb.supleks.jp/s/174457.html",
+      "city": "さいたま市浦和区",
       "open_date": "2026年9月26日",
       "point": "0.00",
       "review_count": 0
@@ -622,8 +622,8 @@
       "url": "https://ramendb.supleks.jp/s/175378.html",
       "city": "越谷市",
       "open_date": "2026年9月19日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "83.20",
+      "review_count": 1
     },
     {
       "name": "豚が1番⭐︎脂が2番 春日部店",
@@ -694,7 +694,7 @@
       "url": "https://ramendb.supleks.jp/s/175057.html",
       "city": "富士見市",
       "open_date": "2026年9月7日",
-      "point": "84.97",
+      "point": "84.96",
       "review_count": 2
     },
     {
@@ -726,21 +726,6 @@
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-26T18:35:33+00:00",
-      "added_at": "2026-08-26T18:35:33+00:00",
-      "shops": [
-        {
-          "name": "らーめん粋 鴻巣店",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174829.html",
-          "city": "鴻巣市",
-          "open_date": "2026年8月20日",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-08-28T18:35:42+00:00",
       "added_at": "2026-08-28T18:35:42+00:00",
@@ -1251,6 +1236,21 @@
           "area": "埼玉",
           "url": "https://ramendb.supleks.jp/s/175394.html",
           "city": "埼玉市",
+          "open_date": "2026年9月26日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-25T18:35:35+00:00",
+      "added_at": "2026-09-25T18:35:35+00:00",
+      "shops": [
+        {
+          "name": "手揉み麺与野日和",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/174457.html",
+          "city": "さいたま市浦和区",
           "open_date": "2026年9月26日",
           "point": "0.00",
           "review_count": 0
