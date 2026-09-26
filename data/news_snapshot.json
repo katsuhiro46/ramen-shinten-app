@@ -19,8 +19,8 @@
       "url": "https://ramendb.supleks.jp/s/174726.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月10日",
-      "point": "87.57",
-      "review_count": 5
+      "point": "88.27",
+      "review_count": 6
     },
     {
       "name": "好好麻辣湯",
@@ -55,8 +55,8 @@
       "url": "https://ramendb.supleks.jp/s/174303.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月1日",
-      "point": "83.25",
-      "review_count": 1
+      "point": "84.14",
+      "review_count": 2
     },
     {
       "name": "麺屋 松もと 高崎店",
@@ -118,7 +118,7 @@
       "url": "https://ramendb.supleks.jp/s/174194.html",
       "city": "高崎市",
       "open_date": "2026年7月16日",
-      "point": "84.44",
+      "point": "84.42",
       "review_count": 3
     },
     {
@@ -208,7 +208,7 @@
       "url": "https://ramendb.supleks.jp/s/175202.html",
       "city": "宇都宮市",
       "open_date": "2026年9月8日",
-      "point": "83.01",
+      "point": "83.00",
       "review_count": 1
     },
     {
@@ -253,8 +253,8 @@
       "url": "https://ramendb.supleks.jp/s/174589.html",
       "city": "宇都宮市",
       "open_date": "2026年8月20日",
-      "point": "84.01",
-      "review_count": 2
+      "point": "84.93",
+      "review_count": 3
     },
     {
       "name": "八吉食堂",
@@ -325,7 +325,7 @@
       "url": "https://ramendb.supleks.jp/s/175099.html",
       "city": "宇都宮市",
       "open_date": "2026年6月26日",
-      "point": "82.65",
+      "point": "82.64",
       "review_count": 1
     },
     {
@@ -334,7 +334,7 @@
       "url": "https://ramendb.supleks.jp/s/175083.html",
       "city": "宇都宮市",
       "open_date": "2026年6月26日",
-      "point": "83.45",
+      "point": "83.44",
       "review_count": 2
     },
     {
@@ -406,8 +406,8 @@
       "url": "https://ramendb.supleks.jp/s/175020.html",
       "city": "笠間市",
       "open_date": "2026年9月24日",
-      "point": "83.49",
-      "review_count": 1
+      "point": "84.19",
+      "review_count": 2
     },
     {
       "name": "全国ラーメンフェスタ 秋の陣 2026 in 日立",
@@ -442,7 +442,7 @@
       "url": "https://ramendb.supleks.jp/s/175332.html",
       "city": "水戸市",
       "open_date": "2026年9月14日",
-      "point": "82.95",
+      "point": "82.94",
       "review_count": 1
     },
     {
@@ -622,8 +622,17 @@
       "url": "https://ramendb.supleks.jp/s/175378.html",
       "city": "越谷市",
       "open_date": "2026年9月19日",
-      "point": "83.20",
-      "review_count": 1
+      "point": "84.24",
+      "review_count": 2
+    },
+    {
+      "name": "牛たん焼き 仙台 辺見 志木店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175448.html",
+      "city": "新座市",
+      "open_date": "2026年9月18日",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "豚が1番⭐︎脂が2番 春日部店",
@@ -714,15 +723,6 @@
       "open_date": "2026年9月1日",
       "point": "84.05",
       "review_count": 1
-    },
-    {
-      "name": "自家製麺 関田",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174958.html",
-      "city": "白岡市",
-      "open_date": "2026年8月31日",
-      "point": "86.12",
-      "review_count": 4
     }
   ],
   "addition_events": [
@@ -1252,6 +1252,21 @@
           "url": "https://ramendb.supleks.jp/s/174457.html",
           "city": "さいたま市浦和区",
           "open_date": "2026年9月26日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-26T18:35:37+00:00",
+      "added_at": "2026-09-26T18:35:37+00:00",
+      "shops": [
+        {
+          "name": "牛たん焼き 仙台 辺見 志木店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175448.html",
+          "city": "新座市",
+          "open_date": "2026年9月18日",
           "point": "0.00",
           "review_count": 0
         }
