@@ -127,7 +127,7 @@
       "url": "https://ramendb.supleks.jp/s/175110.html",
       "city": "前橋市",
       "open_date": "2026年6月27日",
-      "point": "82.94",
+      "point": "82.92",
       "review_count": 1
     },
     {
@@ -154,7 +154,7 @@
       "url": "https://ramendb.supleks.jp/s/172898.html",
       "city": "高崎市",
       "open_date": "2026年5月11日",
-      "point": "84.08",
+      "point": "84.07",
       "review_count": 2
     },
     {
@@ -217,7 +217,7 @@
       "url": "https://ramendb.supleks.jp/s/174790.html",
       "city": "宇都宮市",
       "open_date": "2026年9月1日",
-      "point": "90.23",
+      "point": "90.22",
       "review_count": 2
     },
     {
@@ -442,8 +442,8 @@
       "url": "https://ramendb.supleks.jp/s/175332.html",
       "city": "水戸市",
       "open_date": "2026年9月14日",
-      "point": "82.94",
-      "review_count": 1
+      "point": "83.91",
+      "review_count": 2
     },
     {
       "name": "ラーメンセンター 松ちゃん",
@@ -451,8 +451,8 @@
       "url": "https://ramendb.supleks.jp/s/174665.html",
       "city": "筑西市",
       "open_date": "2026年9月14日",
-      "point": "84.94",
-      "review_count": 3
+      "point": "85.70",
+      "review_count": 4
     },
     {
       "name": "麺屋 なか乃",
@@ -478,7 +478,7 @@
       "url": "https://ramendb.supleks.jp/s/174884.html",
       "city": "水戸市",
       "open_date": "2026年8月29日",
-      "point": "83.03",
+      "point": "83.02",
       "review_count": 1
     },
     {
@@ -613,8 +613,8 @@
       "url": "https://ramendb.supleks.jp/s/174457.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年9月26日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "84.93",
+      "review_count": 3
     },
     {
       "name": "麺家 ミソのライオン",
@@ -676,7 +676,7 @@
       "url": "https://ramendb.supleks.jp/s/174153.html",
       "city": "川越市",
       "open_date": "2026年9月16日",
-      "point": "88.59",
+      "point": "88.58",
       "review_count": 8
     },
     {
@@ -694,8 +694,8 @@
       "url": "https://ramendb.supleks.jp/s/175124.html",
       "city": "川口市",
       "open_date": "2026年9月10日",
-      "point": "86.78",
-      "review_count": 4
+      "point": "88.70",
+      "review_count": 6
     },
     {
       "name": "ガチで濃いヤツ 鶴瀬店",
@@ -721,8 +721,8 @@
       "url": "https://ramendb.supleks.jp/s/173998.html",
       "city": "川越市",
       "open_date": "2026年9月1日",
-      "point": "84.05",
-      "review_count": 1
+      "point": "84.93",
+      "review_count": 2
     }
   ],
   "addition_events": [
