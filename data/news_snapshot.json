@@ -307,8 +307,8 @@
       "url": "https://ramendb.supleks.jp/s/174043.html",
       "city": "佐野市",
       "open_date": "2026年7月6日",
-      "point": "91.32",
-      "review_count": 1
+      "point": "91.24",
+      "review_count": 2
     },
     {
       "name": "麺屋 澤",
@@ -401,6 +401,15 @@
       "review_count": 0
     },
     {
+      "name": "らぁめん酒場ぺーすけ",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/175486.html",
+      "city": "水戸市",
+      "open_date": "2026年10月1日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "ラーメンショップ◯夕 友部店",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/175020.html",
@@ -424,7 +433,7 @@
       "url": "https://ramendb.supleks.jp/s/175186.html",
       "city": "つくば市",
       "open_date": "2026年9月17日",
-      "point": "85.01",
+      "point": "85.00",
       "review_count": 3
     },
     {
@@ -451,8 +460,8 @@
       "url": "https://ramendb.supleks.jp/s/174665.html",
       "city": "筑西市",
       "open_date": "2026年9月14日",
-      "point": "85.70",
-      "review_count": 4
+      "point": "86.52",
+      "review_count": 5
     },
     {
       "name": "麺屋 なか乃",
@@ -514,7 +523,7 @@
       "url": "https://ramendb.supleks.jp/s/174446.html",
       "city": "つくば市",
       "open_date": "2026年7月30日",
-      "point": "82.73",
+      "point": "82.72",
       "review_count": 1
     },
     {
@@ -534,15 +543,6 @@
       "open_date": "2026年7月25日",
       "point": "84.72",
       "review_count": 3
-    },
-    {
-      "name": "博多・豚骨ラーメン 無双",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/174404.html",
-      "city": "鹿嶋市",
-      "open_date": "2026年7月22日",
-      "point": "82.98",
-      "review_count": 1
     },
     {
       "name": "かいだし中華そば いずも",
@@ -613,8 +613,8 @@
       "url": "https://ramendb.supleks.jp/s/174457.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年9月26日",
-      "point": "84.93",
-      "review_count": 3
+      "point": "86.12",
+      "review_count": 4
     },
     {
       "name": "麺家 ミソのライオン",
@@ -640,8 +640,8 @@
       "url": "https://ramendb.supleks.jp/s/175014.html",
       "city": "春日部市",
       "open_date": "2026年9月18日",
-      "point": "87.89",
-      "review_count": 7
+      "point": "88.74",
+      "review_count": 8
     },
     {
       "name": "ゆで太郎 越谷蒲生店",
@@ -676,8 +676,8 @@
       "url": "https://ramendb.supleks.jp/s/174153.html",
       "city": "川越市",
       "open_date": "2026年9月16日",
-      "point": "88.58",
-      "review_count": 8
+      "point": "89.11",
+      "review_count": 9
     },
     {
       "name": "新ラーメンショップ大福",
@@ -726,21 +726,6 @@
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-28T18:35:42+00:00",
-      "added_at": "2026-08-28T18:35:42+00:00",
-      "shops": [
-        {
-          "name": "麺屋 松もと 高崎店",
-          "area": "群馬",
-          "url": "https://ramendb.supleks.jp/s/174849.html",
-          "city": "高崎市",
-          "open_date": "2026年8月26日",
-          "point": "83.08",
-          "review_count": 1
-        }
-      ]
-    },
     {
       "id": "2026-08-29T22:30:27+00:00",
       "added_at": "2026-08-29T22:30:27+00:00",
@@ -1267,6 +1252,21 @@
           "url": "https://ramendb.supleks.jp/s/175448.html",
           "city": "新座市",
           "open_date": "2026年9月18日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28T18:35:35+00:00",
+      "added_at": "2026-09-28T18:35:35+00:00",
+      "shops": [
+        {
+          "name": "らぁめん酒場ぺーすけ",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/175486.html",
+          "city": "水戸市",
+          "open_date": "2026年10月1日",
           "point": "0.00",
           "review_count": 0
         }
