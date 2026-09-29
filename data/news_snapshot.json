@@ -298,7 +298,7 @@
       "url": "https://ramendb.supleks.jp/s/173983.html",
       "city": "足利市",
       "open_date": "2026年7月8日",
-      "point": "82.93",
+      "point": "82.91",
       "review_count": 1
     },
     {
@@ -388,6 +388,24 @@
       "url": "https://ramendb.supleks.jp/s/159375.html",
       "city": "日立市",
       "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "濃厚豚ラーメン 活郎",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/175510.html",
+      "city": "つくば市",
+      "open_date": "2026年10月6日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "日高屋 日立田尻店",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/175513.html",
+      "city": "日立市",
+      "open_date": "2026年10月5日",
       "point": "0.00",
       "review_count": 0
     },
@@ -496,8 +514,8 @@
       "url": "https://ramendb.supleks.jp/s/174655.html",
       "city": "つくば市",
       "open_date": "2026年8月15日",
-      "point": "88.75",
-      "review_count": 8
+      "point": "89.60",
+      "review_count": 10
     },
     {
       "name": "激辛ラーメン専門店 レッチリ 土浦本店",
@@ -525,24 +543,6 @@
       "open_date": "2026年7月30日",
       "point": "82.72",
       "review_count": 1
-    },
-    {
-      "name": "タイガーステップ",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/174402.html",
-      "city": "土浦市",
-      "open_date": "2026年7月28日",
-      "point": "89.17",
-      "review_count": 8
-    },
-    {
-      "name": "鶏そば つむじ風",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/174395.html",
-      "city": "東茨城郡",
-      "open_date": "2026年7月25日",
-      "point": "84.72",
-      "review_count": 3
     },
     {
       "name": "かいだし中華そば いずも",
@@ -726,30 +726,6 @@
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-29T22:30:27+00:00",
-      "added_at": "2026-08-29T22:30:27+00:00",
-      "shops": [
-        {
-          "name": "ラーメンセンター松ちゃん",
-          "area": "茨城",
-          "url": "https://ramendb.supleks.jp/s/174886.html",
-          "city": "筑西市",
-          "open_date": "2026年9月14日",
-          "point": "0.00",
-          "review_count": 0
-        },
-        {
-          "name": "まぜそば専門店モグ 堀町店",
-          "area": "茨城",
-          "url": "https://ramendb.supleks.jp/s/174884.html",
-          "city": "水戸市",
-          "open_date": "2026年8月29日",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-08-30T18:35:38+00:00",
       "added_at": "2026-08-30T18:35:38+00:00",
@@ -1267,6 +1243,30 @@
           "url": "https://ramendb.supleks.jp/s/175486.html",
           "city": "水戸市",
           "open_date": "2026年10月1日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29T18:35:35+00:00",
+      "added_at": "2026-09-29T18:35:35+00:00",
+      "shops": [
+        {
+          "name": "濃厚豚ラーメン 活郎",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/175510.html",
+          "city": "つくば市",
+          "open_date": "2026年10月6日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "日高屋 日立田尻店",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/175513.html",
+          "city": "日立市",
+          "open_date": "2026年10月5日",
           "point": "0.00",
           "review_count": 0
         }
