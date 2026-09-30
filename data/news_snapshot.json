@@ -28,7 +28,7 @@
       "url": "https://ramendb.supleks.jp/s/175067.html",
       "city": "高崎市",
       "open_date": "2026年9月7日",
-      "point": "82.78",
+      "point": "82.76",
       "review_count": 1
     },
     {
@@ -208,8 +208,8 @@
       "url": "https://ramendb.supleks.jp/s/175202.html",
       "city": "宇都宮市",
       "open_date": "2026年9月8日",
-      "point": "83.00",
-      "review_count": 1
+      "point": "83.87",
+      "review_count": 2
     },
     {
       "name": "中華そば おおの",
@@ -545,6 +545,15 @@
       "review_count": 1
     },
     {
+      "name": "なぎちゃんラーメン 大宮店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175521.html",
+      "city": "さいたま市大宮区",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "かいだし中華そば いずも",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/175379.html",
@@ -714,33 +723,9 @@
       "open_date": "2026年9月1日",
       "point": "84.84",
       "review_count": 3
-    },
-    {
-      "name": "ラー麺ずんどう屋 川越上寺山店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/173998.html",
-      "city": "川越市",
-      "open_date": "2026年9月1日",
-      "point": "84.93",
-      "review_count": 2
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-08-30T18:35:38+00:00",
-      "added_at": "2026-08-30T18:35:38+00:00",
-      "shops": [
-        {
-          "name": "麺屋 絆",
-          "area": "群馬",
-          "url": "https://ramendb.supleks.jp/s/174903.html",
-          "city": "前橋市",
-          "open_date": "2026年8月23日",
-          "point": "83.08",
-          "review_count": 1
-        }
-      ]
-    },
     {
       "id": "2026-09-01T18:35:32+00:00",
       "added_at": "2026-09-01T18:35:32+00:00",
@@ -1267,6 +1252,21 @@
           "url": "https://ramendb.supleks.jp/s/175513.html",
           "city": "日立市",
           "open_date": "2026年10月5日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-09-30T18:35:35+00:00",
+      "added_at": "2026-09-30T18:35:35+00:00",
+      "shops": [
+        {
+          "name": "なぎちゃんラーメン 大宮店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175521.html",
+          "city": "さいたま市大宮区",
+          "open_date": "オープン日未定",
           "point": "0.00",
           "review_count": 0
         }
