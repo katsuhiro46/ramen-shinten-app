@@ -198,8 +198,8 @@
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174481.html",
       "city": "宇都宮市",
-      "open_date": "オープン日未定",
-      "point": "0.00",
+      "open_date": "2026年9月15日",
+      "point": "86.93",
       "review_count": 0
     },
     {
@@ -726,39 +726,6 @@
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-09-01T18:35:32+00:00",
-      "added_at": "2026-09-01T18:35:32+00:00",
-      "shops": [
-        {
-          "name": "麺や 貝灯",
-          "area": "群馬",
-          "url": "https://ramendb.supleks.jp/s/174936.html",
-          "city": "前橋市",
-          "open_date": "2026年8月24日",
-          "point": "0.00",
-          "review_count": 0
-        },
-        {
-          "name": "麺と米",
-          "area": "茨城",
-          "url": "https://ramendb.supleks.jp/s/174923.html",
-          "city": "常陸太田市",
-          "open_date": "2026年6月24日",
-          "point": "83.11",
-          "review_count": 1
-        },
-        {
-          "name": "国武屋 ドカ盛り研究所 辛味研究部鶴ヶ島店",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174931.html",
-          "city": "鶴ヶ島市",
-          "open_date": "2026年9月1日",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-09-02T18:35:29+00:00",
       "added_at": "2026-09-02T18:35:29+00:00",
