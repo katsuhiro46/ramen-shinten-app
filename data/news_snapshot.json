@@ -181,7 +181,7 @@
       "url": "https://ramendb.supleks.jp/s/172874.html",
       "city": "前橋市",
       "open_date": "2026年4月3日",
-      "point": "87.57",
+      "point": "87.56",
       "review_count": 1
     },
     {
@@ -190,6 +190,15 @@
       "url": "https://ramendb.supleks.jp/s/174601.html",
       "city": "宇都宮市",
       "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "NOJISTIC 12",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/175575.html",
+      "city": "宇都宮市",
+      "open_date": "2026年9月26日",
       "point": "0.00",
       "review_count": 0
     },
@@ -244,8 +253,8 @@
       "url": "https://ramendb.supleks.jp/s/174476.html",
       "city": "栃木市",
       "open_date": "2026年8月22日",
-      "point": "91.72",
-      "review_count": 2
+      "point": "91.71",
+      "review_count": 3
     },
     {
       "name": "青木まさる食堂",
@@ -356,15 +365,6 @@
       "review_count": 1
     },
     {
-      "name": "井岡屋 東武駅前店",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/172965.html",
-      "city": "宇都宮市",
-      "open_date": "2026年4月24日",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
       "name": "中華食堂 栞",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/175425.html",
@@ -424,8 +424,8 @@
       "url": "https://ramendb.supleks.jp/s/175486.html",
       "city": "水戸市",
       "open_date": "2026年10月1日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "83.09",
+      "review_count": 1
     },
     {
       "name": "ラーメンショップ◯夕 友部店",
@@ -541,8 +541,26 @@
       "url": "https://ramendb.supleks.jp/s/174446.html",
       "city": "つくば市",
       "open_date": "2026年7月30日",
-      "point": "82.72",
+      "point": "82.71",
       "review_count": 1
+    },
+    {
+      "name": "つけ麺 一頂 川口店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175572.html",
+      "city": "川口市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "麺屋 壱飛",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175570.html",
+      "city": "越谷市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "なぎちゃんラーメン 大宮店",
@@ -608,6 +626,15 @@
       "review_count": 0
     },
     {
+      "name": "HAO 台湾食堂",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175578.html",
+      "city": "川口市",
+      "open_date": "2026年10月1日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "ラーメンショップ 志木中宗岡店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/175263.html",
@@ -635,6 +662,15 @@
       "review_count": 2
     },
     {
+      "name": "屋台屋 博多劇場 南越谷店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175574.html",
+      "city": "越谷市",
+      "open_date": "2026年9月18日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "牛たん焼き 仙台 辺見 志木店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/175448.html",
@@ -649,8 +685,8 @@
       "url": "https://ramendb.supleks.jp/s/175014.html",
       "city": "春日部市",
       "open_date": "2026年9月18日",
-      "point": "88.74",
-      "review_count": 8
+      "point": "89.54",
+      "review_count": 9
     },
     {
       "name": "ゆで太郎 越谷蒲生店",
@@ -687,69 +723,9 @@
       "open_date": "2026年9月16日",
       "point": "89.11",
       "review_count": 9
-    },
-    {
-      "name": "新ラーメンショップ大福",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174839.html",
-      "city": "入間郡",
-      "open_date": "2026年9月14日",
-      "point": "84.51",
-      "review_count": 3
-    },
-    {
-      "name": "濃厚豚骨とんび",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/175124.html",
-      "city": "川口市",
-      "open_date": "2026年9月10日",
-      "point": "88.70",
-      "review_count": 6
-    },
-    {
-      "name": "ガチで濃いヤツ 鶴瀬店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/175057.html",
-      "city": "富士見市",
-      "open_date": "2026年9月7日",
-      "point": "84.96",
-      "review_count": 2
-    },
-    {
-      "name": "国武屋 ドカ盛り研究所 辛味研究部鶴ヶ島店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174931.html",
-      "city": "鶴ヶ島市",
-      "open_date": "2026年9月1日",
-      "point": "84.84",
-      "review_count": 3
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-09-02T18:35:29+00:00",
-      "added_at": "2026-09-02T18:35:29+00:00",
-      "shops": [
-        {
-          "name": "大喜麻辣湯",
-          "area": "群馬",
-          "url": "https://ramendb.supleks.jp/s/174965.html",
-          "city": "富岡市",
-          "open_date": "2026年9月2日",
-          "point": "83.09",
-          "review_count": 1
-        },
-        {
-          "name": "自家製麺 関田",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174958.html",
-          "city": "白岡市",
-          "open_date": "2026年8月31日",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-09-03T18:35:37+00:00",
       "added_at": "2026-09-03T18:35:37+00:00",
@@ -1234,6 +1210,57 @@
           "url": "https://ramendb.supleks.jp/s/175521.html",
           "city": "さいたま市大宮区",
           "open_date": "オープン日未定",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02T18:35:38+00:00",
+      "added_at": "2026-10-02T18:35:38+00:00",
+      "shops": [
+        {
+          "name": "NOJISTIC 12",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/175575.html",
+          "city": "宇都宮市",
+          "open_date": "2026年9月26日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "つけ麺 一頂 川口店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175572.html",
+          "city": "川口市",
+          "open_date": "オープン日未定",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "麺屋 壱飛",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175570.html",
+          "city": "越谷市",
+          "open_date": "オープン日未定",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "HAO 台湾食堂",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175578.html",
+          "city": "川口市",
+          "open_date": "2026年10月1日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "屋台屋 博多劇場 南越谷店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175574.html",
+          "city": "越谷市",
+          "open_date": "2026年9月18日",
           "point": "0.00",
           "review_count": 0
         }
