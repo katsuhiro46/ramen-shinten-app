@@ -3,7 +3,7 @@ set -euo pipefail
 
 if [[ "${RAMEN_CAFFEINATED:-}" != "1" ]]; then
   export RAMEN_CAFFEINATED=1
-  exec /usr/bin/caffeinate -i -s -t 1800 "$0" "$@"
+  exec /usr/bin/caffeinate -i -s -t 1800 /bin/bash "$0" "$@"
 fi
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"

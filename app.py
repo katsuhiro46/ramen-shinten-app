@@ -1,7 +1,12 @@
+import os
+
 from flask import Flask, render_template, jsonify, request, send_from_directory
 from modules import news_scraper, push_notifications
 
 app = Flask(__name__)
+
+# ローカル開発時のみ RAMEN_DEBUG=1 で有効化（本番では無効）
+DEBUG_ENABLED = os.environ.get('RAMEN_DEBUG') == '1'
 
 
 @app.route('/')
@@ -22,7 +27,7 @@ def service_worker():
 @app.route('/api/news')
 def get_news():
     try:
-        include_debug = request.args.get('debug') == '1'
+        include_debug = DEBUG_ENABLED and request.args.get('debug') == '1'
         news_data, log_msg, debug_info = news_scraper.get_new_reviews(include_debug=include_debug)
         payload = {
             "status": "success",
@@ -38,7 +43,6 @@ def get_news():
         return jsonify({
             "status": "error",
             "message": "データ取得に失敗しました",
-            "error": str(e),
             "shops": [],
         }), 500
 
@@ -100,4 +104,4 @@ def push_unsubscribe():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', debug=True, port=3000)
+    app.run(host='127.0.0.1', debug=DEBUG_ENABLED, port=3000)
