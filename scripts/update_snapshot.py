@@ -79,8 +79,8 @@ def build_notification_payload(added_shops, event_id):
         "title": title,
         "body": body,
         "url": f"{base_url}{separator}new={quote(event_id)}",
-        "icon": "/static/icons/ramen.svg",
-        "badge": "/static/icons/ramen.svg",
+        "icon": "/static/icons/ramen.png",
+        "badge": "/static/icons/badge.png",
         "tag": f"ramen-shinten-{event_id[:10]}",
     }
 

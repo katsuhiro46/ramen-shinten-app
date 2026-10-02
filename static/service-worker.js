@@ -1,4 +1,4 @@
-self.APP_VERSION = '20260822-1';
+self.APP_VERSION = '20261003-1';
 
 self.addEventListener('install', (event) => {
     event.waitUntil(self.skipWaiting());
@@ -41,8 +41,8 @@ self.addEventListener('push', (event) => {
 
     const options = {
         body: payload.body,
-        icon: payload.icon || '/static/icons/icon.svg',
-        badge: payload.badge || payload.icon || '/static/icons/icon.svg',
+        icon: payload.icon || '/static/icons/ramen.png',
+        badge: payload.badge || '/static/icons/badge.png',
         tag: payload.tag || `ramen-shinten-${Date.now()}`,
         renotify: true,
         requireInteraction: true,
