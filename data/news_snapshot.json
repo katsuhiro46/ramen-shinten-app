@@ -19,8 +19,8 @@
       "url": "https://ramendb.supleks.jp/s/174726.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月10日",
-      "point": "88.27",
-      "review_count": 6
+      "point": "89.03",
+      "review_count": 7
     },
     {
       "name": "好好麻辣湯",
@@ -64,7 +64,7 @@
       "url": "https://ramendb.supleks.jp/s/174849.html",
       "city": "高崎市",
       "open_date": "2026年8月26日",
-      "point": "84.29",
+      "point": "84.28",
       "review_count": 2
     },
     {
@@ -244,7 +244,7 @@
       "url": "https://ramendb.supleks.jp/s/174791.html",
       "city": "栃木市",
       "open_date": "2026年8月24日",
-      "point": "82.79",
+      "point": "82.77",
       "review_count": 1
     },
     {
@@ -469,7 +469,7 @@
       "url": "https://ramendb.supleks.jp/s/175332.html",
       "city": "水戸市",
       "open_date": "2026年9月14日",
-      "point": "83.91",
+      "point": "83.90",
       "review_count": 2
     },
     {
@@ -523,7 +523,7 @@
       "url": "https://ramendb.supleks.jp/s/174248.html",
       "city": "土浦市",
       "open_date": "2026年8月1日",
-      "point": "89.96",
+      "point": "89.94",
       "review_count": 2
     },
     {
@@ -626,6 +626,15 @@
       "review_count": 0
     },
     {
+      "name": "麺処 超幸",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175595.html",
+      "city": "越谷市",
+      "open_date": "2026年10月10日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "HAO 台湾食堂",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/175578.html",
@@ -640,8 +649,8 @@
       "url": "https://ramendb.supleks.jp/s/175263.html",
       "city": "志木市",
       "open_date": "2026年10月1日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "84.08",
+      "review_count": 2
     },
     {
       "name": "手揉み麺与野日和",
@@ -649,8 +658,8 @@
       "url": "https://ramendb.supleks.jp/s/174457.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年9月26日",
-      "point": "86.12",
-      "review_count": 4
+      "point": "86.95",
+      "review_count": 5
     },
     {
       "name": "麺家 ミソのライオン",
@@ -714,51 +723,9 @@
       "open_date": "2026年9月16日",
       "point": "83.83",
       "review_count": 3
-    },
-    {
-      "name": "なぎちゃんラーメン 川越店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/174153.html",
-      "city": "川越市",
-      "open_date": "2026年9月16日",
-      "point": "89.11",
-      "review_count": 9
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-09-03T18:35:37+00:00",
-      "added_at": "2026-09-03T18:35:37+00:00",
-      "shops": [
-        {
-          "name": "豚骨醤油ラーメン 稲葉屋",
-          "area": "栃木",
-          "url": "https://ramendb.supleks.jp/s/174982.html",
-          "city": "宇都宮市",
-          "open_date": "2026年8月29日",
-          "point": "0.00",
-          "review_count": 0
-        },
-        {
-          "name": "全国ラーメンフェスタ 秋の陣 2026 in 日立",
-          "area": "茨城",
-          "url": "https://ramendb.supleks.jp/s/174989.html",
-          "city": "日立市",
-          "open_date": "2026年9月19日",
-          "point": "0.00",
-          "review_count": 0
-        },
-        {
-          "name": "六福麻辣湯",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174980.html",
-          "city": "草加市",
-          "open_date": "オープン日未定",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-09-04T18:35:43+00:00",
       "added_at": "2026-09-04T18:35:43+00:00",
@@ -1261,6 +1228,21 @@
           "url": "https://ramendb.supleks.jp/s/175574.html",
           "city": "越谷市",
           "open_date": "2026年9月18日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-10-03T18:35:40+00:00",
+      "added_at": "2026-10-03T18:35:40+00:00",
+      "shops": [
+        {
+          "name": "麺処 超幸",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175595.html",
+          "city": "越谷市",
+          "open_date": "2026年10月10日",
           "point": "0.00",
           "review_count": 0
         }
