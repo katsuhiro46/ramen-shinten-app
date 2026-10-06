@@ -131,6 +131,15 @@
       "review_count": 1
     },
     {
+      "name": "つけ麺 侖",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/175643.html",
+      "city": "伊勢崎市",
+      "open_date": "2026年6月24日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "RAMENSTAND 太田店",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/172858.html",
@@ -176,15 +185,6 @@
       "review_count": 2
     },
     {
-      "name": "とりよしらーめん",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/172874.html",
-      "city": "前橋市",
-      "open_date": "2026年4月3日",
-      "point": "87.66",
-      "review_count": 2
-    },
-    {
       "name": "どいちゃんラーメン",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174601.html",
@@ -226,7 +226,7 @@
       "url": "https://ramendb.supleks.jp/s/175202.html",
       "city": "宇都宮市",
       "open_date": "2026年9月8日",
-      "point": "83.87",
+      "point": "83.86",
       "review_count": 2
     },
     {
@@ -392,15 +392,6 @@
       "review_count": 0
     },
     {
-      "name": "濃厚豚ラーメン 活郎",
-      "area": "茨城",
-      "url": "https://ramendb.supleks.jp/s/175510.html",
-      "city": "つくば市",
-      "open_date": "2026年10月6日",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
       "name": "日高屋 日立田尻店",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/175513.html",
@@ -415,8 +406,8 @@
       "url": "https://ramendb.supleks.jp/s/174779.html",
       "city": "下妻市",
       "open_date": "2026年10月5日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "83.01",
+      "review_count": 1
     },
     {
       "name": "らぁめん酒場ぺーすけ",
@@ -460,8 +451,8 @@
       "url": "https://ramendb.supleks.jp/s/175336.html",
       "city": "土浦市",
       "open_date": "2026年9月14日",
-      "point": "83.01",
-      "review_count": 1
+      "point": "84.01",
+      "review_count": 2
     },
     {
       "name": "味噌ラーメン百庵 水戸店",
@@ -514,7 +505,7 @@
       "url": "https://ramendb.supleks.jp/s/174655.html",
       "city": "つくば市",
       "open_date": "2026年8月15日",
-      "point": "89.60",
+      "point": "89.58",
       "review_count": 10
     },
     {
@@ -543,6 +534,15 @@
       "open_date": "2026年7月30日",
       "point": "82.70",
       "review_count": 1
+    },
+    {
+      "name": "タイガーステップ",
+      "area": "茨城",
+      "url": "https://ramendb.supleks.jp/s/174402.html",
+      "city": "土浦市",
+      "open_date": "2026年7月28日",
+      "point": "89.17",
+      "review_count": 8
     },
     {
       "name": "つけ麺 一頂 川口店",
@@ -658,8 +658,8 @@
       "url": "https://ramendb.supleks.jp/s/174457.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年9月26日",
-      "point": "87.86",
-      "review_count": 6
+      "point": "88.69",
+      "review_count": 7
     },
     {
       "name": "麺家 ミソのライオン",
@@ -694,7 +694,7 @@
       "url": "https://ramendb.supleks.jp/s/175014.html",
       "city": "春日部市",
       "open_date": "2026年9月18日",
-      "point": "89.54",
+      "point": "89.50",
       "review_count": 9
     },
     {
@@ -726,48 +726,6 @@
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-09-05T18:35:36+00:00",
-      "added_at": "2026-09-05T18:35:36+00:00",
-      "shops": [
-        {
-          "name": "麺屋ロドリゲス",
-          "area": "群馬",
-          "url": "https://ramendb.supleks.jp/s/175026.html",
-          "city": "高崎市",
-          "open_date": "2026年9月4日",
-          "point": "83.72",
-          "review_count": 1
-        },
-        {
-          "name": "ラーメンショップ 石岡店",
-          "area": "茨城",
-          "url": "https://ramendb.supleks.jp/s/175021.html",
-          "city": "石岡市",
-          "open_date": "オープン日未定",
-          "point": "0.00",
-          "review_count": 0
-        },
-        {
-          "name": "ラーメンショップ◯夕 友部店",
-          "area": "茨城",
-          "url": "https://ramendb.supleks.jp/s/175020.html",
-          "city": "笠間市",
-          "open_date": "2026年9月17日",
-          "point": "0.00",
-          "review_count": 0
-        },
-        {
-          "name": "中華そば青竹 西川口店",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/174920.html",
-          "city": "川口市",
-          "open_date": "2026年8月23日",
-          "point": "82.88",
-          "review_count": 1
-        }
-      ]
-    },
     {
       "id": "2026-09-06T18:35:43+00:00",
       "added_at": "2026-09-06T18:35:43+00:00",
@@ -1218,6 +1176,30 @@
           "open_date": "2026年9月27日",
           "point": "0.00",
           "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-10-06T18:35:35+00:00",
+      "added_at": "2026-10-06T18:35:35+00:00",
+      "shops": [
+        {
+          "name": "つけ麺 侖",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/175643.html",
+          "city": "伊勢崎市",
+          "open_date": "2026年6月24日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "タイガーステップ",
+          "area": "茨城",
+          "url": "https://ramendb.supleks.jp/s/174402.html",
+          "city": "土浦市",
+          "open_date": "2026年7月28日",
+          "point": "89.17",
+          "review_count": 8
         }
       ]
     }
