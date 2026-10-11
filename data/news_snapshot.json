@@ -10,8 +10,8 @@
       "url": "https://ramendb.supleks.jp/s/174996.html",
       "city": "高崎市",
       "open_date": "2026年10月9日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.86",
+      "review_count": 1
     },
     {
       "name": "自家製麺 JAMMY STORE",
@@ -82,7 +82,7 @@
       "url": "https://ramendb.supleks.jp/s/174903.html",
       "city": "前橋市",
       "open_date": "2026年8月23日",
-      "point": "84.72",
+      "point": "84.73",
       "review_count": 2
     },
     {
@@ -100,7 +100,7 @@
       "url": "https://ramendb.supleks.jp/s/174236.html",
       "city": "高崎市",
       "open_date": "2026年7月19日",
-      "point": "83.62",
+      "point": "83.63",
       "review_count": 1
     },
     {
@@ -109,7 +109,7 @@
       "url": "https://ramendb.supleks.jp/s/174217.html",
       "city": "高崎市",
       "open_date": "2026年7月18日",
-      "point": "83.62",
+      "point": "83.63",
       "review_count": 1
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://ramendb.supleks.jp/s/174194.html",
       "city": "高崎市",
       "open_date": "2026年7月16日",
-      "point": "84.41",
+      "point": "84.42",
       "review_count": 3
     },
     {
@@ -199,8 +199,8 @@
       "url": "https://ramendb.supleks.jp/s/175011.html",
       "city": "小山市",
       "open_date": "2026年10月3日",
-      "point": "0.00",
-      "review_count": 0
+      "point": "82.90",
+      "review_count": 1
     },
     {
       "name": "NOJISTIC 12",
@@ -245,7 +245,7 @@
       "city": "宇都宮市",
       "open_date": "2026年8月29日",
       "point": "82.96",
-      "review_count": 1
+      "review_count": 2
     },
     {
       "name": "日高屋 栃木平柳町店",
@@ -334,7 +334,7 @@
       "url": "https://ramendb.supleks.jp/s/173463.html",
       "city": "小山市",
       "open_date": "2026年7月1日",
-      "point": "86.11",
+      "point": "86.12",
       "review_count": 5
     },
     {
@@ -406,8 +406,8 @@
       "url": "https://ramendb.supleks.jp/s/174779.html",
       "city": "下妻市",
       "open_date": "2026年10月5日",
-      "point": "83.01",
-      "review_count": 1
+      "point": "83.98",
+      "review_count": 2
     },
     {
       "name": "らぁめん酒場ぺーすけ",
@@ -415,7 +415,7 @@
       "url": "https://ramendb.supleks.jp/s/175486.html",
       "city": "水戸市",
       "open_date": "2026年10月1日",
-      "point": "84.38",
+      "point": "84.39",
       "review_count": 4
     },
     {
@@ -514,7 +514,7 @@
       "url": "https://ramendb.supleks.jp/s/174248.html",
       "city": "土浦市",
       "open_date": "2026年8月1日",
-      "point": "89.93",
+      "point": "89.94",
       "review_count": 2
     },
     {
@@ -541,8 +541,17 @@
       "url": "https://ramendb.supleks.jp/s/174402.html",
       "city": "土浦市",
       "open_date": "2026年7月28日",
-      "point": "89.16",
+      "point": "89.15",
       "review_count": 8
+    },
+    {
+      "name": "国武屋 ドカ盛り研究所 飯能店",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175700.html",
+      "city": "飯能市",
+      "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
     },
     {
       "name": "つけ麺 一頂 川口店",
@@ -658,7 +667,7 @@
       "url": "https://ramendb.supleks.jp/s/175263.html",
       "city": "志木市",
       "open_date": "2026年10月1日",
-      "point": "86.02",
+      "point": "86.03",
       "review_count": 4
     },
     {
@@ -703,8 +712,8 @@
       "url": "https://ramendb.supleks.jp/s/175014.html",
       "city": "春日部市",
       "open_date": "2026年9月18日",
-      "point": "89.50",
-      "review_count": 9
+      "point": "90.66",
+      "review_count": 10
     },
     {
       "name": "ゆで太郎 越谷蒲生店",
@@ -714,42 +723,9 @@
       "open_date": "2026年9月18日",
       "point": "0.00",
       "review_count": 0
-    },
-    {
-      "name": "一風堂 minanoba川口店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/175006.html",
-      "city": "川口市",
-      "open_date": "2026年9月17日",
-      "point": "0.00",
-      "review_count": 0
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-09-10T18:35:41+00:00",
-      "added_at": "2026-09-10T18:35:41+00:00",
-      "shops": [
-        {
-          "name": "らぁ麺 紬",
-          "area": "群馬",
-          "url": "https://ramendb.supleks.jp/s/175110.html",
-          "city": "前橋市",
-          "open_date": "2026年6月27日",
-          "point": "82.93",
-          "review_count": 1
-        },
-        {
-          "name": "ばり嗎 宇都宮平松店",
-          "area": "栃木",
-          "url": "https://ramendb.supleks.jp/s/175099.html",
-          "city": "宇都宮市",
-          "open_date": "2026年6月26日",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-09-12T18:35:42+00:00",
       "added_at": "2026-09-12T18:35:42+00:00",
@@ -1144,6 +1120,21 @@
           "url": "https://ramendb.supleks.jp/s/175667.html",
           "city": "川越市",
           "open_date": "2026年10月7日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
+    },
+    {
+      "id": "2026-10-11T18:35:37+00:00",
+      "added_at": "2026-10-11T18:35:37+00:00",
+      "shops": [
+        {
+          "name": "国武屋 ドカ盛り研究所 飯能店",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175700.html",
+          "city": "飯能市",
+          "open_date": "オープン日未定",
           "point": "0.00",
           "review_count": 0
         }
