@@ -10,7 +10,7 @@
       "url": "https://ramendb.supleks.jp/s/174996.html",
       "city": "高崎市",
       "open_date": "2026年10月9日",
-      "point": "82.86",
+      "point": "82.85",
       "review_count": 1
     },
     {
@@ -55,7 +55,7 @@
       "url": "https://ramendb.supleks.jp/s/174303.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月1日",
-      "point": "84.13",
+      "point": "84.11",
       "review_count": 2
     },
     {
@@ -118,7 +118,7 @@
       "url": "https://ramendb.supleks.jp/s/174194.html",
       "city": "高崎市",
       "open_date": "2026年7月16日",
-      "point": "84.42",
+      "point": "84.40",
       "review_count": 3
     },
     {
@@ -271,7 +271,7 @@
       "url": "https://ramendb.supleks.jp/s/174589.html",
       "city": "宇都宮市",
       "open_date": "2026年8月20日",
-      "point": "84.92",
+      "point": "84.91",
       "review_count": 3
     },
     {
@@ -289,7 +289,7 @@
       "url": "https://ramendb.supleks.jp/s/174051.html",
       "city": "佐野市",
       "open_date": "2026年7月27日",
-      "point": "86.51",
+      "point": "86.52",
       "review_count": 6
     },
     {
@@ -460,8 +460,8 @@
       "url": "https://ramendb.supleks.jp/s/175332.html",
       "city": "水戸市",
       "open_date": "2026年9月14日",
-      "point": "83.90",
-      "review_count": 2
+      "point": "84.87",
+      "review_count": 3
     },
     {
       "name": "ラーメンセンター 松ちゃん",
@@ -685,7 +685,7 @@
       "url": "https://ramendb.supleks.jp/s/175378.html",
       "city": "越谷市",
       "open_date": "2026年9月19日",
-      "point": "84.23",
+      "point": "84.22",
       "review_count": 2
     },
     {
@@ -726,21 +726,6 @@
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-09-12T18:35:42+00:00",
-      "added_at": "2026-09-12T18:35:42+00:00",
-      "shops": [
-        {
-          "name": "濃厚豚骨とんび",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/175124.html",
-          "city": "川口市",
-          "open_date": "2026年9月10日",
-          "point": "85.93",
-          "review_count": 3
-        }
-      ]
-    },
     {
       "id": "2026-09-13T18:35:41+00:00",
       "added_at": "2026-09-13T18:35:41+00:00",
