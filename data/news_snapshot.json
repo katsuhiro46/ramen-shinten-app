@@ -5,6 +5,15 @@
   "log": "群馬: 20件 | 栃木: 20件 | 茨城: 20件 | 埼玉: 20件",
   "shops": [
     {
+      "name": "藤記麻辣湯",
+      "area": "群馬",
+      "url": "https://ramendb.supleks.jp/s/175834.html",
+      "city": "高崎市",
+      "open_date": "2026年10月16日",
+      "point": "83.72",
+      "review_count": 1
+    },
+    {
       "name": "全国ラーメンフェスタ秋の陣 2026 in 高崎",
       "area": "群馬",
       "url": "https://ramendb.supleks.jp/s/174996.html",
@@ -28,7 +37,7 @@
       "url": "https://ramendb.supleks.jp/s/174726.html",
       "city": "伊勢崎市",
       "open_date": "2026年9月10日",
-      "point": "89.03",
+      "point": "89.01",
       "review_count": 7
     },
     {
@@ -176,20 +185,20 @@
       "review_count": 2
     },
     {
-      "name": "浜そば",
-      "area": "群馬",
-      "url": "https://ramendb.supleks.jp/s/173206.html",
-      "city": "高崎市",
-      "open_date": "2026年5月1日",
-      "point": "84.12",
-      "review_count": 2
-    },
-    {
       "name": "どいちゃんラーメン",
       "area": "栃木",
       "url": "https://ramendb.supleks.jp/s/174601.html",
       "city": "宇都宮市",
       "open_date": "オープン日未定",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
+      "name": "中華そば日々",
+      "area": "栃木",
+      "url": "https://ramendb.supleks.jp/s/175835.html",
+      "city": "足利市",
+      "open_date": "2026年10月25日",
       "point": "0.00",
       "review_count": 0
     },
@@ -253,7 +262,7 @@
       "url": "https://ramendb.supleks.jp/s/174791.html",
       "city": "栃木市",
       "open_date": "2026年8月24日",
-      "point": "82.77",
+      "point": "82.75",
       "review_count": 1
     },
     {
@@ -356,15 +365,6 @@
       "review_count": 2
     },
     {
-      "name": "佐野らーめん＆炒めし 一",
-      "area": "栃木",
-      "url": "https://ramendb.supleks.jp/s/173713.html",
-      "city": "佐野市",
-      "open_date": "2026年6月11日",
-      "point": "83.55",
-      "review_count": 2
-    },
-    {
       "name": "中華食堂 栞",
       "area": "茨城",
       "url": "https://ramendb.supleks.jp/s/175425.html",
@@ -415,8 +415,8 @@
       "url": "https://ramendb.supleks.jp/s/175793.html",
       "city": "下妻市",
       "open_date": "2026年10月18日",
-      "point": "83.50",
-      "review_count": 1
+      "point": "83.38",
+      "review_count": 2
     },
     {
       "name": "日高屋 日立田尻店",
@@ -505,8 +505,8 @@
       "url": "https://ramendb.supleks.jp/s/174442.html",
       "city": "下妻市",
       "open_date": "2026年9月10日",
-      "point": "92.07",
-      "review_count": 4
+      "point": "92.04",
+      "review_count": 5
     },
     {
       "name": "日高屋 牛久中央店",
@@ -541,7 +541,7 @@
       "url": "https://ramendb.supleks.jp/s/174248.html",
       "city": "土浦市",
       "open_date": "2026年8月1日",
-      "point": "89.94",
+      "point": "89.93",
       "review_count": 2
     },
     {
@@ -617,6 +617,15 @@
       "review_count": 0
     },
     {
+      "name": "里山製麺 秋の北海道の物産と観光展",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175821.html",
+      "city": "川越市",
+      "open_date": "2026年10月28日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "麺屋紘",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/175792.html",
@@ -626,13 +635,22 @@
       "review_count": 0
     },
     {
+      "name": "さっぽろ純連 秋の北海道の物産と観光展",
+      "area": "埼玉",
+      "url": "https://ramendb.supleks.jp/s/175820.html",
+      "city": "川越市",
+      "open_date": "2026年10月21日",
+      "point": "0.00",
+      "review_count": 0
+    },
+    {
       "name": "国武屋 ドカ盛り研究所 飯能店",
       "area": "埼玉",
       "url": "https://ramendb.supleks.jp/s/175700.html",
       "city": "飯能市",
       "open_date": "2026年10月17日",
-      "point": "83.11",
-      "review_count": 1
+      "point": "84.06",
+      "review_count": 2
     },
     {
       "name": "ラーメン山岡家 越谷袋山店",
@@ -685,8 +703,8 @@
       "url": "https://ramendb.supleks.jp/s/174457.html",
       "city": "さいたま市浦和区",
       "open_date": "2026年9月26日",
-      "point": "88.68",
-      "review_count": 7
+      "point": "89.54",
+      "review_count": 8
     },
     {
       "name": "麺家 ミソのライオン",
@@ -694,8 +712,8 @@
       "url": "https://ramendb.supleks.jp/s/175378.html",
       "city": "越谷市",
       "open_date": "2026年9月19日",
-      "point": "84.22",
-      "review_count": 2
+      "point": "84.63",
+      "review_count": 3
     },
     {
       "name": "屋台屋 博多劇場 南越谷店",
@@ -705,42 +723,9 @@
       "open_date": "2026年9月18日",
       "point": "0.00",
       "review_count": 0
-    },
-    {
-      "name": "牛たん焼き 仙台 辺見 志木店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/175448.html",
-      "city": "新座市",
-      "open_date": "2026年9月18日",
-      "point": "0.00",
-      "review_count": 0
-    },
-    {
-      "name": "豚が1番⭐︎脂が2番 春日部店",
-      "area": "埼玉",
-      "url": "https://ramendb.supleks.jp/s/175014.html",
-      "city": "春日部市",
-      "open_date": "2026年9月18日",
-      "point": "90.66",
-      "review_count": 10
     }
   ],
   "addition_events": [
-    {
-      "id": "2026-09-19T18:35:31+00:00",
-      "added_at": "2026-09-19T18:35:31+00:00",
-      "shops": [
-        {
-          "name": "ゴールデンタイガー",
-          "area": "埼玉",
-          "url": "https://ramendb.supleks.jp/s/175309.html",
-          "city": "熊谷市",
-          "open_date": "オープン日未定",
-          "point": "0.00",
-          "review_count": 0
-        }
-      ]
-    },
     {
       "id": "2026-09-20T18:35:43+00:00",
       "added_at": "2026-09-20T18:35:43+00:00",
@@ -1112,23 +1097,65 @@
           "review_count": 0
         }
       ]
+    },
+    {
+      "id": "2026-10-19T18:35:40+00:00",
+      "added_at": "2026-10-19T18:35:40+00:00",
+      "shops": [
+        {
+          "name": "藤記麻辣湯",
+          "area": "群馬",
+          "url": "https://ramendb.supleks.jp/s/175834.html",
+          "city": "高崎市",
+          "open_date": "2026年10月16日",
+          "point": "83.72",
+          "review_count": 1
+        },
+        {
+          "name": "中華そば日々",
+          "area": "栃木",
+          "url": "https://ramendb.supleks.jp/s/175835.html",
+          "city": "足利市",
+          "open_date": "2026年10月25日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "里山製麺 秋の北海道の物産と観光展",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175821.html",
+          "city": "川越市",
+          "open_date": "2026年10月28日",
+          "point": "0.00",
+          "review_count": 0
+        },
+        {
+          "name": "さっぽろ純連 秋の北海道の物産と観光展",
+          "area": "埼玉",
+          "url": "https://ramendb.supleks.jp/s/175820.html",
+          "city": "川越市",
+          "open_date": "2026年10月21日",
+          "point": "0.00",
+          "review_count": 0
+        }
+      ]
     }
   ],
   "seen_shops": [
     {
       "key": "https://ramendb.supleks.jp/s/159375.html",
       "name_key": "茨城:ラーメン日本一やまがた七代目",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/172858.html",
       "name_key": "群馬:RAMENSTAND太田店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/172898.html",
       "name_key": "群馬:らーめんたん二郎高崎駅西口店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/173026.html",
@@ -1138,42 +1165,42 @@
     {
       "key": "https://ramendb.supleks.jp/s/173206.html",
       "name_key": "群馬:浜そば",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/173463.html",
       "name_key": "栃木:麺屋澤",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/173503.html",
       "name_key": "群馬:麺やかずお",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/173713.html",
       "name_key": "栃木:佐野らーめん&炒めし一",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/173983.html",
       "name_key": "栃木:麺処りょうや足利店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174043.html",
       "name_key": "栃木:青竹手打ち佐野ラーメン晴れる屋",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174051.html",
       "name_key": "栃木:麺匠田村",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174194.html",
       "name_key": "群馬:喜重軒",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174195.html",
@@ -1183,32 +1210,32 @@
     {
       "key": "https://ramendb.supleks.jp/s/174217.html",
       "name_key": "群馬:我が豚は天地とひとつ高崎店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174228.html",
       "name_key": "埼玉:明朎マーラータン",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174236.html",
       "name_key": "群馬:自由麻辣湯",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174248.html",
       "name_key": "茨城:激辛ラーメン専門店レッチリ土浦本店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174301.html",
       "name_key": "栃木:ラーメンえびす",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174303.html",
       "name_key": "群馬:RAMENMATSUNAGA",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174402.html",
@@ -1218,7 +1245,7 @@
     {
       "key": "https://ramendb.supleks.jp/s/174442.html",
       "name_key": "茨城:麺屋なか乃",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174446.html",
@@ -1228,67 +1255,67 @@
     {
       "key": "https://ramendb.supleks.jp/s/174457.html",
       "name_key": "埼玉:手揉み麺与野日和",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174476.html",
       "name_key": "栃木:節貝麺和のいつ花",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174481.html",
       "name_key": "栃木:ラーメン酒場ねぎぼうず",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174527.html",
       "name_key": "栃木:八吉食堂",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174576.html",
       "name_key": "群馬:旺旺麻辣燙高崎店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174589.html",
       "name_key": "栃木:青木まさる食堂",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174601.html",
       "name_key": "栃木:どいちゃんラーメン",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174633.html",
       "name_key": "栃木:つけ麺や楽笑",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174655.html",
       "name_key": "茨城:活龍期間限定麺処みつき",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174665.html",
       "name_key": "茨城:ラーメンセンター松ちゃん",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174726.html",
       "name_key": "群馬:自家製麺JAMMYSTORE",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174742.html",
       "name_key": "茨城:日高屋牛久中央店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174779.html",
       "name_key": "茨城:らーめん三水下妻店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174780.html",
@@ -1298,12 +1325,12 @@
     {
       "key": "https://ramendb.supleks.jp/s/174790.html",
       "name_key": "栃木:中華そばおおの",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174791.html",
       "name_key": "栃木:日高屋栃木平柳町店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174839.html",
@@ -1313,107 +1340,107 @@
     {
       "key": "https://ramendb.supleks.jp/s/174849.html",
       "name_key": "群馬:麺屋松もと高崎店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174884.html",
       "name_key": "茨城:まぜそば専門店モグ堀町店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174903.html",
       "name_key": "群馬:麺屋絆",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174936.html",
       "name_key": "群馬:麺や貝灯",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174965.html",
       "name_key": "群馬:大喜麻辣湯",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174980.html",
       "name_key": "埼玉:六福麻辣湯",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174982.html",
       "name_key": "栃木:豚骨醤油ラーメン稲葉屋",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174989.html",
       "name_key": "茨城:全国ラーメンフェスタ秋の陣2026in日立",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174996.html",
       "name_key": "群馬:全国ラーメンフェスタ秋の陣2026in高崎",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/174997.html",
       "name_key": "埼玉:全国ラーメンフェスタ秋の陣2026in春日部",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175011.html",
       "name_key": "栃木:ラーメン長瀬屋小山店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175014.html",
       "name_key": "埼玉:豚が1番⭐︎脂が2番春日部店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175020.html",
       "name_key": "茨城:ラーメンショップ◯夕友部店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175021.html",
       "name_key": "茨城:ラーメンショップ石岡店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175026.html",
       "name_key": "群馬:麺屋ロドリゲス",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175067.html",
       "name_key": "群馬:好好麻辣湯",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175083.html",
       "name_key": "栃木:井岡屋下平出店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175099.html",
       "name_key": "栃木:ばり嗎宇都宮平松店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175110.html",
       "name_key": "群馬:らぁ麺紬",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175186.html",
       "name_key": "茨城:つけ麺秋山つくば店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175202.html",
       "name_key": "栃木:麺屋ふくみみ",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175213.html",
@@ -1423,37 +1450,37 @@
     {
       "key": "https://ramendb.supleks.jp/s/175263.html",
       "name_key": "埼玉:ラーメンショップ志木中宗岡店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175309.html",
       "name_key": "埼玉:ゴールデンタイガー",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175332.html",
       "name_key": "茨城:味噌ラーメン百庵水戸店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175335.html",
       "name_key": "埼玉:ラーメン山岡家越谷袋山店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175336.html",
       "name_key": "茨城:沖縄料理花花",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175378.html",
       "name_key": "埼玉:麺家ミソのライオン",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175379.html",
       "name_key": "埼玉:かいだし中華そばいずも",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175394.html",
@@ -1463,17 +1490,17 @@
     {
       "key": "https://ramendb.supleks.jp/s/175425.html",
       "name_key": "茨城:中華食堂栞",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175448.html",
       "name_key": "埼玉:牛たん焼き仙台辺見志木店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175486.html",
       "name_key": "茨城:らぁめん酒場ぺーすけ",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175510.html",
@@ -1483,82 +1510,102 @@
     {
       "key": "https://ramendb.supleks.jp/s/175513.html",
       "name_key": "茨城:日高屋日立田尻店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175521.html",
       "name_key": "埼玉:なぎちゃんラーメン大宮店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175570.html",
       "name_key": "埼玉:麺屋壱飛",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175572.html",
       "name_key": "埼玉:つけ麺一頂川口店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175574.html",
       "name_key": "埼玉:屋台屋博多劇場南越谷店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175575.html",
       "name_key": "栃木:NOJISTIC12",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175578.html",
       "name_key": "埼玉:HAO台湾食堂",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175595.html",
       "name_key": "埼玉:麺処超幸",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175643.html",
       "name_key": "群馬:つけ麺侖",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175667.html",
       "name_key": "埼玉:支那そば北熊九州・沖縄物産展/",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175700.html",
       "name_key": "埼玉:国武屋ドカ盛り研究所飯能店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175764.html",
       "name_key": "茨城:TOKIMEKI鯛",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175771.html",
       "name_key": "群馬:ラーメン空",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175792.html",
       "name_key": "埼玉:麺屋紘",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175793.html",
       "name_key": "茨城:下妻ラーメンフェス",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
     },
     {
       "key": "https://ramendb.supleks.jp/s/175802.html",
       "name_key": "茨城:麺処明り石岡屋台店",
-      "last_seen": "2026-10-18T18:35:38+00:00"
+      "last_seen": "2026-10-19T18:35:40+00:00"
+    },
+    {
+      "key": "https://ramendb.supleks.jp/s/175820.html",
+      "name_key": "埼玉:さっぽろ純連秋の北海道の物産と観光展",
+      "last_seen": "2026-10-19T18:35:40+00:00"
+    },
+    {
+      "key": "https://ramendb.supleks.jp/s/175821.html",
+      "name_key": "埼玉:里山製麺秋の北海道の物産と観光展",
+      "last_seen": "2026-10-19T18:35:40+00:00"
+    },
+    {
+      "key": "https://ramendb.supleks.jp/s/175834.html",
+      "name_key": "群馬:藤記麻辣湯",
+      "last_seen": "2026-10-19T18:35:40+00:00"
+    },
+    {
+      "key": "https://ramendb.supleks.jp/s/175835.html",
+      "name_key": "栃木:中華そば日々",
+      "last_seen": "2026-10-19T18:35:40+00:00"
     }
   ]
 }
